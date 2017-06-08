@@ -1,0 +1,43 @@
+* Wed Apr 19 2017 Rudi Timmermans <rudi.timmer@gmx.us> 8.4-1
+- [OPTIMIZE] Memory use on device
+- [UPDATED] Germany translation
+- [COMPILED] With the lasted SDK 1701-1
+
+* Mon Apr 17 2017 Rudi Timmermans <rudi.timmer@gmx.us> 8.3-1
+- [MINOR BUGFIX] Fix mobile network connection issue
+
+* Sat Mar 28 2017 Dylan Van Assche <dylan.van.assche@protonmail.com> 8.2-1
+- [IMPROVEMENT] Logout button (disabled by default, can be found into the settings)
+- [IMPROVEMENT] Notifications is closed when read
+
+* Sat Mar 28 2017 Dylan Van Assche <dylan.van.assche@protonmail.com> 8.0-1
+- [MINOR BUGFIX] Notifications setting fixed
+- [IMPROVEMENT] Cover numbers
+- [IMPROVEMENT] The menu bar can now be customized
+- [IMPROVEMENT] Netwerk status is monitored and reported to the user
+- [NEW] Sailbook has now it's own menu icons thanks to Alain Molteni
+- [NEW] Added French translation thank to Ohaneje Emeka
+- [NEW] View your Facebook groups
+- [NEW] Nightmode
+- [NEW] Download attachments from messages, Sailbook stores this in ~/Downloads/Sailbook
+- [NEW] Choose a custom filename when you download an attachment
+
+* Sat Mar 26 2017 Dylan Van Assche <dylan.van.assche@protonmail.com> 7.3-1
+- [NEW] View your upcoming Facebook events
+- [NEW] Added setting to switch off the native videoplayer
+
+* Sat Mar 25 2017 Dylan Van Assche <dylan.van.assche@protonmail.com> 7.2-1
+- [MAJOR BUGFIX] Reduced battery and CPU usage
+- [IMPROVEMENT] New image picker based on the Sailfish Browser image picker
+- [NEW] Added setting to select how fast the notifications are polled
+- [NEW] Added debug mode, launch Sailbook from the terminal as followed: harbour-sailbook debug
+
+* Thu Mar 23 2017 Rudi Timmermans <rudi.timmer@gmx.us> 7.1-6
+- Added automatically clearing the cache at startup
+
+* Mon Mar 20 2017 Dylan Van Assche <dylan.van.assche@protonmail.com> 7.0-5
+- [MAJOR UPGRADE] Redesigned UI
+- [MAJOR UPGRADE] Rewritten JS code
+- [MAJOR UPGRADE] Rewritten Python code, now all users can use notifications without setting their Facebook language
+- [NEW] Themes: use your Ambience colors or the Facebook colors in Sailbook
+

@@ -1,0 +1,24 @@
+/*Sailbook Facebook mobile CSS*/
+
+._s15 {
+    display: none;
+    visibility: hidden;
+}
+
+[data-reactid='.0.1'] {
+    min-width: 100%;
+}
+
+[data-reactid='.0.1.$0'] {
+    width: 100%;
+    max-width: 100%;
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+#header {
+    display: none;
+}
