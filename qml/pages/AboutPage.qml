@@ -21,7 +21,7 @@ Page {
 
             SectionHeader { text: qsTr("Privacy & licensing") }
             TextLabel { labelText: "Sailbook " + qsTr("is free software released under the GNU General Public License (GPL), version 3 or later.") }
-            GlassButton { iconSource: "../resources/images/Gitlab.png"; iconText: "GitLab"; link: "https://gitlab.com/Xray2000/harbour-sailbook" }
+            GlassButton { iconSource: "../resources/images/icon-github.png"; iconText: "GitHub"; link: "https://github.com/Sailbook/harbour-sailbook" }
 
             SectionHeader { text: qsTr("Developers") }
             GlassButton { iconSource: "../resources/images/image-rudi.jpg"; iconText: "Rudi Timmermans"; link: "https://www.twitter.com/xray20001" }
