@@ -9,6 +9,27 @@
 #include <QQuickView>
 #include <QProcess>
 
+void clearWebCache() {
+    const QStringList cachePaths = QStandardPaths::standardLocations(
+                QStandardPaths::CacheLocation);
+
+    if (cachePaths.size()) {
+        const QString webCache = QDir(cachePaths.at(0)).filePath(".QtWebKit");
+        QDir cacheDir(webCache);
+        if (cacheDir.exists()) {
+            if (cacheDir.removeRecursively()) {
+                qDebug() << "Cleared web cache:" << webCache;
+            } else {
+                qDebug() << "Failed to clear web cache:" << webCache;
+            }
+        } else {
+            qDebug() << "Web cache does not exist:" << webCache;
+        }
+    } else {
+        qDebug() << "No web cache available.";
+    }
+}
+
 int main(int argc, char *argv[])
 {
     setenv("QT_NO_FAST_MOVE", "0", 0);
@@ -23,7 +44,7 @@ int main(int argc, char *argv[])
 
     QScopedPointer<QGuiApplication> application(SailfishApp::application(argc, argv));
 
-//    clearWebCache();
+    clearWebCache();
 
     application->setApplicationName("harbour-sailbook");
 
