@@ -9,7 +9,7 @@
     </message>
     <message>
         <source>What&apos;s</source>
-        <translation type="unfinished"></translation>
+        <translation>Que es</translation>
     </message>
     <message>
         <source>Sailbook is an unofficial Facebook client for Sailfish OS.</source>
