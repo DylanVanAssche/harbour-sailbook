@@ -13,11 +13,7 @@
     </message>
     <message>
         <source>Sailbook is an unofficial Facebook client for Sailfish OS.</source>
-<<<<<<< 363a71bf9fb62b371bf3792dd01616ab7e3116ff
         <translation>Sailbook jest nieoficjalnym klientem Facebook'a dla Sailfish OS.</translation>
-=======
-        <translation>Sailbook jest nieoficjalnym klientem Facebook&apos;a dla Sailfish OS.</translation>
->>>>>>> f4606a073d1dd1cbf1cb1aee1de240acf6662eaa
     </message>
     <message>
         <source>Privacy &amp; licensing</source>
@@ -79,11 +75,7 @@
     </message>
     <message>
         <source>Facebook logout</source>
-<<<<<<< 363a71bf9fb62b371bf3792dd01616ab7e3116ff
         <translation>Wyloguj z Facebook'a</translation>
-=======
-        <translation>Wyloguj z Facebook&apos;a</translation>
->>>>>>> f4606a073d1dd1cbf1cb1aee1de240acf6662eaa
     </message>
 </context>
 <context>
@@ -238,11 +230,7 @@
     </message>
     <message>
         <source>will use dark colors to reduce eye strain while browsing Facebook in the dark.</source>
-<<<<<<< 363a71bf9fb62b371bf3792dd01616ab7e3116ff
         <translation>użyje ciemnych kolorów w celu zmniejszego zmęczenia oczu podczas przwglądania Facebook'a w ciemności.</translation>
-=======
-        <translation>użyje ciemnych kolorów w celu zmniejszego zmęczenia oczu podczas przwglądania Facebook&apos;a w ciemności.</translation>
->>>>>>> f4606a073d1dd1cbf1cb1aee1de240acf6662eaa
     </message>
     <message>
         <source>Back button in</source>
@@ -290,7 +278,7 @@
     </message>
     <message>
         <source>When disabled, the notifications for events, ... aren&apos;t shown as well.</source>
-        <translation type="unfinished">Kiedy wyłączone, powiadomienia o wydarzeniach nie będą pokazywane.</translation>
+        <translation>Kiedy wyłączone, powiadomienia o wydarzeniach nie będą pokazywane.</translation>
     </message>
     <message>
         <source>Show Facebook liked pages button</source>
