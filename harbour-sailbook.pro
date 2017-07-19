@@ -38,8 +38,9 @@ TRANSLATIONS += \
     translations/harbour-sailbook-fi.ts \
     translations/harbour-sailbook-nl.ts \
     translations/harbour-sailbook-it.ts \
-    translations/harbour-sailbook-fr.ts \
-    translations/harbour-sailbook-es.ts
+    translations/harbour-sailbook-es.ts \
+    translations/harbour-sailbook-fr.ts
+
 DISTFILES += \
     qml/resources/css/sailbook.css \
     qml/resources/js/sailbook.js \
