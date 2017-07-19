@@ -41,6 +41,7 @@ Page {
             GlassButton { iconSource: "../resources/images/icon-germany.png"; iconText: "Pawel Radomychelski" }
             GlassButton { iconSource: "../resources/images/icon-germany.png"; iconText: "Alain Molteni" }
             GlassButton { iconSource: "../resources/images/icon-italy.png"; iconText: "Francesco Vaccaro" }
+            GlassButton { iconSource: "../resources/images/icon-polish.png"; iconText: "A Atlochowski" }
             GlassButton { iconSource: "../resources/images/icon-spain.png"; iconText: "Carlos Gonzalez" }
 
             SectionHeader { text: qsTr("Icons") }
