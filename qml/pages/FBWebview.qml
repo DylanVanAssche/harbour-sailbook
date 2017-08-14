@@ -47,7 +47,7 @@ Item {
         anchors { fill: parent }
         experimental.preferences.javascriptEnabled: true
         experimental.preferences.navigatorQtObjectEnabled: true
-        experimental.userAgent: "Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.34 (KHTML, like Gecko) Qt/4.8.4 Safari/534.34"
+        experimental.userAgent: "Mozilla/5.0 (PlayStation 4 4.71) AppleWebKit/601.2 (KHTML, like Gecko)"
         experimental.userStyleSheet: Qt.resolvedUrl("../resources/css/sailbook.css")
         experimental.userScripts: Qt.resolvedUrl("../resources/js/sailbook.js")
         experimental.onMessageReceived: Messages.parse(message.data)

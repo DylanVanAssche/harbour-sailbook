@@ -8,6 +8,10 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Mon Aug 14 2017 Rudi Timmermans <rudi.timmer@gmx.us> 9.0.rc2
+- [FIX] Popup unsupported browser
+- [COMPILED] With the lasted SDK 1707
+
 * Wed Apr 19 2017 Rudi Timmermans <rudi.timmer@gmx.us> 8.4-1
 - [OPTIMIZE] Memory use on device
 - [UPDATED] Germany translation

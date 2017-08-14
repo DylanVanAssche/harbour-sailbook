@@ -13,7 +13,7 @@
     </message>
     <message>
         <source>Sailbook is an unofficial Facebook client for Sailfish OS.</source>
-        <translation>Sailbook jest nieoficjalnym klientem Facebook'a dla Sailfish OS.</translation>
+        <translation>Sailbook jest nieoficjalnym klientem Facebook&apos;a dla Sailfish OS.</translation>
     </message>
     <message>
         <source>Privacy &amp; licensing</source>
@@ -75,7 +75,7 @@
     </message>
     <message>
         <source>Facebook logout</source>
-        <translation>Wyloguj z Facebook'a</translation>
+        <translation>Wyloguj z Facebook&apos;a</translation>
     </message>
 </context>
 <context>
@@ -230,7 +230,7 @@
     </message>
     <message>
         <source>will use dark colors to reduce eye strain while browsing Facebook in the dark.</source>
-        <translation>użyje ciemnych kolorów w celu zmniejszego zmęczenia oczu podczas przwglądania Facebook'a w ciemności.</translation>
+        <translation>użyje ciemnych kolorów w celu zmniejszego zmęczenia oczu podczas przwglądania Facebook&apos;a w ciemności.</translation>
     </message>
     <message>
         <source>Back button in</source>
