@@ -290,19 +290,19 @@
     </message>
     <message>
         <source>Ambience</source>
-        <translation type="unfinished"></translation>
+        <translation>Sfeer</translation>
     </message>
     <message>
         <source>Facebook</source>
-        <translation type="unfinished"></translation>
+        <translation>Facebook</translation>
     </message>
     <message>
         <source>Pulldown menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Uitrolmenu</translation>
     </message>
     <message>
         <source>Menu bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Menubalk</translation>
     </message>
 </context>
 <context>

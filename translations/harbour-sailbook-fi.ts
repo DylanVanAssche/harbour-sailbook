@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="fi" version="2.1">
 <context>
     <name>AboutPage</name>
     <message>
@@ -36,12 +34,12 @@
         <translation>Ikonit</translation>
     </message>
     <message>
-        <source>Sailbook icons made by Alain Molteni.</source>
-        <translation>Alain Molteni on tehnyt Sailbook ikonit.</translation>
-    </message>
-    <message>
         <source>Translators</source>
         <translation>Kääntäjät</translation>
+    </message>
+    <message>
+        <source>Sailbook icons made by Alain Molteni.</source>
+        <translation>Alain Molteni on tehnyt Sailbook ikonit.</translation>
     </message>
     <message>
         <source>is free software released under the GNU General Public License (GPL), version 3 or later.</source>
@@ -290,19 +288,19 @@
     </message>
     <message>
         <source>Ambience</source>
-        <translation type="unfinished"></translation>
+        <translation>Tunnelma</translation>
     </message>
     <message>
         <source>Facebook</source>
-        <translation type="unfinished"></translation>
+        <translation>Facebook</translation>
     </message>
     <message>
         <source>Pulldown menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Alasvetovalikko</translation>
     </message>
     <message>
         <source>Menu bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Valikkopalkki</translation>
     </message>
 </context>
 <context>
