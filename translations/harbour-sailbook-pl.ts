@@ -288,6 +288,22 @@
         <source>Show Facebook logout pulldown menu</source>
         <translation>Pokaż przycisk wylogowania w pulley menu</translation>
     </message>
+    <message>
+        <source>Ambience</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Facebook</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pulldown menu</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Menu bar</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>SplashScreen</name>

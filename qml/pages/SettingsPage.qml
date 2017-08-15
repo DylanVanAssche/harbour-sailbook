@@ -45,8 +45,8 @@ Dialog {
                 label: qsTr("Theme")
                 currentIndex: settings.theme
                 menu: ContextMenu {
-                    MenuItem { text: "Ambience" }
-                    MenuItem { text: "Facebook" }
+                    MenuItem { text: qsTr("Ambience") }
+                    MenuItem { text: qsTr("Facebook") }
                 }
             }
 
@@ -62,8 +62,8 @@ Dialog {
                 label: qsTr("Back button in")
                 currentIndex: settings.placeBack
                 menu: ContextMenu {
-                    MenuItem { text: "Pulldown menu" }
-                    MenuItem { text: "Menu bar" }
+                    MenuItem { text: qsTr("Pulldown menu") }
+                    MenuItem { text: qsTr("Menu bar") }
                 }
             }
 
