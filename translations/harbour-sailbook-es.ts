@@ -13,7 +13,7 @@
     </message>
     <message>
         <source>Sailbook is an unofficial Facebook client for Sailfish OS.</source>
-        <translation>Sailbook es cliente no oficial de facebook para el sistema operativo Sailfish OS.</translation>
+        <translation>Sailbook es un cliente no oficial de facebook para el sistema operativo Sailfish OS.</translation>
     </message>
     <message>
         <source>Privacy &amp; licensing</source>
@@ -45,7 +45,7 @@
     </message>
     <message>
         <source>is free software released under the GNU General Public License (GPL), version 3 or later.</source>
-        <translation>Es software libre publicado bajo la GNU General Public License (GPL), versión 3 o posterior.</translation>
+        <translation>es un programa libre publicado bajo la GNU General Public License (GPL), versión 3 o posterior.</translation>
     </message>
 </context>
 <context>
@@ -222,7 +222,7 @@
     </message>
     <message>
         <source>will open Facebook and Youtube videos in his native videoplayer. If disabled, they will be opened in the external browser.</source>
-        <translation>Abrirá los videos de facebook y youtube en el reprodutor de video nativo. Si está deshabilitado, se abrirán en el navegador externo.</translation>
+        <translation>abrirá los videos de facebook y youtube en el reprodutor de video nativo. Si está deshabilitado, se abrirán en el navegador externo.</translation>
     </message>
     <message>
         <source>Enable nightmode</source>
@@ -230,43 +230,43 @@
     </message>
     <message>
         <source>will use dark colors to reduce eye strain while browsing Facebook in the dark.</source>
-        <translation>Usará colores oscuros para reducir la fatiga ocular mientras navega en facebook en la oscuridad.</translation>
+        <translation>usará colores oscuros para reducir la fatiga ocular mientras navega en facebook en la oscuridad.</translation>
     </message>
     <message>
         <source>Back button in</source>
-        <translation>Botón regresar en</translation>
+        <translation>Botón de: regresar en</translation>
     </message>
     <message>
         <source>Show Facebook feed button</source>
-        <translation>Mostrar botón de alimentar en facebook</translation>
+        <translation>Botón de: alimentar</translation>
     </message>
     <message>
         <source>Show Facebook friends button</source>
-        <translation>Mostrar botón amigos en facebook </translation>
+        <translation>Botón de: amigos</translation>
     </message>
     <message>
         <source>Show Facebook messages button</source>
-        <translation>Mostrar botón mensajes en facebook </translation>
+        <translation>Botón de: mensajes</translation>
     </message>
     <message>
         <source>Show Facebook notifications button</source>
-        <translation>Mostrar botón notificaciones en facebook</translation>
+        <translation>Botón de: notificaciones</translation>
     </message>
     <message>
         <source>Show Facebook search button</source>
-        <translation>Mostrar botón buscar en facebook</translation>
+        <translation>Botón de: buscar</translation>
     </message>
     <message>
         <source>Show Facebook events button</source>
-        <translation>Mostrar botón eventos en facebook</translation>
+        <translation>Botón de: eventos</translation>
     </message>
     <message>
         <source>Show Facebook groups button</source>
-        <translation>Mostrar botón grupos en facebook</translation>
+        <translation>Botón de: grupos</translation>
     </message>
     <message>
         <source>Show Facebook settings button</source>
-        <translation>Mostrar botón ajustes en facebook</translation>
+        <translation>Botón de: ajustes</translation>
     </message>
     <message>
         <source>When disabled, the notifications for friend requests aren&apos;t shown as well.</source>
@@ -282,11 +282,11 @@
     </message>
     <message>
         <source>Show Facebook liked pages button</source>
-        <translation>Mostrar botón páginas gustadas en facebook</translation>
+        <translation>Botón de: páginas gustadas</translation>
     </message>
     <message>
         <source>Show Facebook logout pulldown menu</source>
-        <translation>Mostrar menú deslizable de cierre de sesión de facebook</translation>
+        <translation>Botón de: cierre de sesión </translation>
     </message>
     <message>
         <source>Ambience</source>
@@ -316,7 +316,7 @@
     <name>VideoPage</name>
     <message>
         <source>Videoplayer</source>
-        <translation>ReproductorDevideo</translation>
+        <translation>Reproductor de video</translation>
     </message>
     <message>
         <source>Unable to play this video</source>
