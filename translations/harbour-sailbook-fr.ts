@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="fr_FR">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="fr" version="2.1">
 <context>
     <name>AboutPage</name>
     <message>
@@ -62,16 +60,16 @@
 <context>
     <name>FBWebview</name>
     <message>
-        <source>Back</source>
-        <translation>Retour</translation>
-    </message>
-    <message>
         <source>About</source>
         <translation>À propos</translation>
     </message>
     <message>
         <source>Settings</source>
         <translation>Paramètres</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Retour</translation>
     </message>
     <message>
         <source>Facebook logout</source>
@@ -290,19 +288,19 @@
     </message>
     <message>
         <source>Ambience</source>
-        <translation type="unfinished"></translation>
+        <translation>Ambiance</translation>
     </message>
     <message>
         <source>Facebook</source>
-        <translation type="unfinished"></translation>
+        <translation>Facebook</translation>
     </message>
     <message>
         <source>Pulldown menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Menu déroulant</translation>
     </message>
     <message>
         <source>Menu bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Barre de menu</translation>
     </message>
 </context>
 <context>

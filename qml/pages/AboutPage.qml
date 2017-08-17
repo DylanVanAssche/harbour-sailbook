@@ -23,6 +23,9 @@ Page {
             TextLabel { labelText: "Sailbook " + qsTr("is free software released under the GNU General Public License (GPL), version 3 or later.") }
             GlassButton { iconSource: "../resources/images/icon-github.png"; iconText: "GitHub"; link: "https://github.com/Sailbook/harbour-sailbook" }
 
+            SectionHeader { text: "Telegram" }
+            GlassButton { iconSource: "../resources/images/icon-telegram.png"; iconText: "Join or Telegram Sailbook Group"; link: "https://t.me/joinchat/Fcodjwu4wFLZDSO_AsMQaQ" }
+
             SectionHeader { text: qsTr("Developers") }
             GlassButton { iconSource: "../resources/images/image-rudi.jpg"; iconText: "Rudi Timmermans"; link: "https://www.twitter.com/xray20001" }
             GlassButton { iconSource: "../resources/images/image-dylan.jpg"; iconText: "Dylan Van Assche"; link: "https://www.github.com/modulebaan" }
@@ -37,9 +40,10 @@ Page {
             SectionHeader { text: qsTr("Translators") }
             GlassButton { iconSource: "../resources/images/icon-belgium.png"; iconText: "Pascal de Klein" }
             GlassButton { iconSource: "../resources/images/icon-finland.png"; iconText: "Mikko Kokkonen" }
-            GlassButton { iconSource: "../resources/images/icon-french.png"; iconText: "Sylvain B." }
+            GlassButton { iconSource: "../resources/images/icon-french.png"; iconText: "Jimmy Huguet" }
             GlassButton { iconSource: "../resources/images/icon-germany.png"; iconText: "Pawel Radomychelski" }
             GlassButton { iconSource: "../resources/images/icon-germany.png"; iconText: "Alain Molteni" }
+            GlassButton { iconSource: "../resources/images/icon-germany.png"; iconText: "Dark One" }
             GlassButton { iconSource: "../resources/images/icon-italy.png"; iconText: "Francesco Vaccaro" }
             GlassButton { iconSource: "../resources/images/icon-polish.png"; iconText: "A Atlochowski" }
             GlassButton { iconSource: "../resources/images/icon-spain.png"; iconText: "Carlos Gonzalez" }
