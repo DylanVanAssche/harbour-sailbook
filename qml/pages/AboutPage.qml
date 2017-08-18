@@ -18,6 +18,7 @@ Page {
 
             SectionHeader { text: qsTr("What's") + " Sailbook?" }
             TextLabel { labelText: qsTr("Sailbook is an unofficial Facebook client for Sailfish OS.") }
+            GlassButton { iconSource: "../resources/images/icon-telegram.png"; iconText: "Telegram Sailbook Group"; link: "https://t.me/joinchat/Fcodjwu4wFLZDSO_AsMQaQ" }
 
             SectionHeader { text: qsTr("Privacy & licensing") }
             TextLabel { labelText: "Sailbook " + qsTr("is free software released under the GNU General Public License (GPL), version 3 or later.") }
