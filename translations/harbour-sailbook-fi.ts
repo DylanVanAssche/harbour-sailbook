@@ -45,6 +45,10 @@
         <source>is free software released under the GNU General Public License (GPL), version 3 or later.</source>
         <translation>on vapaa ohjelmisto, joka on julkaistu GNU General Public Licence (GPL), versio 3 tai myöhemmän alla.</translation>
     </message>
+    <message>
+        <source>Translations</source>
+        <translation>Käännökset</translation>
+    </message>
 </context>
 <context>
     <name>CoverPage</name>
@@ -308,6 +312,17 @@
     <message>
         <source>Connecting...</source>
         <translation>Yhdistetään...</translation>
+    </message>
+</context>
+<context>
+    <name>TranslationsPage</name>
+    <message>
+        <source>Translation Platform</source>
+        <translation>Käännösalusta</translation>
+    </message>
+    <message>
+        <source>Translators</source>
+        <translation>Kääntäjät</translation>
     </message>
 </context>
 <context>

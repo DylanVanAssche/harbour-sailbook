@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1">
+<TS version="2.1" language="pl">
 <context>
     <name>AboutPage</name>
     <message>
@@ -24,10 +24,6 @@
         <translation>Deweloperzy</translation>
     </message>
     <message>
-        <source>Donate with Paypal</source>
-        <translation>Wspomóż przez Paypal</translation>
-    </message>
-    <message>
         <source>Version</source>
         <translation>Wersja</translation>
     </message>
@@ -46,6 +42,10 @@
     <message>
         <source>is free software released under the GNU General Public License (GPL), version 3 or later.</source>
         <translation>jest wolnym oprogramowaniem wydanym na licencji GNU General Public License (GPL), w wersji 3 lub późniejszej.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Tłumaczenia</translation>
     </message>
 </context>
 <context>
@@ -222,7 +222,7 @@
     </message>
     <message>
         <source>will open Facebook and Youtube videos in his native videoplayer. If disabled, they will be opened in the external browser.</source>
-        <translation type="unfinished"></translation>
+        <translation>otworzy filmy Facebook i YouTube w swoim rodzimym odtwarzaczu wideo. Jeśli ta opcja jest wyłączona, zostaną otwarte w zewnętrznej przeglądarce.</translation>
     </message>
     <message>
         <source>Enable nightmode</source>
@@ -290,19 +290,19 @@
     </message>
     <message>
         <source>Ambience</source>
-        <translation type="unfinished"></translation>
+        <translation>Atmosfera</translation>
     </message>
     <message>
         <source>Facebook</source>
-        <translation type="unfinished"></translation>
+        <translation>Facebook</translation>
     </message>
     <message>
         <source>Pulldown menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Menu rozwijalne</translation>
     </message>
     <message>
         <source>Menu bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Pasek menu</translation>
     </message>
 </context>
 <context>
@@ -310,6 +310,17 @@
     <message>
         <source>Connecting...</source>
         <translation>Łączenie...</translation>
+    </message>
+</context>
+<context>
+    <name>TranslationsPage</name>
+    <message>
+        <source>Translation Platform</source>
+        <translation>Platforma tłumaczeń</translation>
+    </message>
+    <message>
+        <source>Translators</source>
+        <translation>Tłumacze</translation>
     </message>
 </context>
 <context>

@@ -45,6 +45,10 @@
         <source>is free software released under the GNU General Public License (GPL), version 3 or later.</source>
         <translation>ist freie Software gemäß den Bedingungen der GNU General Public License (GPL) Version 3 oder neuer.</translation>
     </message>
+    <message>
+        <source>Translations</source>
+        <translation>Übersetzungen</translation>
+    </message>
 </context>
 <context>
     <name>CoverPage</name>
@@ -308,6 +312,17 @@
     <message>
         <source>Connecting...</source>
         <translation>Verbinden...</translation>
+    </message>
+</context>
+<context>
+    <name>TranslationsPage</name>
+    <message>
+        <source>Translation Platform</source>
+        <translation>Übersetzungsplatform</translation>
+    </message>
+    <message>
+        <source>Translators</source>
+        <translation>Übersetzer</translation>
     </message>
 </context>
 <context>

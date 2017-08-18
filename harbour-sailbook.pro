@@ -46,6 +46,7 @@ DISTFILES += \
     qml/resources/css/sailbook.css \
     qml/resources/js/sailbook.js \
     qml/pages/AboutPage.qml \
+    qml/pages/TranslationsPage.qml \
     qml/pages/TextLabel.qml \
     qml/pages/GlassButton.qml \
     qml/pages/SettingsPage.qml \

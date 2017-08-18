@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="fr" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="fr">
 <context>
     <name>AboutPage</name>
     <message>
@@ -22,10 +24,6 @@
         <translation>Developeurs</translation>
     </message>
     <message>
-        <source>Donate with Paypal</source>
-        <translation>Faire un don par Paypal</translation>
-    </message>
-    <message>
         <source>Version</source>
         <translation>Version</translation>
     </message>
@@ -44,6 +42,10 @@
     <message>
         <source>is free software released under the GNU General Public License (GPL), version 3 or later.</source>
         <translation>est un logiciel gratuit publié sous GNU General Public License (GPL), version 3 ou ultérieure.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -308,6 +310,17 @@
     <message>
         <source>Connecting...</source>
         <translation>Connexion...</translation>
+    </message>
+</context>
+<context>
+    <name>TranslationsPage</name>
+    <message>
+        <source>Translation Platform</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Translators</source>
+        <translation type="unfinished">Traducteurs</translation>
     </message>
 </context>
 <context>

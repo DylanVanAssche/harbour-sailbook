@@ -24,10 +24,6 @@
         <translation>Sviluppatori</translation>
     </message>
     <message>
-        <source>Donate with Paypal</source>
-        <translation>Dona con PayPal</translation>
-    </message>
-    <message>
         <source>Version</source>
         <translation>Versione</translation>
     </message>
@@ -46,6 +42,10 @@
     <message>
         <source>is free software released under the GNU General Public License (GPL), version 3 or later.</source>
         <translation>è software libero rilasciato sotto licenza GNU General Public License (GPL) versione 3 o successiva.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -310,6 +310,17 @@
     <message>
         <source>Connecting...</source>
         <translation>Connessione...</translation>
+    </message>
+</context>
+<context>
+    <name>TranslationsPage</name>
+    <message>
+        <source>Translation Platform</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Translators</source>
+        <translation type="unfinished">Traduttori</translation>
     </message>
 </context>
 <context>

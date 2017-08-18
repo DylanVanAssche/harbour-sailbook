@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="nl_NL">
+<TS version="2.1" language="nl">
 <context>
     <name>AboutPage</name>
     <message>
@@ -24,10 +24,6 @@
         <translation>Ontwikkelaars</translation>
     </message>
     <message>
-        <source>Donate with Paypal</source>
-        <translation>Doneren met Paypal</translation>
-    </message>
-    <message>
         <source>Version</source>
         <translation>Versie</translation>
     </message>
@@ -36,16 +32,20 @@
         <translation>Icons</translation>
     </message>
     <message>
-        <source>Sailbook icons made by Alain Molteni.</source>
-        <translation>Sailbook iconen gemaakt door Alain Molteni.</translation>
-    </message>
-    <message>
         <source>Translators</source>
         <translation>Vertalers</translation>
     </message>
     <message>
+        <source>Sailbook icons made by Alain Molteni.</source>
+        <translation>Sailbook iconen gemaakt door Alain Molteni.</translation>
+    </message>
+    <message>
         <source>is free software released under the GNU General Public License (GPL), version 3 or later.</source>
         <translation>is gratis software vrijgegeven onder de GNU General Public License (GPL), versie 3 of hoger.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Vertaalwerk</translation>
     </message>
 </context>
 <context>
@@ -310,6 +310,17 @@
     <message>
         <source>Connecting...</source>
         <translation>Verbinden maken...</translation>
+    </message>
+</context>
+<context>
+    <name>TranslationsPage</name>
+    <message>
+        <source>Translation Platform</source>
+        <translation>Vertaling Platform</translation>
+    </message>
+    <message>
+        <source>Translators</source>
+        <translation>Vertalers</translation>
     </message>
 </context>
 <context>
