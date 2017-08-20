@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1">
+<TS version="2.1" language="es">
 <context>
     <name>AboutPage</name>
     <message>
@@ -45,27 +45,27 @@
     </message>
     <message>
         <source>Translations</source>
-        <translation type="unfinished"></translation>
+        <translation>Traducciones</translation>
     </message>
     <message>
         <source>GitHub</source>
-        <translation type="unfinished"></translation>
+        <translation>GitHub</translation>
     </message>
     <message>
         <source>Telegram Sailbook Group</source>
-        <translation type="unfinished"></translation>
+        <translation>Grupo telegram de sailbook</translation>
     </message>
     <message>
         <source>Rudi Timmermans</source>
-        <translation type="unfinished"></translation>
+        <translation>Rudi Timmermans</translation>
     </message>
     <message>
         <source>Dylan Van Assche</source>
-        <translation type="unfinished"></translation>
+        <translation>Dylan Van Assche</translation>
     </message>
     <message>
         <source>Donate with Paypal</source>
-        <translation type="unfinished"></translation>
+        <translation>Donar con paypal</translation>
     </message>
 </context>
 <context>
@@ -336,11 +336,11 @@
     <name>TranslationsPage</name>
     <message>
         <source>Translation Platform</source>
-        <translation type="unfinished"></translation>
+        <translation>Plataforma de traducción</translation>
     </message>
     <message>
         <source>Translators</source>
-        <translation type="unfinished">Traductores</translation>
+        <translation>Traductores</translation>
     </message>
 </context>
 <context>

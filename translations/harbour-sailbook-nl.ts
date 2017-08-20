@@ -254,7 +254,7 @@
     </message>
     <message>
         <source>Back button in</source>
-        <translation>Back-knop in</translation>
+        <translation>Terug-knop in</translation>
     </message>
     <message>
         <source>Show Facebook feed button</source>
@@ -306,7 +306,7 @@
     </message>
     <message>
         <source>Show Facebook logout pulldown menu</source>
-        <translation>Toon Facebook logout pulldown menu</translation>
+        <translation>Facebook uitloggen in het menu weergeven</translation>
     </message>
     <message>
         <source>Ambience</source>
@@ -318,7 +318,7 @@
     </message>
     <message>
         <source>Pulldown menu</source>
-        <translation>Uitrolmenu</translation>
+        <translation>Menu</translation>
     </message>
     <message>
         <source>Menu bar</source>

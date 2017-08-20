@@ -45,27 +45,27 @@
     </message>
     <message>
         <source>Translations</source>
-        <translation type="unfinished"></translation>
+        <translation>Traductions</translation>
     </message>
     <message>
         <source>GitHub</source>
-        <translation type="unfinished"></translation>
+        <translation>GitHub</translation>
     </message>
     <message>
         <source>Telegram Sailbook Group</source>
-        <translation type="unfinished"></translation>
+        <translation>Groupe Telegram dedié a Sailbook</translation>
     </message>
     <message>
         <source>Rudi Timmermans</source>
-        <translation type="unfinished"></translation>
+        <translation>Rudi Timmermans</translation>
     </message>
     <message>
         <source>Dylan Van Assche</source>
-        <translation type="unfinished"></translation>
+        <translation>Dylan Van Assche</translation>
     </message>
     <message>
         <source>Donate with Paypal</source>
-        <translation type="unfinished"></translation>
+        <translation>Faire un don par Paypal</translation>
     </message>
 </context>
 <context>
@@ -336,11 +336,11 @@
     <name>TranslationsPage</name>
     <message>
         <source>Translation Platform</source>
-        <translation type="unfinished"></translation>
+        <translation>Plateforme de traduction</translation>
     </message>
     <message>
         <source>Translators</source>
-        <translation type="unfinished">Traducteurs</translation>
+        <translation>Traducteurs</translation>
     </message>
 </context>
 <context>

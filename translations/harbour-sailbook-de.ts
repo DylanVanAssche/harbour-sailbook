@@ -49,23 +49,23 @@
     </message>
     <message>
         <source>GitHub</source>
-        <translation type="unfinished"></translation>
+        <translation>GitHub</translation>
     </message>
     <message>
         <source>Telegram Sailbook Group</source>
-        <translation type="unfinished"></translation>
+        <translation>Telegramm-Sailbook-Gruppe</translation>
     </message>
     <message>
         <source>Rudi Timmermans</source>
-        <translation type="unfinished"></translation>
+        <translation>Rudi Timmermans</translation>
     </message>
     <message>
         <source>Dylan Van Assche</source>
-        <translation type="unfinished"></translation>
+        <translation>Dylan Van Assche</translation>
     </message>
     <message>
         <source>Donate with Paypal</source>
-        <translation type="unfinished"></translation>
+        <translation>Mit PayPal spenden</translation>
     </message>
 </context>
 <context>
