@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="de" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="de">
 <context>
     <name>AboutPage</name>
     <message>
@@ -20,10 +22,6 @@
     <message>
         <source>Developers</source>
         <translation>Entwickler</translation>
-    </message>
-    <message>
-        <source>Donate with Paypal</source>
-        <translation>Mit PayPal spenden</translation>
     </message>
     <message>
         <source>Version</source>
@@ -48,6 +46,26 @@
     <message>
         <source>Translations</source>
         <translation>Übersetzungen</translation>
+    </message>
+    <message>
+        <source>GitHub</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Telegram Sailbook Group</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rudi Timmermans</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Dylan Van Assche</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Donate with Paypal</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

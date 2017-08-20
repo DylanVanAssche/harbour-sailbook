@@ -49,6 +49,7 @@ DISTFILES += \
     qml/pages/TranslationsPage.qml \
     qml/pages/TextLabel.qml \
     qml/pages/GlassButton.qml \
+    qml/pages/IconTextButton.qml \
     qml/pages/SettingsPage.qml \
     qml/pages/js/util.js \
     qml/pages/NavigationButton.qml \

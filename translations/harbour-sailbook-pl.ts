@@ -47,6 +47,26 @@
         <source>Translations</source>
         <translation>Tłumaczenia</translation>
     </message>
+    <message>
+        <source>GitHub</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Telegram Sailbook Group</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rudi Timmermans</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Dylan Van Assche</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Donate with Paypal</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>CoverPage</name>
