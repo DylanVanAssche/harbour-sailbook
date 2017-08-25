@@ -178,11 +178,11 @@
     </message>
     <message>
         <source>Opening external link in</source>
-        <translation>Abriendo enlace externo en</translation>
+        <translation>Abriendo enlace externo en:</translation>
     </message>
     <message>
         <source>external browser</source>
-        <translation>Navegador externo</translation>
+        <translation>navegador externo</translation>
     </message>
     <message>
         <source>Video quality</source>
@@ -198,7 +198,7 @@
     </message>
     <message>
         <source>Enable notifications</source>
-        <translation>Habilitar notificaciones</translation>
+        <translation>Notificaciones</translation>
     </message>
     <message>
         <source>Notifications interval</source>
@@ -238,7 +238,7 @@
     </message>
     <message>
         <source>Enable native videoplayer</source>
-        <translation>Habilitar reproducor de video nativo</translation>
+        <translation>Reproductor de video nativo</translation>
     </message>
     <message>
         <source>will open Facebook and Youtube videos in his native videoplayer. If disabled, they will be opened in the external browser.</source>
@@ -246,7 +246,7 @@
     </message>
     <message>
         <source>Enable nightmode</source>
-        <translation>Habilitar mode de noche</translation>
+        <translation>Modo de noche</translation>
     </message>
     <message>
         <source>will use dark colors to reduce eye strain while browsing Facebook in the dark.</source>
@@ -310,19 +310,19 @@
     </message>
     <message>
         <source>Ambience</source>
-        <translation>Ambiente</translation>
+        <translation>ambiente</translation>
     </message>
     <message>
         <source>Facebook</source>
-        <translation>Facebook</translation>
+        <translation>facebook</translation>
     </message>
     <message>
         <source>Pulldown menu</source>
-        <translation>Deslizar hacia abajo para el menú</translation>
+        <translation>deslizar hacia abajo para el menú</translation>
     </message>
     <message>
         <source>Menu bar</source>
-        <translation>Barra del menú</translation>
+        <translation>barra de menú</translation>
     </message>
 </context>
 <context>
