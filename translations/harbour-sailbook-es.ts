@@ -17,7 +17,7 @@
     </message>
     <message>
         <source>Privacy &amp; licensing</source>
-        <translation>Privacidad &amp; licensia</translation>
+        <translation>Privacidad &amp; licencia</translation>
     </message>
     <message>
         <source>Developers</source>
@@ -254,7 +254,7 @@
     </message>
     <message>
         <source>Back button in</source>
-        <translation>Botón de: regresar en</translation>
+        <translation>Botón de: regresar, en:</translation>
     </message>
     <message>
         <source>Show Facebook feed button</source>
