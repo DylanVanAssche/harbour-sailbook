@@ -25,15 +25,59 @@ Page {
             
             PageHeader { title: qsTr("Translators") }
 
-            GlassButton { iconSource: "../resources/images/icon-belgium.png"; iconText: "Pascal de Klein" }
-            GlassButton { iconSource: "../resources/images/icon-finland.png"; iconText: "Mikko Kokkonen" }
-            GlassButton { iconSource: "../resources/images/icon-french.png"; iconText: "Jimmy Huguet" }
-            GlassButton { iconSource: "../resources/images/icon-germany.png"; iconText: "Pawel Radomychelski" }
-            GlassButton { iconSource: "../resources/images/icon-germany.png"; iconText: "Alain Molteni" }
-            GlassButton { iconSource: "../resources/images/icon-germany.png"; iconText: "Dark One" }
-            GlassButton { iconSource: "../resources/images/icon-italy.png"; iconText: "Francesco Vaccaro" }
-            GlassButton { iconSource: "../resources/images/icon-polish.png"; iconText: "A Atlochowski" }
-            GlassButton { iconSource: "../resources/images/icon-spain.png"; iconText: "Carlos Gonzalez" }
+            IconTextButton {
+                anchors.horizontalCenter: parent.horizontalCenter
+                text: "Pascal de Klein"
+                iconSource: "../resources/images/icon-belgium.png"
+            }
+
+            IconTextButton {
+                anchors.horizontalCenter: parent.horizontalCenter
+                text: "Mikko Kokkonen"
+                iconSource: "../resources/images/icon-finland.png"
+            }
+
+            IconTextButton {
+                anchors.horizontalCenter: parent.horizontalCenter
+                text: "Jimmy Huguet"
+                iconSource: "../resources/images/icon-french.png"
+            }
+
+            IconTextButton {
+                anchors.horizontalCenter: parent.horizontalCenter
+                text: "Alain Molteni"
+                iconSource: "../resources/images/icon-germany.png"
+            }
+
+            IconTextButton {
+                anchors.horizontalCenter: parent.horizontalCenter
+                text: "Pawel Radomychelski"
+                iconSource: "../resources/images/icon-germany.png"
+            }
+
+            IconTextButton {
+                anchors.horizontalCenter: parent.horizontalCenter
+                text: "Matthias Weiß"
+                iconSource: "../resources/images/icon-germany.png"
+            }
+
+            IconTextButton {
+                anchors.horizontalCenter: parent.horizontalCenter
+                text: "Francesco Vaccaro"
+                iconSource: "../resources/images/icon-italy.png"
+            }
+
+            IconTextButton {
+                anchors.horizontalCenter: parent.horizontalCenter
+                text: "A Atlochowski"
+                iconSource: "../resources/images/icon-polish.png"
+            }
+
+            IconTextButton {
+                anchors.horizontalCenter: parent.horizontalCenter
+                text: "Carlos Gonzalez"
+                iconSource: "../resources/images/icon-spain.png"
+            }
          }
     }
 }           

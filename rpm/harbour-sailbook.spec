@@ -14,7 +14,7 @@ Name:       harbour-sailbook
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    Sailbook
 Version:    9.0
-Release:    2
+Release:    3
 Group:      Qt/Qt
 License:    LICENSE
 URL:        https://gitlab.com/Xray2000/harbour-sailbook
