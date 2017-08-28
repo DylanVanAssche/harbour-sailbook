@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="fr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="fr" version="2.1">
 <context>
     <name>AboutPage</name>
     <message>
@@ -314,27 +312,27 @@
     </message>
     <message>
         <source>Feed priority</source>
-        <translation type="unfinished"></translation>
+        <translation>Priorité d&apos;affichage</translation>
     </message>
     <message>
         <source>Most recent</source>
-        <translation type="unfinished"></translation>
+        <translation>Du plus récent</translation>
     </message>
     <message>
         <source>Top stories</source>
-        <translation type="unfinished"></translation>
+        <translation>Meilleures histoires</translation>
     </message>
     <message>
         <source>%1 will use dark colors to reduce eye strain while browsing Facebook in the dark.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 utilisera des couleurs sombres pour réduire la fatigue oculaire pendant que vous parcourez facebook dans le noir.</translation>
     </message>
     <message>
         <source>%1 will open Facebook and Youtube videos in his native videoplayer. If disabled, they will be opened in the external browser.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 ouvrira les videos Facebook et Youtube dans son propre lecteur. Si l&apos;option est désactivé, elle seront ouverte dans le navigateur internet.</translation>
     </message>
     <message>
         <source>%1 will send you notifications when you have a new message, a new notification or a friend request.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 vous enverra des notifications lorsque vous recevez un nouveau message, une notification, ou une nouvelle demande d&apos;ami.</translation>
     </message>
 </context>
 <context>
