@@ -68,13 +68,15 @@ Item {
         onNavigationRequested: Media.detectImage(request) //When link is an image, cancel request and show our image viewer
         clip: true // Enforce painting inside our defined screen
         opacity: loading? 0.0: 1.0
-        url: "https://m.facebook.com"
+        url: "https://m.facebook.com/home.php?sk=" + Util.getFeedPriority(settings.priorityFeed)
+        onUrlChanged: console.log(url)
 
         Behavior on opacity { FadeAnimation {} }
 
         PullDownMenu {
             backgroundColor: Util.getBackgroundColor(settings.theme)
             highlightColor: Util.getHighlightColor(settings.theme)
+            enabled: !webview.loading
 
             MenuItem {
                 color: Util.getPrimaryColor(settings.theme)
@@ -93,9 +95,12 @@ Item {
                 color: Util.getPrimaryColor(settings.theme)
                 text: qsTr("Settings")
                 onClicked: {
+                    var oldUrl = webview.url
                     var settingsDialog = pageStack.push(Qt.resolvedUrl("SettingsPage.qml"))
                     settingsDialog.accepted.connect(function(){ // Refresh Javascript specific settings by reloading
-                        webview.reload()
+                        if(oldUrl == webview.url) { // Don't do this when url has been changed
+                            webview.reload()
+                        }
                     })
                 }
             }
@@ -111,5 +116,5 @@ Item {
 
 
     // Loadscreen
-    LoadscreenWebview {}
+    LoadscreenWebview { id: loadScreen }
 }

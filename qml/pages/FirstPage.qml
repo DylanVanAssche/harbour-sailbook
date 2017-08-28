@@ -49,7 +49,7 @@ Page {
         Row {
             anchors { fill: parent }
             NavigationButton { onClicked: fbWebview.goBack(); iconSource: "../resources/images/icon-back.svg"; visible: settings.placeBack==1 && fbWebview.canGoBack }
-            NavigationButton { onClicked: fbWebview.setUrl("https://m.facebook.com/"); notifyIndicator: Util.formatNotificationNumber(0); iconSource: "../resources/images/icon-newsfeed.svg"; visible: settings.showFeed }
+            NavigationButton { onClicked: fbWebview.setUrl("https://m.facebook.com/home.php?sk=" + Util.getFeedPriority(settings.priorityFeed)); notifyIndicator: Util.formatNotificationNumber(0); iconSource: "../resources/images/icon-newsfeed.svg"; visible: settings.showFeed }
             NavigationButton { onClicked: fbWebview.setUrl("https://m.facebook.com/friends"); notifyIndicator: Util.formatNotificationNumber(1); iconSource: "../resources/images/icon-requests.svg"; visible: settings.showFriends }
             NavigationButton { onClicked: fbWebview.setUrl("https://m.facebook.com/messages"); notifyIndicator: Util.formatNotificationNumber(2); iconSource: "../resources/images/icon-messages.svg"; visible: settings.showMessages }
             NavigationButton { onClicked: fbWebview.setUrl("https://m.facebook.com/notifications"); notifyIndicator: Util.formatNotificationNumber(3); iconSource: "../resources/images/icon-notifications.svg"; visible: settings.showNotifications }

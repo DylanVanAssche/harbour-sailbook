@@ -173,10 +173,6 @@
         <translation>Notifiche</translation>
     </message>
     <message>
-        <source>Sailbook will send you notifications when you have a new message, a new notification or a friend request.</source>
-        <translation>Sailbook ti segnalerà l&apos;arrivo di un nuovo messaggio, notifica o richiesta di amicizia.</translation>
-    </message>
-    <message>
         <source>Opening external link in</source>
         <translation>Apri link esterni in</translation>
     </message>
@@ -241,16 +237,8 @@
         <translation>Attiva player video nativo</translation>
     </message>
     <message>
-        <source>will open Facebook and Youtube videos in his native videoplayer. If disabled, they will be opened in the external browser.</source>
-        <translation>apre i video di Facebook e YouTube all&apos;interno dell&apos;app. Se deselezionato, i video verranno aperti nel browser esterno.</translation>
-    </message>
-    <message>
         <source>Enable nightmode</source>
         <translation>Attiva modalità notte</translation>
-    </message>
-    <message>
-        <source>will use dark colors to reduce eye strain while browsing Facebook in the dark.</source>
-        <translation>utilizza colori scuri per ridurre l&apos;affaticamento della vista mentre si usa Facebook al buio.</translation>
     </message>
     <message>
         <source>Back button in</source>
@@ -323,6 +311,30 @@
     <message>
         <source>Menu bar</source>
         <translation>Barra dei menu</translation>
+    </message>
+    <message>
+        <source>Feed priority</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Most recent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Top stories</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 will use dark colors to reduce eye strain while browsing Facebook in the dark.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 will open Facebook and Youtube videos in his native videoplayer. If disabled, they will be opened in the external browser.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 will send you notifications when you have a new message, a new notification or a friend request.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

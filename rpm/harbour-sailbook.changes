@@ -8,6 +8,11 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Mon Aug 28 2017 Dylan Van Assche <dylan.van.assche@protonmail.com> 9.1-0
+- [MINOR BUGFIX] Lock pulley menu when loading
+- [IMPROVEMENT] Translations formatting improved in SettingsPage.qml
+- [NEW] Sort your timeline by Most Recent or by Top Stories
+
 * Mon Aug 14 2017 Rudi Timmermans <rudi.timmer@gmx.us> 9.0.rc2
 - [FIX] Popup unsupported browser
 - [COMPILED] With the lasted SDK 1707

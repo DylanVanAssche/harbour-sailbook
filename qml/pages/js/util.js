@@ -61,3 +61,12 @@ function formatNotificationNumber(number) {
         return app.notifications[number];
     }
 }
+
+function getFeedPriority(index) {
+    switch(index) {
+    case 0:
+        return "h_chr";
+    case 1:
+        return "h_nor";
+    }
+}
