@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="fi">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="fi" version="2.1">
 <context>
     <name>AboutPage</name>
     <message>
@@ -314,27 +312,27 @@
     </message>
     <message>
         <source>Feed priority</source>
-        <translation type="unfinished"></translation>
+        <translation>Syötteen prioriteetti</translation>
     </message>
     <message>
         <source>Most recent</source>
-        <translation type="unfinished"></translation>
+        <translation>Viimeisimmät</translation>
     </message>
     <message>
         <source>Top stories</source>
-        <translation type="unfinished"></translation>
+        <translation>Parhaat tarinat</translation>
     </message>
     <message>
         <source>%1 will use dark colors to reduce eye strain while browsing Facebook in the dark.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 käyttää tummia värejä vähentääkseen silmien rasitusta kun käytät Facebookkia pimeässä.</translation>
     </message>
     <message>
         <source>%1 will open Facebook and Youtube videos in his native videoplayer. If disabled, they will be opened in the external browser.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 avaa Facebook ja Youtube videot omassa videosoittimessaan. Jos tämä on disabloitu, avataan ne ulkoisessa selaimessa.</translation>
     </message>
     <message>
         <source>%1 will send you notifications when you have a new message, a new notification or a friend request.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 lähettää ilmoituksia kun saat uuden viestin, uuden ilmoituksen tai kaveripyynnön.</translation>
     </message>
 </context>
 <context>
