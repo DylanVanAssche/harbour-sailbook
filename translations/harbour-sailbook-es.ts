@@ -314,27 +314,27 @@
     </message>
     <message>
         <source>Feed priority</source>
-        <translation type="unfinished"></translation>
+        <translation>Prioridad de alimentación</translation>
     </message>
     <message>
         <source>Most recent</source>
-        <translation type="unfinished"></translation>
+        <translation>Más reciente</translation>
     </message>
     <message>
         <source>Top stories</source>
-        <translation type="unfinished"></translation>
+        <translation>Historias superiores</translation>
     </message>
     <message>
         <source>%1 will use dark colors to reduce eye strain while browsing Facebook in the dark.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 usará colores oscuros para reducir la fatiga ocular mientras navega en facebook en la oscuridad.</translation>
     </message>
     <message>
         <source>%1 will open Facebook and Youtube videos in his native videoplayer. If disabled, they will be opened in the external browser.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 abrirá los videos de facebook y youtube en el reprodutor de video nativo. Si está deshabilitado, se abrirán en el navegador externo.</translation>
     </message>
     <message>
         <source>%1 will send you notifications when you have a new message, a new notification or a friend request.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 notificará sobre un nuevo mensaje, una nueva notificación o una solicitud de amistad.</translation>
     </message>
 </context>
 <context>
