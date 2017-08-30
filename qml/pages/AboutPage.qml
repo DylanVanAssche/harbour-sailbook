@@ -60,6 +60,14 @@ Page {
 
             IconTextButton {
                 anchors.horizontalCenter: parent.horizontalCenter
+                text: qsTr("Matthias Weiß")
+                iconSource: "../resources/images/image-matthias.jpg"
+                onClicked: { Qt.openUrlExternally("https://github.com/codeandcreate");
+                }
+            }
+
+            IconTextButton {
+                anchors.horizontalCenter: parent.horizontalCenter
                 text: qsTr("Donate with Paypal")
                 iconSource: "../resources/images/icon-paypal.png"
                 onClicked: { Qt.openUrlExternally("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6Z4P9MAAD996W");
