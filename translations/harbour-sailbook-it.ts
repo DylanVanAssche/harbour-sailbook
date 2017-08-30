@@ -67,6 +67,10 @@
         <source>Donate with Paypal</source>
         <translation>Dona con PayPal</translation>
     </message>
+    <message>
+        <source>Matthias Weiß</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>CoverPage</name>

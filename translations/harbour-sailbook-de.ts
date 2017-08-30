@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="de" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="de">
 <context>
     <name>AboutPage</name>
     <message>
@@ -64,6 +66,10 @@
     <message>
         <source>Donate with Paypal</source>
         <translation>Mit PayPal spenden</translation>
+    </message>
+    <message>
+        <source>Matthias Weiß</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
