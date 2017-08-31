@@ -156,13 +156,6 @@
     </message>
 </context>
 <context>
-    <name>LoadscreenWebview</name>
-    <message>
-        <source>Loading</source>
-        <translation>Cargando</translation>
-    </message>
-</context>
-<context>
     <name>SettingsPage</name>
     <message>
         <source>Settings</source>

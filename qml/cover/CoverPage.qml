@@ -3,34 +3,58 @@ import Sailfish.Silica 1.0
 import "../pages/js/util.js" as Util
 
 CoverBackground {
+
+    // App Icon
+    Image
+    {
+        id: imgcover
+        source: "../resources/images/icon-cover.svg"
+        asynchronous: true
+        opacity: 0.2
+        width: parent.width * 0.9
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.bottom: parent.bottom
+        anchors.bottomMargin: parent.bottomMargin
+        fillMode: Image.PreserveAspectFit
+    }
+
     Column {
         anchors { fill: parent; margins: Theme.horizontalPageMargin }
-        spacing: Theme.paddingLarge
+        spacing: Theme.paddingMedium
 
         // Messages
         Item {
             width: parent.width
-            height: parent.height/3
+            height: numberOfMessages.contentHeight
+
             Label {
                 id: numberOfMessages
-                height: parent.height
                 anchors { left: parent.left; top: parent.top; }
-                font.pixelSize: Theme.fontSizeLarge
-                font.bold: true
-                color: Theme.highlightColor
+                font.pixelSize: Theme.fontSizeHuge
+                font.family: Theme.fontFamilyHeading
                 text: Util.formatNotificationNumber(2)
             }
 
             Label {
-                anchors { left: numberOfMessages.right; top: parent.top; leftMargin: Theme.paddingMedium; }
                 wrapMode: Text.WordWrap
                 text: qsTr("unread") + "\n" + qsTr("message(s)")
-            }
+                font.pixelSize: Theme.fontSizeExtraSmall
+                font.family: Theme.fontFamilyHeading
+                font.weight: Font.Light
+                lineHeight: 0.8
+                truncationMode: TruncationMode.Fade
+
+                anchors {
+                    left: numberOfMessages.right
+                    leftMargin: Theme.paddingMedium
+                    verticalCenter: numberOfMessages.verticalCenter
+                }
+           }
         }
 
         // Friend requests and notifications
         Row {
-            spacing: Theme.paddingLarge
+            spacing: Theme.paddingMedium
             anchors { left: parent.left; right: parent.right }
 
             // Notifications
@@ -38,11 +62,13 @@ CoverBackground {
                 width: Theme.iconSizeSmall
                 height: width
                 source: "../resources/images/icon-notifications.svg"
+                anchors {
+                    verticalCenter: numberOfNotifications.verticalCenter
+                }
             }
 
             Label {
-                font.bold: true
-                color: Theme.highlightColor
+                id: numberOfNotifications
                 text: Util.formatNotificationNumber(3)
             }
 
@@ -51,32 +77,15 @@ CoverBackground {
                 width: Theme.iconSizeSmall*1.1
                 height: width
                 source: "../resources/images/icon-requests.svg"
+                anchors {
+                    verticalCenter: numberOfFriendRequests.verticalCenter
+                }
             }
 
             Label {
-                font.bold: true
-                color: Theme.highlightColor
+                id: numberOfFriendRequests
                 text: Util.formatNotificationNumber(1)
-            }
-        }
-
-        // App name + icon
-        Row {
-            spacing: Theme.paddingMedium
-            anchors { left: parent.left; right: parent.right }
-
-            Image {
-                source: "../resources/images/icon-sailbook.svg"
-                width: Theme.iconSizeMedium*1.1
-                height: width
-                asynchronous: true
-            }
-
-            Label {
-                anchors { verticalCenter: parent.verticalCenter; }
-                text: "Sailbook"
             }
         }
     }
 }
-

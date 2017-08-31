@@ -47,7 +47,7 @@ ApplicationWindow
     property bool connected: true // Improve startup speed
     property variant notifications: [0,0,0,0,0,0,0,0,0]
     property string appName: "Sailbook"
-    property string version: "9.2"
+    property string version: "9.3"
     property string userAgentName
     property string userAgent
 
@@ -69,7 +69,7 @@ ApplicationWindow
         property bool showLogout: false
         property bool enableVideoPlayer: true
         property bool enableNightmode: false
-        property int priorityFeed: 0
+        property int priorityFeed: 1
         property int placeBack: 0
         property int intervalNotifications: 1
         property int theme: 0
