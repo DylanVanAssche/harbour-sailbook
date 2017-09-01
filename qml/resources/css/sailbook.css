@@ -5,6 +5,10 @@
     visibility: hidden;
 }
 
+._400s {
+    display: none !important;
+}
+
 [data-reactid='.0.1'] {
     min-width: 100%;
 }
