@@ -8,6 +8,9 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Fri Sep 1 2017 Matthias Weiß <info@codeandcreate.de> 9.3
+- [IMPROVEMENT] Fix for comments / hide of view switcher
+
 * Thu Aug 31 2017 Rudi Timmermans <rudi.timmer@gmx.us> 9.3
 - [IMPROVEMENT] Sailbook loading screen
 
