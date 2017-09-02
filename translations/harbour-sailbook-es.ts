@@ -1,396 +1,495 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="es">
+<TS version="2.1">
 <context>
     <name>AboutPage</name>
     <message>
+        <location filename="../qml/pages/AboutPage.qml" line="17"/>
         <source>About</source>
-        <translation>Acerca de</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../qml/pages/AboutPage.qml" line="19"/>
         <source>What&apos;s</source>
-        <translation>Que es</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../qml/pages/AboutPage.qml" line="20"/>
         <source>Sailbook is an unofficial Facebook client for Sailfish OS.</source>
-        <translation>Sailbook es un cliente no oficial de facebook para el sistema operativo Sailfish OS.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../qml/pages/AboutPage.qml" line="22"/>
         <source>Privacy &amp; licensing</source>
-        <translation>Privacidad &amp; licencia</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Developers</source>
-        <translation>Desarrolladores</translation>
-    </message>
-    <message>
-        <source>Version</source>
-        <translation>Versión</translation>
-    </message>
-    <message>
-        <source>Icons</source>
-        <translation>Iconos</translation>
-    </message>
-    <message>
-        <source>Translators</source>
-        <translation>Traductores</translation>
-    </message>
-    <message>
-        <source>Sailbook icons made by Alain Molteni.</source>
-        <translation>Iconos de Sailbook hechos por Alain Molteni.</translation>
-    </message>
-    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="23"/>
         <source>is free software released under the GNU General Public License (GPL), version 3 or later.</source>
-        <translation>es un programa libre publicado bajo la GNU General Public License (GPL), versión 3 o posterior.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Translations</source>
-        <translation>Traducciones</translation>
-    </message>
-    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="27"/>
         <source>GitHub</source>
-        <translation>GitHub</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../qml/pages/AboutPage.qml" line="37"/>
         <source>Telegram Sailbook Group</source>
-        <translation>Grupo telegram de sailbook</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../qml/pages/AboutPage.qml" line="43"/>
+        <source>Developers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="47"/>
         <source>Rudi Timmermans</source>
-        <translation>Rudi Timmermans</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../qml/pages/AboutPage.qml" line="55"/>
         <source>Dylan Van Assche</source>
-        <translation>Dylan Van Assche</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Donate with Paypal</source>
-        <translation>Donar con paypal</translation>
-    </message>
-    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="63"/>
         <source>Matthias Weiß</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="71"/>
+        <source>Donate with Paypal</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="77"/>
+        <source>Translators</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="81"/>
+        <source>Translations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="86"/>
+        <source>Icons</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="87"/>
+        <source>Sailbook icons made by Alain Molteni.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="89"/>
+        <source>Version</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>CoverPage</name>
     <message>
+        <location filename="../qml/cover/CoverPage.qml" line="45"/>
         <source>unread</source>
-        <translation>no leído</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../qml/cover/CoverPage.qml" line="45"/>
         <source>message(s)</source>
-        <translation>mensaje(s)</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>FBWebview</name>
     <message>
-        <source>About</source>
-        <translation>Acerca de</translation>
-    </message>
-    <message>
-        <source>Settings</source>
-        <translation>Ajustes</translation>
-    </message>
-    <message>
-        <source>Back</source>
-        <translation>Regresar</translation>
-    </message>
-    <message>
+        <location filename="../qml/pages/FBWebview.qml" line="83"/>
         <source>Facebook logout</source>
-        <translation>Cerrar sesión</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/FBWebview.qml" line="90"/>
+        <source>About</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/FBWebview.qml" line="96"/>
+        <source>Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/FBWebview.qml" line="110"/>
+        <source>Back</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>ImagePage</name>
     <message>
-        <source>Image</source>
-        <translation>Imagen</translation>
+        <location filename="../qml/pages/ImagePage.qml" line="14"/>
+        <source>Save</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Save</source>
-        <translation>Guardar</translation>
+        <location filename="../qml/pages/ImagePage.qml" line="21"/>
+        <source>Image</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>ImageSelectorPage</name>
     <message>
+        <location filename="../qml/pages/ImageSelectorPage.qml" line="8"/>
         <source>Upload image</source>
-        <translation>Cargar imagen</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>InputPage</name>
     <message>
-        <source>Name</source>
-        <translation>Nombre</translation>
-    </message>
-    <message>
-        <source>The right extension is automatically added.</source>
-        <translation>La extensión correcta está auto agregada</translation>
-    </message>
-    <message>
-        <source>Saving image OK!</source>
-        <translation>Guardando imagen!</translation>
-    </message>
-    <message>
-        <source>Saving image failed!</source>
-        <translation>Error al guardar imagen!</translation>
-    </message>
-    <message>
-        <source>Download complete!</source>
-        <translation>Descarga completa!</translation>
-    </message>
-    <message>
-        <source>Download failed!</source>
-        <translation>Error de descarga!</translation>
-    </message>
-    <message>
+        <location filename="../qml/pages/InputPage.qml" line="12"/>
         <source>File name</source>
-        <translation>Nombre de archivo</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../qml/pages/InputPage.qml" line="17"/>
         <source>Name of the file</source>
-        <translation>Nombre del archivo</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/InputPage.qml" line="18"/>
+        <source>Name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/InputPage.qml" line="22"/>
+        <source>The right extension is automatically added.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/InputPage.qml" line="30"/>
+        <source>Saving image OK!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/InputPage.qml" line="33"/>
+        <source>Saving image failed!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/InputPage.qml" line="41"/>
+        <source>Download complete!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/InputPage.qml" line="44"/>
+        <source>Download failed!</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>SettingsPage</name>
     <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="40"/>
         <source>Settings</source>
-        <translation>Ajustes</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Theme</source>
-        <translation>Tema</translation>
-    </message>
-    <message>
-        <source>Notifications</source>
-        <translation>Notificaciones</translation>
-    </message>
-    <message>
-        <source>Opening external link in</source>
-        <translation>Abriendo enlace externo en:</translation>
-    </message>
-    <message>
-        <source>external browser</source>
-        <translation>navegador externo</translation>
-    </message>
-    <message>
-        <source>Video quality</source>
-        <translation>Calidad de video</translation>
-    </message>
-    <message>
-        <source>360p (SD)</source>
-        <translation>360p (SD)</translation>
-    </message>
-    <message>
-        <source>720p (HD)</source>
-        <translation>720p (HD)</translation>
-    </message>
-    <message>
-        <source>Enable notifications</source>
-        <translation>Notificaciones</translation>
-    </message>
-    <message>
-        <source>Notifications interval</source>
-        <translation>Intervalo de notificaciones</translation>
-    </message>
-    <message>
-        <source>Quick</source>
-        <translation>Rápido</translation>
-    </message>
-    <message>
-        <source>Normal</source>
-        <translation>Normal</translation>
-    </message>
-    <message>
-        <source>Long</source>
-        <translation>Largo</translation>
-    </message>
-    <message>
-        <source>Increasing the notifications interval may increase your CPU and battery usage but you will receive notifications quicker.</source>
-        <translation>Aumentando el intervalo de notificaciones puede aumentar el uso de CPU y batería, pero recibirás notificaciones más rápido.</translation>
-    </message>
-    <message>
-        <source>Very long</source>
-        <translation>Muy largo</translation>
-    </message>
-    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="42"/>
         <source>Appearance</source>
-        <translation>Apariencia</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>External links</source>
-        <translation>Enlaces externos</translation>
+        <location filename="../qml/pages/SettingsPage.qml" line="46"/>
+        <source>Theme</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Video player</source>
-        <translation>Reproductor de video</translation>
-    </message>
-    <message>
-        <source>Enable native videoplayer</source>
-        <translation>Reproductor de video nativo</translation>
-    </message>
-    <message>
-        <source>Enable nightmode</source>
-        <translation>Modo de noche</translation>
-    </message>
-    <message>
-        <source>Back button in</source>
-        <translation>Botón de: regresar, en:</translation>
-    </message>
-    <message>
-        <source>Show Facebook feed button</source>
-        <translation>Botón de: alimentar</translation>
-    </message>
-    <message>
-        <source>Show Facebook friends button</source>
-        <translation>Botón de: amigos</translation>
-    </message>
-    <message>
-        <source>Show Facebook messages button</source>
-        <translation>Botón de: mensajes</translation>
-    </message>
-    <message>
-        <source>Show Facebook notifications button</source>
-        <translation>Botón de: notificaciones</translation>
-    </message>
-    <message>
-        <source>Show Facebook search button</source>
-        <translation>Botón de: buscar</translation>
-    </message>
-    <message>
-        <source>Show Facebook events button</source>
-        <translation>Botón de: eventos</translation>
-    </message>
-    <message>
-        <source>Show Facebook groups button</source>
-        <translation>Botón de: grupos</translation>
-    </message>
-    <message>
-        <source>Show Facebook settings button</source>
-        <translation>Botón de: ajustes</translation>
-    </message>
-    <message>
-        <source>When disabled, the notifications for friend requests aren&apos;t shown as well.</source>
-        <translation>Cuando esta deshabilitado, las notificaciones de solicitudes de amigos no se  mostrarán bien.</translation>
-    </message>
-    <message>
-        <source>When disabled, the notifications for new messages aren&apos;t shown as well.</source>
-        <translation>Cuando esta deshabilitado, las notificaciones de nuevos mensajes no se  mostrarán bien.</translation>
-    </message>
-    <message>
-        <source>When disabled, the notifications for events, ... aren&apos;t shown as well.</source>
-        <translation>Cuando esta deshabilitado, las notificaciones de eventos no se  mostrarán bien.</translation>
-    </message>
-    <message>
-        <source>Show Facebook liked pages button</source>
-        <translation>Botón de: páginas gustadas</translation>
-    </message>
-    <message>
-        <source>Show Facebook logout pulldown menu</source>
-        <translation>Botón de: cierre de sesión </translation>
-    </message>
-    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="49"/>
         <source>Ambience</source>
-        <translation>ambiente</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="50"/>
         <source>Facebook</source>
-        <translation>facebook</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Pulldown menu</source>
-        <translation>deslizar hacia abajo para el menú</translation>
+        <location filename="../qml/pages/SettingsPage.qml" line="51"/>
+        <source>Facebook nightmode</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Menu bar</source>
-        <translation>barra de menú</translation>
+        <location filename="../qml/pages/SettingsPage.qml" line="57"/>
+        <source>Enable nightmode</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Feed priority</source>
-        <translation>Prioridad de alimentación</translation>
-    </message>
-    <message>
-        <source>Most recent</source>
-        <translation>Más reciente</translation>
-    </message>
-    <message>
-        <source>Top stories</source>
-        <translation>Historias superiores</translation>
-    </message>
-    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="59"/>
         <source>%1 will use dark colors to reduce eye strain while browsing Facebook in the dark.</source>
-        <translation>%1 usará colores oscuros para reducir la fatiga ocular mientras navega en facebook en la oscuridad.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="64"/>
+        <source>Back button in</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="67"/>
+        <source>Pulldown menu</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="68"/>
+        <source>Menu bar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="74"/>
+        <source>Feed priority</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="77"/>
+        <source>Most recent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="78"/>
+        <source>Top stories</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="84"/>
+        <source>Show Facebook feed button</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="90"/>
+        <source>Show Facebook friends button</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="92"/>
+        <source>When disabled, the notifications for friend requests aren&apos;t shown as well.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="97"/>
+        <source>Show Facebook messages button</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="99"/>
+        <source>When disabled, the notifications for new messages aren&apos;t shown as well.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="104"/>
+        <source>Show Facebook notifications button</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="106"/>
+        <source>When disabled, the notifications for events, ... aren&apos;t shown as well.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="111"/>
+        <source>Show Facebook search button</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="117"/>
+        <source>Show Facebook events button</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="123"/>
+        <source>Show Facebook groups button</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="129"/>
+        <source>Show Facebook liked pages button</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="135"/>
+        <source>Show Facebook settings button</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="141"/>
+        <source>Show Facebook logout pulldown menu</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="145"/>
+        <source>External links</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="149"/>
+        <source>Opening external link in</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="153"/>
+        <source>external browser</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="157"/>
+        <source>Video player</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="161"/>
+        <source>Enable native videoplayer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="164"/>
         <source>%1 will open Facebook and Youtube videos in his native videoplayer. If disabled, they will be opened in the external browser.</source>
-        <translation>%1 abrirá los videos de facebook y youtube en el reprodutor de video nativo. Si está deshabilitado, se abrirán en el navegador externo.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="169"/>
+        <source>Video quality</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="172"/>
+        <source>360p (SD)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="173"/>
+        <source>720p (HD)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="177"/>
+        <source>Notifications</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="181"/>
+        <source>Enable notifications</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="185"/>
         <source>%1 will send you notifications when you have a new message, a new notification or a friend request.</source>
-        <translation>%1 notificará sobre un nuevo mensaje, una nueva notificación o una solicitud de amistad.</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="190"/>
+        <source>Notifications interval</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="194"/>
+        <source>Quick</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="195"/>
+        <source>Normal</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="196"/>
+        <source>Long</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="197"/>
+        <source>Very long</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="201"/>
+        <source>Increasing the notifications interval may increase your CPU and battery usage but you will receive notifications quicker.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>SplashScreen</name>
     <message>
+        <location filename="../qml/pages/SplashScreen.qml" line="10"/>
         <source>Connecting...</source>
-        <translation>Conectando...</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>TranslationsPage</name>
     <message>
+        <location filename="../qml/pages/TranslationsPage.qml" line="16"/>
         <source>Translation Platform</source>
-        <translation>Plataforma de traducción</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../qml/pages/TranslationsPage.qml" line="26"/>
         <source>Translators</source>
-        <translation>Traductores</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>VideoPage</name>
     <message>
+        <location filename="../qml/pages/VideoPage.qml" line="37"/>
         <source>Videoplayer</source>
-        <translation>Reproductor de video</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../qml/pages/VideoPage.qml" line="105"/>
         <source>Unable to play this video</source>
-        <translation>Incapaz de reproducir este video</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../qml/pages/VideoPage.qml" line="106"/>
         <source>Use the pulley menu to open it in the browser.</source>
-        <translation>Utilizar el menú deslizable para abrirlo en el navegador.</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>messages</name>
     <message>
+        <location filename="../qml/pages/js/messages.js" line="9"/>
         <source>Opening external link</source>
-        <translation>Abriendo enlace externo</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>notify</name>
     <message>
-        <source>You have</source>
-        <translation>Usted tiene</translation>
-    </message>
-    <message>
-        <source>message(s)</source>
-        <translation>mensaje(s)</translation>
-    </message>
-    <message>
+        <location filename="../qml/pages/js/notify.js" line="9"/>
+        <location filename="../qml/pages/js/notify.js" line="10"/>
         <source>friend request(s)</source>
-        <translation>solicitud de amigo(s)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../qml/pages/js/notify.js" line="10"/>
+        <location filename="../qml/pages/js/notify.js" line="29"/>
+        <location filename="../qml/pages/js/notify.js" line="47"/>
+        <source>You have</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/js/notify.js" line="28"/>
+        <location filename="../qml/pages/js/notify.js" line="29"/>
+        <source>message(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/js/notify.js" line="46"/>
+        <location filename="../qml/pages/js/notify.js" line="47"/>
         <source>notification(s)</source>
-        <translation>notificación(s)</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

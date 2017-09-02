@@ -86,6 +86,10 @@
 <context>
     <name>FBWebview</name>
     <message>
+        <source>Facebook logout</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>About</source>
         <translation type="unfinished"></translation>
     </message>
@@ -95,10 +99,6 @@
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Facebook logout</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -299,6 +299,10 @@
     </message>
     <message>
         <source>Facebook</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Facebook nightmode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

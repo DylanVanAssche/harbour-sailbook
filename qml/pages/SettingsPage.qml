@@ -48,6 +48,7 @@ Dialog {
                 menu: ContextMenu {
                     MenuItem { text: qsTr("Ambience") }
                     MenuItem { text: qsTr("Facebook") }
+                    MenuItem { text: qsTr("Facebook nightmode") }
                 }
             }
 

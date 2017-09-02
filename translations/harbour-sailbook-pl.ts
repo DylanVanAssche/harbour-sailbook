@@ -86,20 +86,20 @@
 <context>
     <name>FBWebview</name>
     <message>
+        <source>Facebook logout</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>About</source>
-        <translation>O</translation>
+        <translation type="unfinished">O Sailbook</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation>Ustawienia</translation>
+        <translation type="unfinished">Ustawienia</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Wstecz</translation>
-    </message>
-    <message>
-        <source>Facebook logout</source>
-        <translation>Wyloguj z Facebook&apos;a</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -332,6 +332,10 @@
     <message>
         <source>%1 will send you notifications when you have a new message, a new notification or a friend request.</source>
         <translation>%1 będzie wysyłał powiadomienia kiedy dostaniesz nową wiadomość, nowe powiadomienie lub zaproszenie do znajomych.</translation>
+    </message>
+    <message>
+        <source>Facebook nightmode</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

@@ -74,22 +74,9 @@ function findFacebookVideo(touchEvent) {
     return video.src;
 }
 
-// Enable/disable night mode
-function toggleNightMode() {
-    var page = document.getElementById("page");
-    var img = document.getElementsByClassName("img");
-    if(nightModeState) {
-        page.style.WebkitFilter = "invert(100%)";
-        for (var i=Object.keys(img).length-1; i >= 0; i--) {
-            img[i].style.WebkitFilter = "invert(100%)";
-        }
-    }
-}
-
 // Execute on load
 screenAdaption();
 updateHTML();
-toggleNightMode();
 document.addEventListener('click', function(element) { // Trigger on link click
     var externalUrl = findHyperlink(element.target);
     if(externalUrl.match("lm.facebook.com")) { // Valid external link detection
@@ -102,18 +89,12 @@ document.addEventListener("touchend",  function(touchEvent) { // Trigger on vide
         send(msgCode["VIDEO"], videoUrl);
     }
 }, true); // useCapture=true: trigger on touch begin
-document.addEventListener("scroll",  function(scrollEvent) { // Trigger on scroll
-    toggleNightMode();
-});
+
 navigator.qt.onmessage = function(msg) { // Receive data from QML
     msg = JSON.parse(msg.data);
     switch(msg.type) {
     case 0: // Notification interval settings
         updateInterval = msg.data * 3333 + 1000; // Formula: 1000 + currentIndex * 3333
-        break;
-    case 1: // Nightmode
-        nightModeState = msg.data;
-        toggleNightMode(); // Change immediately
         break;
     }
 }

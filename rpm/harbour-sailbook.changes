@@ -8,6 +8,9 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Sat Sep 2 2017 Matthias Weiß <info@codeandcreate.de> 9.4
+- [IMPROVEMENT] Nightmode
+
 * Fri Sep 1 2017 Matthias Weiß <info@codeandcreate.de> 9.3
 - [IMPROVEMENT] Fix for comments / hide of view switcher
 

@@ -86,20 +86,20 @@
 <context>
     <name>FBWebview</name>
     <message>
+        <source>Facebook logout</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>About</source>
-        <translation>Info</translation>
+        <translation type="unfinished">Info</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation>Impostazioni</translation>
+        <translation type="unfinished">Impostazioni</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Indietro</translation>
-    </message>
-    <message>
-        <source>Facebook logout</source>
-        <translation>Logout</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -300,6 +300,10 @@
     <message>
         <source>Facebook</source>
         <translation>Facebook</translation>
+    </message>
+    <message>
+        <source>Facebook nightmode</source>
+        <translation>Facebook nightmode</translation>
     </message>
     <message>
         <source>Pulldown menu</source>

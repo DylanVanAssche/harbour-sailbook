@@ -1,5 +1,3 @@
-/*Sailbook Facebook mobile CSS*/
-
 ._s15 {
     display: none;
     visibility: hidden;
@@ -27,3 +25,6 @@
     display: none;
 }
 
+.mFuturePageHeader + div {
+	padding-top: 50px;
+}
