@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="pl">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="pl" version="2.1">
 <context>
     <name>AboutPage</name>
     <message>
@@ -69,7 +67,7 @@
     </message>
     <message>
         <source>Matthias Weiß</source>
-        <translation type="unfinished"></translation>
+        <translation>Matthias Weiß</translation>
     </message>
 </context>
 <context>
@@ -87,19 +85,19 @@
     <name>FBWebview</name>
     <message>
         <source>Facebook logout</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyloguj z Facebook&apos;a</translation>
     </message>
     <message>
         <source>About</source>
-        <translation type="unfinished">O Sailbook</translation>
+        <translation>O</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation type="unfinished">Ustawienia</translation>
+        <translation>Ustawienia</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation>Wstecz</translation>
     </message>
 </context>
 <context>
@@ -302,6 +300,10 @@
         <translation>Facebook</translation>
     </message>
     <message>
+        <source>Facebook nightmode</source>
+        <translation>Tryb nocny w Facebooku</translation>
+    </message>
+    <message>
         <source>Pulldown menu</source>
         <translation>Menu rozwijalne</translation>
     </message>
@@ -332,10 +334,6 @@
     <message>
         <source>%1 will send you notifications when you have a new message, a new notification or a friend request.</source>
         <translation>%1 będzie wysyłał powiadomienia kiedy dostaniesz nową wiadomość, nowe powiadomienie lub zaproszenie do znajomych.</translation>
-    </message>
-    <message>
-        <source>Facebook nightmode</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

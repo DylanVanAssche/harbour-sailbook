@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="de">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="de" version="2.1">
 <context>
     <name>AboutPage</name>
     <message>
@@ -69,7 +67,7 @@
     </message>
     <message>
         <source>Matthias Weiß</source>
-        <translation type="unfinished"></translation>
+        <translation>Matthias Weiß</translation>
     </message>
 </context>
 <context>
@@ -87,19 +85,19 @@
     <name>FBWebview</name>
     <message>
         <source>Facebook logout</source>
-        <translation type="unfinished"></translation>
+        <translation>Bei Facebook abmelden</translation>
     </message>
     <message>
         <source>About</source>
-        <translation type="unfinished">Über</translation>
+        <translation>Über</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation type="unfinished">Einstellungen</translation>
+        <translation>Einstellungen</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation>Zurück</translation>
     </message>
 </context>
 <context>
