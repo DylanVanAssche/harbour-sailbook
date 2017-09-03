@@ -1,0 +1,44 @@
+[
+    {
+        "coordinators": [
+            "Sailbook"
+        ], 
+        "language_code": "fi", 
+        "translators": [
+            "mikkokok"
+        ], 
+        "reviewers": []
+    }, 
+    {
+        "coordinators": [], 
+        "language_code": "fr", 
+        "translators": [
+            "jimmyhuguet"
+        ], 
+        "reviewers": []
+    }, 
+    {
+        "coordinators": [], 
+        "language_code": "de", 
+        "translators": [
+            "mweiss"
+        ], 
+        "reviewers": []
+    }, 
+    {
+        "coordinators": [], 
+        "language_code": "it", 
+        "translators": [
+            "ghostofasmile"
+        ], 
+        "reviewers": []
+    }, 
+    {
+        "coordinators": [], 
+        "language_code": "pl", 
+        "translators": [
+            "atlochowski"
+        ], 
+        "reviewers": []
+    }
+]
