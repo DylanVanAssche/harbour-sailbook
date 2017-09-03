@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="es" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="es">
 <context>
     <name>AboutPage</name>
     <message>
@@ -301,7 +303,7 @@
     </message>
     <message>
         <source>Facebook nightmode</source>
-        <translation type="unfinished"/>
+        <translation>Facebook modo de noche</translation>
     </message>
     <message>
         <source>Pulldown menu</source>

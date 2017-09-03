@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="fr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="fr" version="2.1">
 <context>
     <name>AboutPage</name>
     <message>
@@ -69,7 +67,7 @@
     </message>
     <message>
         <source>Matthias Weiß</source>
-        <translation type="unfinished"></translation>
+        <translation>Matthias Weiß</translation>
     </message>
 </context>
 <context>
@@ -87,19 +85,19 @@
     <name>FBWebview</name>
     <message>
         <source>Facebook logout</source>
-        <translation type="unfinished"></translation>
+        <translation>Déconnexion de Facebook</translation>
     </message>
     <message>
         <source>About</source>
-        <translation type="unfinished">À propos</translation>
+        <translation>À propos</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation type="unfinished">Paramètres</translation>
+        <translation>Paramètres</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation>Retour</translation>
     </message>
 </context>
 <context>
@@ -303,7 +301,7 @@
     </message>
     <message>
         <source>Facebook nightmode</source>
-        <translation>Facebook nightmode</translation>
+        <translation>Facebook mode nuit</translation>
     </message>
     <message>
         <source>Pulldown menu</source>
