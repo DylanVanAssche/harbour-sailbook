@@ -194,30 +194,6 @@
         <translation>Attiva notifiche</translation>
     </message>
     <message>
-        <source>Notifications interval</source>
-        <translation>Intervallo notifiche</translation>
-    </message>
-    <message>
-        <source>Quick</source>
-        <translation>Breve</translation>
-    </message>
-    <message>
-        <source>Normal</source>
-        <translation>Medio</translation>
-    </message>
-    <message>
-        <source>Long</source>
-        <translation>Lungo</translation>
-    </message>
-    <message>
-        <source>Increasing the notifications interval may increase your CPU and battery usage but you will receive notifications quicker.</source>
-        <translation>Un intervallo più breve potrebbe aumentare il consumo di CPU e batteria, ma riceverai le notifiche più velocemente.</translation>
-    </message>
-    <message>
-        <source>Very long</source>
-        <translation>Molto lungo</translation>
-    </message>
-    <message>
         <source>Appearance</source>
         <translation>Aspetto</translation>
     </message>

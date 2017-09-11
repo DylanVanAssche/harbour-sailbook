@@ -27,13 +27,6 @@ function screenAdaption() {
     document.head.appendChild(meta);
 }
 
-// Update HTML for Python
-function updateHTML() {
-    send(msgCode["HTML"], document.documentElement.innerHTML);
-}
-
 // Execute
 screenAdaption()
-setInterval(updateHTML, 1000);
-
 

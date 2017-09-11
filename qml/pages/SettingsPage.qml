@@ -18,7 +18,6 @@ Dialog {
         settings.showSettings = showSettings.checked
         settings.showLogout = showLogout.checked
         settings.placeBack = placeBack.currentIndex
-        settings.intervalNotifications = notificationsInterval.currentIndex
         settings.theme = theme.currentIndex
         settings.enableNightmode = enableNightmode.checked
         settings.externalLink = externalLink.currentIndex
@@ -184,21 +183,6 @@ Dialog {
                 checked: settings.enableNotifications
                 description: qsTr("%1 will send you notifications when you have a new message, a new notification or a friend request.").arg("Sailbook")
             }
-
-            ComboBox {
-                id: notificationsInterval
-                label: qsTr("Notifications interval")
-                currentIndex: settings.intervalNotifications
-                enabled: notifications.checked
-                menu: ContextMenu {
-                    MenuItem { text: qsTr("Quick") }
-                    MenuItem { text: qsTr("Normal") }
-                    MenuItem { text: qsTr("Long") }
-                    MenuItem { text: qsTr("Very long") }
-                }
-            }
-
-            TextLabel { labelText: qsTr("Increasing the notifications interval may increase your CPU and battery usage but you will receive notifications quicker."); labelFontSize: Theme.fontSizeSmall }
         }
     }
 }

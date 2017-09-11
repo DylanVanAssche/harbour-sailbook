@@ -194,30 +194,6 @@
         <translation>Ota käyttöön ilmoitukset</translation>
     </message>
     <message>
-        <source>Notifications interval</source>
-        <translation>Ilmoitusten aikaväli</translation>
-    </message>
-    <message>
-        <source>Quick</source>
-        <translation>Nopea</translation>
-    </message>
-    <message>
-        <source>Normal</source>
-        <translation>Normaali</translation>
-    </message>
-    <message>
-        <source>Long</source>
-        <translation>Pitkä</translation>
-    </message>
-    <message>
-        <source>Increasing the notifications interval may increase your CPU and battery usage but you will receive notifications quicker.</source>
-        <translation>Suorittimen ja akun käyttö voi kasvaa jos laitat ilmoitusten aikavälin nopeammalle mutta saat myös ilmoitukset nopeammin.</translation>
-    </message>
-    <message>
-        <source>Very long</source>
-        <translation>Hyvin pitkä</translation>
-    </message>
-    <message>
         <source>Appearance</source>
         <translation>Ulkoasu</translation>
     </message>
