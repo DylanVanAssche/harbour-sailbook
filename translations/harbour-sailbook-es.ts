@@ -194,30 +194,6 @@
         <translation>Notificaciones</translation>
     </message>
     <message>
-        <source>Notifications interval</source>
-        <translation>Intervalo de notificaciones</translation>
-    </message>
-    <message>
-        <source>Quick</source>
-        <translation>Rápido</translation>
-    </message>
-    <message>
-        <source>Normal</source>
-        <translation>Normal</translation>
-    </message>
-    <message>
-        <source>Long</source>
-        <translation>Largo</translation>
-    </message>
-    <message>
-        <source>Increasing the notifications interval may increase your CPU and battery usage but you will receive notifications quicker.</source>
-        <translation>Aumentando el intervalo de notificaciones puede aumentar el uso de CPU y batería, pero recibirás notificaciones más rápido.</translation>
-    </message>
-    <message>
-        <source>Very long</source>
-        <translation>Muy largo</translation>
-    </message>
-    <message>
         <source>Appearance</source>
         <translation>Apariencia</translation>
     </message>
@@ -376,6 +352,22 @@
     <message>
         <source>Opening external link</source>
         <translation>Abriendo enlace externo</translation>
+    </message>
+    <message>
+        <source>friend request(s)</source>
+        <translation type="unfinished">solicitud de amigo(s)</translation>
+    </message>
+    <message>
+        <source>You have</source>
+        <translation type="unfinished">Usted tiene</translation>
+    </message>
+    <message>
+        <source>message(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>notification(s)</source>
+        <translation type="unfinished">notificación(s)</translation>
     </message>
 </context>
 <context>

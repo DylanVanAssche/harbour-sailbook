@@ -47,6 +47,15 @@ Item {
         experimental.preferences.javascriptEnabled: true
         experimental.preferences.navigatorQtObjectEnabled: true
         experimental.preferences.developerExtrasEnabled: true
+
+        property variant devicePixelRatio: {//1.5
+            if (Screen.width <= 540) return 1.5;
+            else if (Screen.width > 540 && Screen.width <= 768) return 2.0;
+            else if (Screen.width > 768) return 3.0;
+        }
+        experimental.customLayoutWidth: page.width / devicePixelRatio
+        experimental.overview: true
+
         experimental.userAgent: "Mozilla/5.0 (PlayStation 4 4.71) AppleWebKit/601.2 (KHTML, like Gecko)"
         experimental.userStyleSheets: {
           Qt.resolvedUrl(Util.getThemeFileName(settings.enableNightmode))

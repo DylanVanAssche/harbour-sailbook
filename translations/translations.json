@@ -3,6 +3,16 @@
         "coordinators": [
             "Sailbook"
         ], 
+        "language_code": "nl", 
+        "translators": [
+            "modulebaan"
+        ], 
+        "reviewers": []
+    }, 
+    {
+        "coordinators": [
+            "Sailbook"
+        ], 
         "language_code": "fi", 
         "translators": [
             "mikkokok"

@@ -194,30 +194,6 @@
         <translation>Benachrichtigungen aktivieren</translation>
     </message>
     <message>
-        <source>Notifications interval</source>
-        <translation>Benachrichtigungsintervall</translation>
-    </message>
-    <message>
-        <source>Quick</source>
-        <translation>Kurz</translation>
-    </message>
-    <message>
-        <source>Normal</source>
-        <translation>Normal</translation>
-    </message>
-    <message>
-        <source>Long</source>
-        <translation>Lang</translation>
-    </message>
-    <message>
-        <source>Increasing the notifications interval may increase your CPU and battery usage but you will receive notifications quicker.</source>
-        <translation>Das Erhöhen des Benachrichtigungsintervalls kann CPU- und Batterieverbrauch erhöhen, Benachrichtigungen werden aber schneller empfangen.</translation>
-    </message>
-    <message>
-        <source>Very long</source>
-        <translation>Sehr lang</translation>
-    </message>
-    <message>
         <source>Appearance</source>
         <translation>Erscheinungsbild</translation>
     </message>
@@ -376,6 +352,22 @@
     <message>
         <source>Opening external link</source>
         <translation>Externen Link öffnen</translation>
+    </message>
+    <message>
+        <source>friend request(s)</source>
+        <translation>Freundschaftsanfrage(n)</translation>
+    </message>
+    <message>
+        <source>You have</source>
+        <translation>Du hast</translation>
+    </message>
+    <message>
+        <source>message(s)</source>
+        <translation>Nachricht(en)</translation>
+    </message>
+    <message>
+        <source>notification(s)</source>
+        <translation>Benachrichtigung(en)</translation>
     </message>
 </context>
 <context>

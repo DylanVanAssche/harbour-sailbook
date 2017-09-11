@@ -31,7 +31,7 @@ Item {
         id: notify
         category: "x-nemo.social.facebook.notification"
         appName: "Sailbook"
-        appIcon: "/usr/share/harbour-sailbook/qml/resources/images/icon-sailbook.svg"
+        appIcon: "/usr/share/harbour-sailbook/qml/resources/images/icon-cover.svg"
         itemCount: count
         timestamp: new Date("yyyy-MM-dd hh:mm:ss")
         replacesId: 0

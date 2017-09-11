@@ -19,14 +19,6 @@ Rectangle {
     }
 
     Image {
-        anchors { fill: parent }
-        source: "../resources/images/image-loadscreen.jpg"
-        fillMode: Image.PreserveAspectCrop
-        opacity: 0.25
-        asynchronous: true
-    }
-
-    Image {
         id: icon
         anchors { centerIn: parent }
         source: iconSource

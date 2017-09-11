@@ -37,7 +37,7 @@ CoverBackground {
                 anchors { left: parent.left; top: parent.top; }
                 font.pixelSize: Theme.fontSizeHuge
                 font.family: Theme.fontFamilyHeading
-                text: Util.formatNotificationNumber(2)
+                text: app.notifications[2]
             }
 
             Label {
@@ -74,7 +74,7 @@ CoverBackground {
 
             Label {
                 id: numberOfNotifications
-                text: Util.formatNotificationNumber(3)
+                text: app.notifications[3]
             }
 
             // Friend requests
@@ -89,7 +89,7 @@ CoverBackground {
 
             Label {
                 id: numberOfFriendRequests
-                text: Util.formatNotificationNumber(1)
+                text: app.notifications[1]
             }
         }
     }

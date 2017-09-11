@@ -61,15 +61,6 @@ function handleImagePicker(filePicker) {
     })
 }
 
-function formatNotificationNumber(number) {
-    if(app.notifications[number].length > 3) { // Undefined string fix
-        return 0;
-    }
-    else {
-        return app.notifications[number];
-    }
-}
-
 function getFeedPriority(index) {
     switch(index) {
     case 0:
