@@ -13,7 +13,7 @@ Name:       harbour-sailbook
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    Sailbook
-Version:    9.4
+Version:    9.5
 Release:    0
 Group:      Qt/Qt
 License:    LICENSE
