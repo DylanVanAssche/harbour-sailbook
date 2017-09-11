@@ -194,30 +194,6 @@
         <translation>Schakel notificaties in</translation>
     </message>
     <message>
-        <source>Notifications interval</source>
-        <translation>Notificatie interval</translation>
-    </message>
-    <message>
-        <source>Quick</source>
-        <translation>Snel</translation>
-    </message>
-    <message>
-        <source>Normal</source>
-        <translation>Normaal</translation>
-    </message>
-    <message>
-        <source>Long</source>
-        <translation>Lang</translation>
-    </message>
-    <message>
-        <source>Increasing the notifications interval may increase your CPU and battery usage but you will receive notifications quicker.</source>
-        <translation>Het verhogen van het notificatie interval kan het CPU en batterij gebruik verhogen, maar je zal sneller notificaties ontvangen.</translation>
-    </message>
-    <message>
-        <source>Very long</source>
-        <translation>Extra lang</translation>
-    </message>
-    <message>
         <source>Appearance</source>
         <translation>Uitzicht</translation>
     </message>

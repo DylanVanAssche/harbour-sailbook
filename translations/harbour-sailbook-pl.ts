@@ -194,30 +194,6 @@
         <translation>Włącz powiadomienia</translation>
     </message>
     <message>
-        <source>Notifications interval</source>
-        <translation>Interwał wiadomości</translation>
-    </message>
-    <message>
-        <source>Quick</source>
-        <translation>Szybki</translation>
-    </message>
-    <message>
-        <source>Normal</source>
-        <translation>Normalny</translation>
-    </message>
-    <message>
-        <source>Long</source>
-        <translation>Długi</translation>
-    </message>
-    <message>
-        <source>Increasing the notifications interval may increase your CPU and battery usage but you will receive notifications quicker.</source>
-        <translation>Zwiększenie interwału powiadomień może zwiększyć użycie CPU i baterii, ale będziesz dostawał powiadomienia szybciej. </translation>
-    </message>
-    <message>
-        <source>Very long</source>
-        <translation>Bargo długi</translation>
-    </message>
-    <message>
         <source>Appearance</source>
         <translation>Wygląd</translation>
     </message>
