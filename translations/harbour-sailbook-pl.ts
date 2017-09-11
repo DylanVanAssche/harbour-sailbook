@@ -355,6 +355,7 @@
     </message>
     <message>
         <source>friend request(s)</source>
+<<<<<<< HEAD
         <translation>prośba przyjaciela (y)</translation>
     </message>
     <message>
@@ -368,6 +369,21 @@
     <message>
         <source>notification(s)</source>
         <translation>powiadomienia</translation>
+=======
+        <translation type="unfinished">zaproszenie(a) do znajomych</translation>
+    </message>
+    <message>
+        <source>You have</source>
+        <translation type="unfinished">Masz</translation>
+    </message>
+    <message>
+        <source>message(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>notification(s)</source>
+        <translation type="unfinished">powiadomienie(a)</translation>
+>>>>>>> master
     </message>
 </context>
 <context>
