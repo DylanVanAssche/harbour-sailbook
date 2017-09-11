@@ -377,6 +377,22 @@
         <source>Opening external link</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>friend request(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You have</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>message(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>notification(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>notify</name>

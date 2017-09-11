@@ -107,15 +107,6 @@ ApplicationWindow
                 }
             })
 
-            //Receive our parsed notifications
-            setHandler("notifications", function (notificationsList) {
-                notifications = notificationsList
-                Notify.requests(notificationsList[1])
-                Notify.messages(notificationsList[2])
-                Notify.notifications(notificationsList[3])
-                console.log(notificationsList)
-            });
-
             setHandler("network", function (status, type) {
                 console.log("[INFO] Network status: " + status)
                 connected = status
