@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="nl">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="nl" version="2.1">
 <context>
     <name>AboutPage</name>
     <message>
@@ -355,7 +353,6 @@
     </message>
     <message>
         <source>friend request(s)</source>
-<<<<<<< HEAD
         <translation>vriendschapsverzoek(en)</translation>
     </message>
     <message>
@@ -369,21 +366,6 @@
     <message>
         <source>notification(s)</source>
         <translation>notificatie(s)</translation>
-=======
-        <translation type="unfinished">vriendschapsverzoek(en)</translation>
-    </message>
-    <message>
-        <source>You have</source>
-        <translation type="unfinished">Jij hebt</translation>
-    </message>
-    <message>
-        <source>message(s)</source>
-        <translation type="unfinished">bericht(en)</translation>
-    </message>
-    <message>
-        <source>notification(s)</source>
-        <translation type="unfinished">melding(en)</translation>
->>>>>>> master
     </message>
 </context>
 <context>

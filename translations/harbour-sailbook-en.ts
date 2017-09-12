@@ -1,25 +1,25 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="fr" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="en" version="2.1">
 <context>
     <name>AboutPage</name>
     <message>
         <source>About</source>
-        <translation>À propos</translation>
+        <translation>About</translation>
     </message>
     <message>
         <source>What&apos;s</source>
-        <translation>Qu&apos;est ce</translation>
+        <translation>What&apos;s</translation>
     </message>
     <message>
         <source>Sailbook is an unofficial Facebook client for Sailfish OS.</source>
-        <translation>Sailbook est un client non-officiel de Facebook pour Sailfish OS</translation>
+        <translation>Sailbook is an unofficial Facebook client for Sailfish OS.</translation>
     </message>
     <message>
         <source>Privacy &amp; licensing</source>
-        <translation>Termes de confidentialités &amp; license</translation>
+        <translation>Privacy &amp; licensing</translation>
     </message>
     <message>
         <source>Developers</source>
-        <translation>Developeurs</translation>
+        <translation>Developers</translation>
     </message>
     <message>
         <source>Version</source>
@@ -27,23 +27,23 @@
     </message>
     <message>
         <source>Icons</source>
-        <translation>Icônes</translation>
+        <translation>Icons</translation>
     </message>
     <message>
         <source>Translators</source>
-        <translation>Traducteurs</translation>
+        <translation>Translators</translation>
     </message>
     <message>
         <source>Sailbook icons made by Alain Molteni.</source>
-        <translation>Les icônes de Sailbook ont été créées par Alain Molteni.</translation>
+        <translation>Sailbook icons made by Alain Molteni.</translation>
     </message>
     <message>
         <source>is free software released under the GNU General Public License (GPL), version 3 or later.</source>
-        <translation>est un logiciel gratuit publié sous GNU General Public License (GPL), version 3 ou ultérieure.</translation>
+        <translation>is free software released under the GNU General Public License (GPL), version 3 or later.</translation>
     </message>
     <message>
         <source>Translations</source>
-        <translation>Traductions</translation>
+        <translation>Translations</translation>
     </message>
     <message>
         <source>GitHub</source>
@@ -51,7 +51,7 @@
     </message>
     <message>
         <source>Telegram Sailbook Group</source>
-        <translation>Groupe Telegram dedié a Sailbook</translation>
+        <translation>Telegram Sailbook Group</translation>
     </message>
     <message>
         <source>Rudi Timmermans</source>
@@ -63,7 +63,7 @@
     </message>
     <message>
         <source>Donate with Paypal</source>
-        <translation>Faire un don par Paypal</translation>
+        <translation>Donate with Paypal</translation>
     </message>
     <message>
         <source>Matthias Weiß</source>
@@ -74,7 +74,7 @@
     <name>CoverPage</name>
     <message>
         <source>unread</source>
-        <translation>non-lu</translation>
+        <translation>unread</translation>
     </message>
     <message>
         <source>message(s)</source>
@@ -85,19 +85,19 @@
     <name>FBWebview</name>
     <message>
         <source>Facebook logout</source>
-        <translation>Déconnexion de Facebook</translation>
+        <translation>Facebook logout</translation>
     </message>
     <message>
         <source>About</source>
-        <translation>À propos</translation>
+        <translation>About</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation>Paramètres</translation>
+        <translation>Settings</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Retour</translation>
+        <translation>Back</translation>
     </message>
 </context>
 <context>
@@ -108,60 +108,60 @@
     </message>
     <message>
         <source>Save</source>
-        <translation>Enregistrer</translation>
+        <translation>Save</translation>
     </message>
 </context>
 <context>
     <name>ImageSelectorPage</name>
     <message>
         <source>Upload image</source>
-        <translation>Téléverser une image</translation>
+        <translation>Upload image</translation>
     </message>
 </context>
 <context>
     <name>InputPage</name>
     <message>
         <source>Name</source>
-        <translation>Nom</translation>
+        <translation>Name</translation>
     </message>
     <message>
         <source>The right extension is automatically added.</source>
-        <translation>La bonne extension est ajoutée automatiquement.</translation>
+        <translation>The right extension is automatically added.</translation>
     </message>
     <message>
         <source>Saving image OK!</source>
-        <translation>Image enregistrée !</translation>
+        <translation>Saving image OK!</translation>
     </message>
     <message>
         <source>Saving image failed!</source>
-        <translation>Échec de l&apos;enregistrement de l&apos;image !</translation>
+        <translation>Saving image failed!</translation>
     </message>
     <message>
         <source>Download complete!</source>
-        <translation>Téléchargement terminé !</translation>
+        <translation>Download complete!</translation>
     </message>
     <message>
         <source>Download failed!</source>
-        <translation>Échec du téléchargement !</translation>
+        <translation>Download failed!</translation>
     </message>
     <message>
         <source>File name</source>
-        <translation>Nom de fichier</translation>
+        <translation>File name</translation>
     </message>
     <message>
         <source>Name of the file</source>
-        <translation>Le nom du fichier</translation>
+        <translation>Name of the file</translation>
     </message>
 </context>
 <context>
     <name>SettingsPage</name>
     <message>
         <source>Settings</source>
-        <translation>Paramètres</translation>
+        <translation>Settings</translation>
     </message>
     <message>
         <source>Theme</source>
-        <translation>Thème</translation>
+        <translation>Theme</translation>
     </message>
     <message>
         <source>Notifications</source>
@@ -169,15 +169,15 @@
     </message>
     <message>
         <source>Opening external link in</source>
-        <translation>Ouverture des liens externes dans</translation>
+        <translation>Opening external link in</translation>
     </message>
     <message>
         <source>external browser</source>
-        <translation>navigateur externe</translation>
+        <translation>external browser</translation>
     </message>
     <message>
         <source>Video quality</source>
-        <translation>Qualité de la video</translation>
+        <translation>Video quality</translation>
     </message>
     <message>
         <source>360p (SD)</source>
@@ -189,87 +189,87 @@
     </message>
     <message>
         <source>Enable notifications</source>
-        <translation>Activer les notifications</translation>
+        <translation>Enable notifications</translation>
     </message>
     <message>
         <source>Appearance</source>
-        <translation>Apparance</translation>
+        <translation>Appearance</translation>
     </message>
     <message>
         <source>External links</source>
-        <translation>Liens externes</translation>
+        <translation>External links</translation>
     </message>
     <message>
         <source>Video player</source>
-        <translation>Lecteur video</translation>
+        <translation>Video player</translation>
     </message>
     <message>
         <source>Enable native videoplayer</source>
-        <translation>Activer le lecteur video intégré</translation>
+        <translation>Enable native videoplayer</translation>
     </message>
     <message>
         <source>Enable nightmode</source>
-        <translation>Activer le mode nuit</translation>
+        <translation>Enable nightmode</translation>
     </message>
     <message>
         <source>Back button in</source>
-        <translation>Bouton de retour dans</translation>
+        <translation>Back button in</translation>
     </message>
     <message>
         <source>Show Facebook feed button</source>
-        <translation>Afficher le bouton des actualités Facebook</translation>
+        <translation>Show Facebook feed button</translation>
     </message>
     <message>
         <source>Show Facebook friends button</source>
-        <translation>Afficher le bouton des Ami(e)s Facebook</translation>
+        <translation>Show Facebook friends button</translation>
     </message>
     <message>
         <source>Show Facebook messages button</source>
-        <translation>Afficher le bouton des messages Facebook</translation>
+        <translation>Show Facebook messages button</translation>
     </message>
     <message>
         <source>Show Facebook notifications button</source>
-        <translation>Afficher le bouton des notifications Facebook</translation>
+        <translation>Show Facebook notifications button</translation>
     </message>
     <message>
         <source>Show Facebook search button</source>
-        <translation>Afficher le bouton de recherche Facebook</translation>
+        <translation>Show Facebook search button</translation>
     </message>
     <message>
         <source>Show Facebook events button</source>
-        <translation>Afficher le bouton des événements Facebook</translation>
+        <translation>Show Facebook events button</translation>
     </message>
     <message>
         <source>Show Facebook groups button</source>
-        <translation>Afficher le bouton des groupes Facebook</translation>
+        <translation>Show Facebook groups button</translation>
     </message>
     <message>
         <source>Show Facebook settings button</source>
-        <translation>Afficher le bouton des paramètres Facebook</translation>
+        <translation>Show Facebook settings button</translation>
     </message>
     <message>
         <source>When disabled, the notifications for friend requests aren&apos;t shown as well.</source>
-        <translation>Quand désactivé, les notifications de demande d&apos;ami(e)s ne seront pas affichées non plus.</translation>
+        <translation>When disabled, the notifications for friend requests aren&apos;t shown as well.</translation>
     </message>
     <message>
         <source>When disabled, the notifications for new messages aren&apos;t shown as well.</source>
-        <translation>Quand désactivé, les notifications de nouveaux messages ne seront pas affichées non plus.</translation>
+        <translation>When disabled, the notifications for new messages aren&apos;t shown as well.</translation>
     </message>
     <message>
         <source>When disabled, the notifications for events, ... aren&apos;t shown as well.</source>
-        <translation>Quand désactivé, les notifications des événements ne seront pas affichées non plus.</translation>
+        <translation>When disabled, the notifications for events, ... aren&apos;t shown as well.</translation>
     </message>
     <message>
         <source>Show Facebook liked pages button</source>
-        <translation>Afficher le bouton des pages Facebook aimé</translation>
+        <translation>Show Facebook liked pages button</translation>
     </message>
     <message>
         <source>Show Facebook logout pulldown menu</source>
-        <translation>Afficher le menu déroulant Facebook Logout</translation>
+        <translation>Show Facebook logout pulldown menu</translation>
     </message>
     <message>
         <source>Ambience</source>
-        <translation>Ambiance</translation>
+        <translation>Ambience</translation>
     </message>
     <message>
         <source>Facebook</source>
@@ -277,87 +277,87 @@
     </message>
     <message>
         <source>Facebook nightmode</source>
-        <translation>Facebook mode nuit</translation>
+        <translation>Facebook nightmode</translation>
     </message>
     <message>
         <source>Pulldown menu</source>
-        <translation>Menu déroulant</translation>
+        <translation>Pulldown menu</translation>
     </message>
     <message>
         <source>Menu bar</source>
-        <translation>Barre de menu</translation>
+        <translation>Menu bar</translation>
     </message>
     <message>
         <source>Feed priority</source>
-        <translation>Priorité d&apos;affichage</translation>
+        <translation>Feed priority</translation>
     </message>
     <message>
         <source>Most recent</source>
-        <translation>Du plus récent</translation>
+        <translation>Most recent</translation>
     </message>
     <message>
         <source>Top stories</source>
-        <translation>Meilleures histoires</translation>
+        <translation>Top stories</translation>
     </message>
     <message>
         <source>%1 will use dark colors to reduce eye strain while browsing Facebook in the dark.</source>
-        <translation>%1 utilisera des couleurs sombres pour réduire la fatigue oculaire pendant que vous parcourez facebook dans le noir.</translation>
+        <translation>%1 will use dark colors to reduce eye strain while browsing Facebook in the dark.</translation>
     </message>
     <message>
         <source>%1 will open Facebook and Youtube videos in his native videoplayer. If disabled, they will be opened in the external browser.</source>
-        <translation>%1 ouvrira les videos Facebook et Youtube dans son propre lecteur. Si l&apos;option est désactivé, elle seront ouverte dans le navigateur internet.</translation>
+        <translation>%1 will open Facebook and Youtube videos in his native videoplayer. If disabled, they will be opened in the external browser.</translation>
     </message>
     <message>
         <source>%1 will send you notifications when you have a new message, a new notification or a friend request.</source>
-        <translation>%1 vous enverra des notifications lorsque vous recevez un nouveau message, une notification, ou une nouvelle demande d&apos;ami.</translation>
+        <translation>%1 will send you notifications when you have a new message, a new notification or a friend request.</translation>
     </message>
 </context>
 <context>
     <name>SplashScreen</name>
     <message>
         <source>Connecting...</source>
-        <translation>Connexion...</translation>
+        <translation>Connecting...</translation>
     </message>
 </context>
 <context>
     <name>TranslationsPage</name>
     <message>
         <source>Translation Platform</source>
-        <translation>Plateforme de traduction</translation>
+        <translation>Translation Platform</translation>
     </message>
     <message>
         <source>Translators</source>
-        <translation>Traducteurs</translation>
+        <translation>Translators</translation>
     </message>
 </context>
 <context>
     <name>VideoPage</name>
     <message>
         <source>Videoplayer</source>
-        <translation>Lecteur video</translation>
+        <translation>Videoplayer</translation>
     </message>
     <message>
         <source>Unable to play this video</source>
-        <translation>Impossible de lire cette video</translation>
+        <translation>Unable to play this video</translation>
     </message>
     <message>
         <source>Use the pulley menu to open it in the browser.</source>
-        <translation>Utiliser le menu déroulant pour l&apos;ouvrir dans le navigateur.</translation>
+        <translation>Use the pulley menu to open it in the browser.</translation>
     </message>
 </context>
 <context>
     <name>messages</name>
     <message>
         <source>Opening external link</source>
-        <translation>Ouverture du lien externe</translation>
+        <translation>Opening external link</translation>
     </message>
     <message>
         <source>friend request(s)</source>
-        <translation>demande(s) d&apos;ami</translation>
+        <translation>friend request(s)</translation>
     </message>
     <message>
         <source>You have</source>
-        <translation>Vous avez</translation>
+        <translation>You have</translation>
     </message>
     <message>
         <source>message(s)</source>
@@ -372,7 +372,7 @@
     <name>notify</name>
     <message>
         <source>You have</source>
-        <translation>Vous avez</translation>
+        <translation>You have</translation>
     </message>
     <message>
         <source>message(s)</source>
@@ -380,11 +380,11 @@
     </message>
     <message>
         <source>friend request(s)</source>
-        <translation>Demande d&apos;ami(s)</translation>
+        <translation>friend request(s)</translation>
     </message>
     <message>
         <source>notification(s)</source>
-        <translation>Notification(s)</translation>
+        <translation>notification(s)</translation>
     </message>
 </context>
 </TS>

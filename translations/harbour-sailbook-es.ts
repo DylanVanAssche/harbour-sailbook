@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="es">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="es" version="2.1">
 <context>
     <name>AboutPage</name>
     <message>
@@ -355,19 +353,19 @@
     </message>
     <message>
         <source>friend request(s)</source>
-        <translation type="unfinished">solicitud de amigo(s)</translation>
+        <translation>peticiones de amistad</translation>
     </message>
     <message>
         <source>You have</source>
-        <translation type="unfinished">Usted tiene</translation>
+        <translation>Tienes</translation>
     </message>
     <message>
         <source>message(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>mensaje (s)</translation>
     </message>
     <message>
         <source>notification(s)</source>
-        <translation type="unfinished">notificación(s)</translation>
+        <translation>notificación (es)</translation>
     </message>
 </context>
 <context>

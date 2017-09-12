@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="de">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="de" version="2.1">
 <context>
     <name>AboutPage</name>
     <message>
@@ -355,7 +353,6 @@
     </message>
     <message>
         <source>friend request(s)</source>
-<<<<<<< HEAD
         <translation>Freundschaftsanfrage(n)</translation>
     </message>
     <message>
@@ -369,21 +366,6 @@
     <message>
         <source>notification(s)</source>
         <translation>Benachrichtigung(en)</translation>
-=======
-        <translation type="unfinished">Freundschaftsanfrage(n)</translation>
-    </message>
-    <message>
-        <source>You have</source>
-        <translation type="unfinished">Du hast</translation>
-    </message>
-    <message>
-        <source>message(s)</source>
-        <translation type="unfinished">Nachricht(en)</translation>
-    </message>
-    <message>
-        <source>notification(s)</source>
-        <translation type="unfinished">Benachrichtigung(en)</translation>
->>>>>>> master
     </message>
 </context>
 <context>
