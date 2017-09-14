@@ -1,6 +1,7 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
 import QtWebKit 3.0
+import Harbour.Sailbook.SFOS 1.0
 import "./js/util.js" as Util
 import "./js/messages.js" as Messages
 import "./js/media.js" as Media
@@ -39,7 +40,9 @@ Item {
         webview.reload()
     }
 
-    RemorsePopup { id: remorse }
+    SFOS {
+        id: sfos
+    }
 
     SilicaWebView {
         id: webview
@@ -53,7 +56,7 @@ Item {
             else if (Screen.width > 540 && Screen.width <= 768) return 2.0;
             else if (Screen.width > 768) return 3.0;
         }
-        experimental.customLayoutWidth: page.width / devicePixelRatio
+        experimental.customLayoutWidth: parent.width / devicePixelRatio
         experimental.overview: true
 
         experimental.userAgent: "Mozilla/5.0 (PlayStation 4 4.71) AppleWebKit/601.2 (KHTML, like Gecko)"
@@ -63,21 +66,12 @@ Item {
         experimental.userScripts: Qt.resolvedUrl("../resources/js/sailbook.js")
         experimental.onMessageReceived: Messages.parse(message.data)
         experimental.filePicker: ImagePicker { filePicker: model } // Send filepicker model to our ImagePicker
-        onLoadingChanged: {
-            if(loading != _wasLoading) {
-                _wasLoading = loading
-                var payload = new Object;
-                payload.type = 0;
-                payload.data = settings.intervalNotifications;
-                webview.experimental.postMessage(JSON.stringify(payload))
-            }
-        }
-
         onNavigationRequested: Media.detectImage(request) //When link is an image, cancel request and show our image viewer
         clip: true // Enforce painting inside our defined screen
         opacity: loading? 0.0: 1.0
         url: "https://m.facebook.com/home.php?sk=" + Util.getFeedPriority(settings.priorityFeed)
         onUrlChanged: console.log(url)
+        onLoadingChanged: loading? undefined: Messages.publishNotifications();
 
         Behavior on opacity { FadeAnimation {} }
 
@@ -121,7 +115,6 @@ Item {
             }
         }
     }
-
 
     // Loadscreen
     LoadscreenWebview { id: loadScreen }

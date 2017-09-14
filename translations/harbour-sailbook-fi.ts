@@ -354,39 +354,52 @@
         <translation>Avaamalla ulkoisen osoitteen</translation>
     </message>
     <message>
-        <source>friend request(s)</source>
-        <translation type="unfinished">Kaveripyyntö(jä)</translation>
-    </message>
-    <message>
-        <source>You have</source>
-        <translation type="unfinished">Sinulla on</translation>
-    </message>
-    <message>
-        <source>message(s)</source>
+        <source>New friend request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>notification(s)</source>
-        <translation type="unfinished">Ilmoituksia</translation>
-    </message>
-</context>
-<context>
-    <name>notify</name>
-    <message>
-        <source>You have</source>
-        <translation>Sinulla on</translation>
+        <source>New friend requests</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>message(s)</source>
-        <translation>Viestejä</translation>
+        <source>New message</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>friend request(s)</source>
-        <translation>Kaveripyyntö(jä)</translation>
+        <source>New messages</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>notification(s)</source>
-        <translation>Ilmoituksia</translation>
+        <source>New notification</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New notifications</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You have %1 new friend request</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You have %1 friend requests</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You have %1 new message</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You have %1 messages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You have %1 new notification</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You have %1 notifications</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
