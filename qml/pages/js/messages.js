@@ -6,11 +6,14 @@ function parse(msg) {
         requestsData = msg.data.friends;
         messagesData = msg.data.messenger;
         notificationsData = msg.data.notifications;
-        console.debug("Notification event received: requests=%1 messages=%2 notifications=%3".arg(requestsData, messagesData, notificationsData))
+
         if(!webview.loading) { // When loading, FB updates these properties several times, this workaround prevents too many notifications. After loading we call this manually.
             publishNotifications();
         }
         app.notifications = [0, msg.data.friends, msg.data.messenger, msg.data.notifications, msg.data.search, msg.data.options, 0, 0, 0];
+
+        var eventMsg = "Notification event received: requests=" + requestsData + " messages=" + messagesData + " notifications=" + notificationsData;
+        console.debug(eventMsg)
         break;
     case 1:
         toaster.previewBody = qsTr("Opening external link") + "...";
