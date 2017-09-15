@@ -1,5 +1,4 @@
 #include "sailbook.h"
-#include "dbusadaptor.h"
 
 /* Sailbook class:
  *      - Clear cache function
