@@ -25,6 +25,7 @@ Item {
     SilicaWebView {
         id: webview
         anchors { fill: parent }
+        enabled: !loading
         experimental.preferences.javascriptEnabled: true
         experimental.userAgent: "Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_4 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko)"
         experimental.userStyleSheets: [Qt.resolvedUrl("../resources/css/external.css")]

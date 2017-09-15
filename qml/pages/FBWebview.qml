@@ -44,6 +44,7 @@ Item {
     SilicaWebView {
         id: webview
         anchors { fill: parent }
+        enabled: !loading
         experimental.preferences.javascriptEnabled: true
         experimental.preferences.navigatorQtObjectEnabled: true
         experimental.preferences.developerExtrasEnabled: true
