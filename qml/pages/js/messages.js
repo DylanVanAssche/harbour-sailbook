@@ -64,6 +64,7 @@ function _requests() {
     // Notification data is different from the older notification data, create new notification. If 0, reset and close.
     if(requestsData == 0) {
         requestsDataOld = 0;
+        sfos.closeNotificationByCategory("sailbook-request");
     }
     else if(requestsDataOld != requestsData && settings.showFriends && settings.enableNotifications) {
         var title = requestsData==1? qsTr("New friend request"): qsTr("New friend requests");
@@ -77,6 +78,7 @@ function _messages() {
     // Notification data is different from the older notification data, create new notification. If 0, reset and close.
     if(messagesData == 0) {
         messagesDataOld = 0;
+        sfos.closeNotificationByCategory("sailbook-message");
     }
     else if(messagesDataOld != messagesData && settings.showMessages && settings.enableNotifications) {
         var title = messagesData==1? qsTr("New message"): qsTr("New messages");
@@ -90,6 +92,7 @@ function _notifications() {
     // Notification data is different from the older notification data, create new notification. If 0, reset and close.
     if(notificationsData == 0) {
         notificationsDataOld = 0;
+        sfos.closeNotificationByCategory("sailbook-notification");
     }
     else if(notificationsDataOld != notificationsData && settings.showNotifications && settings.enableNotifications) {
         var title = notificationsData==1? qsTr("New notification"): qsTr("New notifications");

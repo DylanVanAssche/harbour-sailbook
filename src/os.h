@@ -29,7 +29,9 @@ class OS: public QObject {
 public:
     explicit OS();
     Q_INVOKABLE void createNotification(QString title, QString text, QString feedback, QString category);
-    Q_INVOKABLE QList<QObject *> getNotifications();
+    Q_INVOKABLE void closeNotificationByCategory(QString category);
+    Q_INVOKABLE void closeNotificationByReplacesId(QString replacesId);
+    Q_INVOKABLE void closeNotificationAll();
     QString release();
     QString version();
     QString device();

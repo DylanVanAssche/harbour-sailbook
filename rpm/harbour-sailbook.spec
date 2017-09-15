@@ -13,8 +13,8 @@ Name:       harbour-sailbook
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    Sailbook
-Version:    9.5
-Release:    1
+Version:    10.0
+Release:    0
 Group:      Qt/Qt
 License:    GPLv3
 URL:        https://gitlab.com/Xray2000/harbour-sailbook
@@ -25,6 +25,7 @@ Requires:   pyotherside-qml-plugin-python3-qt5 >= 1.3
 Requires:   nemo-qml-plugin-configuration-qt5 >= 0.0.1
 Requires:   nemo-qml-plugin-notifications-qt5 >= 0.0.1
 BuildRequires:  pkgconfig(sailfishapp) >= 1.0.2
+BuildRequires:  pkgconfig(nemonotifications-qt5)
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5Qml)
 BuildRequires:  pkgconfig(Qt5Quick)

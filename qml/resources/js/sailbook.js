@@ -96,12 +96,3 @@ document.addEventListener("touchend",  function(touchEvent) { // Trigger on vide
         send(msgCode["VIDEO"], videoUrl);
     }
 }, true); // useCapture=true: trigger on touch begin
-
-navigator.qt.onmessage = function(msg) { // Receive data from QML
-    msg = JSON.parse(msg.data);
-    switch(msg.type) {
-    case 0: // Notification interval settings
-        //updateInterval = msg.data * 3333 + 1000; // Formula: 1000 + currentIndex * 3333
-        break;
-    }
-}

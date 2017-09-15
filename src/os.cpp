@@ -94,6 +94,10 @@ void OS::createNotification(QString title, QString text, QString feedback, QStri
     const QString body = text.length() > MAX_BODY_LENGTH ? text.left(MAX_BODY_LENGTH-3) + "..." : text;
     const QString preview = text.length() > MAX_PREVIEW_LENGTH ? text.left(MAX_PREVIEW_LENGTH-3) + "..." : text;
 
+    // Construct argument list for DBus remoteAction
+    QVariantList arguments;
+    arguments.append(category);
+
     // Build Notification object
     Notification notification;
     notification.setAppName(this->appNamePretty());
@@ -102,17 +106,47 @@ void OS::createNotification(QString title, QString text, QString feedback, QStri
     notification.setPreviewSummary(title);
     notification.setPreviewBody(preview);
     notification.setCategory(category);
+    notification.setRemoteAction(Notification::remoteAction("default", "", this->appName().replace("-","."), "/", this->appName().replace("-","."), "activate", arguments));
     notification.setHintValue("x-nemo-feedback", feedback);
     notification.setHintValue("x-nemo-priority", 120);
     notification.setHintValue("x-nemo-display-on", true);
     notification.publish();
 }
 
-/* Return a QList containing Notification objects with all the previous generated notifications
- * The ownership is transfered to the caller of this function and should destroy the objects when unused to prevent memoryleaks.
- */
-QList<QObject *> OS::getNotifications() {
-    return Notification::notifications();
+/* Close all notifications by a given replacesId */
+void OS::closeNotificationByReplacesId(QString replacesId) {
+    qDebug() << "Searching for notification with replacesId: " << replacesId;
+    foreach (QObject* object, Notification::notifications()) {
+        Notification* n = qobject_cast<Notification*>(object);
+        if (n->category() == replacesId) {
+            n->close();
+            qDebug() << "Closed notification with replacesId: " << n->replacesId();
+        }
+        n->deleteLater();
+    }
+}
+
+/* Close all notifications by a given category */
+void OS::closeNotificationByCategory(QString category) {
+    qDebug() << "Searching for notification with category: " << category;
+    foreach (QObject* object, Notification::notifications()) {
+        Notification* n = qobject_cast<Notification*>(object);
+        if (n->category() == category) {
+            n->close();
+            qDebug() << "Closed notification with category: " << category;
+        }
+        n->deleteLater();
+    }
+}
+
+/* Close all notifications */
+void OS::closeNotificationAll() {
+    qDebug() << "Closing all open notifications";
+    foreach (QObject* object, Notification::notifications()) {
+        Notification* n = qobject_cast<Notification*>(object);
+        n->close();
+        n->deleteLater();
+    }
 }
 
 /* Return the current SFOS release */

@@ -1,8 +1,7 @@
 function detectDownload(request) {
     var facebookLinks = ["https://cdn.fbsbx"];
-    console.log(request.url.toString())
     if(request.url.toString().slice(0,30).match(facebookLinks[0])) {
-        console.log("Download started... " + request.url.toString())
+        console.debug("Download started... " + request.url.toString())
         request.action = WebView.IgnoreRequest;
         pageStack.completeAnimation()
         pageStack.replace(Qt.resolvedUrl("../InputPage.qml"), {path: StandardPaths.download + "/Sailbook", url: request.url.toString(), type: 1})

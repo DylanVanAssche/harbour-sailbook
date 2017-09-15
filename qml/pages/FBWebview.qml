@@ -1,6 +1,7 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
 import QtWebKit 3.0
+import Nemo.DBus 2.0
 import Harbour.Sailbook.SFOS 1.0
 import "./js/util.js" as Util
 import "./js/messages.js" as Messages
@@ -40,6 +41,37 @@ Item {
         webview.reload()
     }
 
+    DBusAdaptor {
+             id: dbus
+             service: sfos.appName.replace("-", ".")
+             iface: sfos.appName.replace("-", ".")
+             path: "/"
+             xml: '  <interface name="' + sfos.appName.replace("-", ".") + '">\n' +
+                  '    <method name="activate" />\n' +
+                  '  </interface>\n'
+
+             function activate(category) {
+                 if(category == "sailbook-request") {
+                     webview.url = "https://m.facebook.com/friends";
+                     app.activate();
+                     console.debug("Notification activation: " + category);
+                 }
+                 else if(category == "sailbook-message") {
+                     webview.url = "https://m.facebook.com/messages";
+                     app.activate();
+                     console.debug("Notification activation: " + category);
+                 }
+                 else if(category == "sailbook-notification") {
+                     webview.url = "https://m.facebook.com/notifications";
+                     app.activate();
+                     console.debug("Notification activation: " + category);
+                 }
+                 else {
+                     console.warn("Notification activation doesn't match with our categories: " + category);
+                 }
+             }
+         }
+
     SFOS {
         id: sfos
     }
@@ -60,9 +92,7 @@ Item {
         experimental.overview: true
 
         experimental.userAgent: "Mozilla/5.0 (PlayStation 4 4.71) AppleWebKit/601.2 (KHTML, like Gecko)"
-        experimental.userStyleSheets: {
-          Qt.resolvedUrl(Util.getThemeFileName(settings.enableNightmode))
-        }
+        experimental.userStyleSheets: Qt.resolvedUrl(Util.getThemeFileName(settings.enableNightmode))
         experimental.userScripts: Qt.resolvedUrl("../resources/js/sailbook.js")
         experimental.onMessageReceived: Messages.parse(message.data)
         experimental.filePicker: ImagePicker { filePicker: model } // Send filepicker model to our ImagePicker
@@ -70,7 +100,6 @@ Item {
         clip: true // Enforce painting inside our defined screen
         opacity: loading? 0.0: 1.0
         url: "https://m.facebook.com/home.php?sk=" + Util.getFeedPriority(settings.priorityFeed)
-        onUrlChanged: console.log(url)
         onLoadingChanged: loading? undefined: Messages.publishNotifications();
 
         Behavior on opacity { FadeAnimation {} }

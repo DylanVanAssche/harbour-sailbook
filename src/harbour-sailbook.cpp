@@ -30,7 +30,10 @@ int main(int argc, char *argv[])
     Sailbook sailbook;
     sailbook.clearCache();
 
-    // Expose OS module to QML
+    // Enable logger
+    enableLogger(true);
+
+    // Expose C++ modules to QML
     qmlRegisterType<OS>("Harbour.Sailbook.SFOS", 1, 0, "SFOS");
 
     // Create view, attach quit() signal and show QML

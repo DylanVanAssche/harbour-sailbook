@@ -1,4 +1,5 @@
 #include "sailbook.h"
+#include "dbusadaptor.h"
 
 /* Sailbook class:
  *      - Clear cache function
@@ -9,6 +10,7 @@ Sailbook::Sailbook() {
 /* Clear the webview cache and return true if succesfull otherwise false. */
 bool Sailbook::clearCache() {
     const QString cachePath = sfos.cacheLocation() + "/harbour-sailbook/.QtWebkit";
+    qDebug() << cachePath;
     QDir webcache(cachePath);
     if (webcache.exists()) {
         if (webcache.removeRecursively()) {
