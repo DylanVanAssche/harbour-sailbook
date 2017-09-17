@@ -1,51 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="it">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="en" version="2.1">
 <context>
     <name>AboutPage</name>
     <message>
         <source>About</source>
-        <translation>Info</translation>
+        <translation>About</translation>
     </message>
     <message>
         <source>What&apos;s</source>
-        <translation>Cosa è</translation>
+        <translation>What&apos;s</translation>
     </message>
     <message>
         <source>Sailbook is an unofficial Facebook client for Sailfish OS.</source>
-        <translation>Sailbook è un client Facebook non ufficiale per Sailfish OS.</translation>
+        <translation>Sailbook is an unofficial Facebook client for Sailfish OS.</translation>
     </message>
     <message>
         <source>Privacy &amp; licensing</source>
-        <translation>Privacy &amp; licenze</translation>
+        <translation>Privacy &amp; licensing</translation>
     </message>
     <message>
         <source>Developers</source>
-        <translation>Sviluppatori</translation>
+        <translation>Developers</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Versione</translation>
+        <translation>Version</translation>
     </message>
     <message>
         <source>Icons</source>
-        <translation>Icone</translation>
+        <translation>Icons</translation>
     </message>
     <message>
         <source>Translators</source>
-        <translation>Traduttori</translation>
+        <translation>Translators</translation>
     </message>
     <message>
         <source>Sailbook icons made by Alain Molteni.</source>
-        <translation>Icone di Sailbook by Alain Molteni.</translation>
+        <translation>Sailbook icons made by Alain Molteni.</translation>
     </message>
     <message>
         <source>is free software released under the GNU General Public License (GPL), version 3 or later.</source>
-        <translation>è software libero rilasciato sotto licenza GNU General Public License (GPL) versione 3 o successiva.</translation>
+        <translation>is free software released under the GNU General Public License (GPL), version 3 or later.</translation>
     </message>
     <message>
         <source>Translations</source>
-        <translation>Traduzioni</translation>
+        <translation>Translations</translation>
     </message>
     <message>
         <source>GitHub</source>
@@ -65,7 +63,7 @@
     </message>
     <message>
         <source>Donate with Paypal</source>
-        <translation>Dona con PayPal</translation>
+        <translation>Donate with Paypal</translation>
     </message>
     <message>
         <source>Matthias Weiß</source>
@@ -76,110 +74,110 @@
     <name>CoverPage</name>
     <message>
         <source>unread</source>
-        <translation>non letti</translation>
+        <translation>unread</translation>
     </message>
     <message>
         <source>message(s)</source>
-        <translation>messaggi</translation>
+        <translation>message(s)</translation>
     </message>
 </context>
 <context>
     <name>FBWebview</name>
     <message>
         <source>Facebook logout</source>
-        <translation>Logout</translation>
+        <translation>Facebook logout</translation>
     </message>
     <message>
         <source>About</source>
-        <translation>Info</translation>
+        <translation>About</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation>Impostazioni</translation>
+        <translation>Settings</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Indietro</translation>
+        <translation>Back</translation>
     </message>
 </context>
 <context>
     <name>ImagePage</name>
     <message>
         <source>Image</source>
-        <translation>Immagine</translation>
+        <translation>Image</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation>Salva</translation>
+        <translation>Save</translation>
     </message>
 </context>
 <context>
     <name>ImageSelectorPage</name>
     <message>
         <source>Upload image</source>
-        <translation>Carica immagine</translation>
+        <translation>Upload image</translation>
     </message>
 </context>
 <context>
     <name>InputPage</name>
     <message>
         <source>Name</source>
-        <translation>Nome</translation>
+        <translation>Name</translation>
     </message>
     <message>
         <source>The right extension is automatically added.</source>
-        <translation>L&apos;estensione sarà aggiunta automaticamente.</translation>
+        <translation>The right extension is automatically added.</translation>
     </message>
     <message>
         <source>Saving image OK!</source>
-        <translation>Immagine salvata!</translation>
+        <translation>Saving image OK!</translation>
     </message>
     <message>
         <source>Saving image failed!</source>
-        <translation>Salvataggio non riuscito!</translation>
+        <translation>Saving image failed!</translation>
     </message>
     <message>
         <source>Download complete!</source>
-        <translation>Download completo!</translation>
+        <translation>Download complete!</translation>
     </message>
     <message>
         <source>Download failed!</source>
-        <translation>Download fallito!</translation>
+        <translation>Download failed!</translation>
     </message>
     <message>
         <source>File name</source>
-        <translation>Nome file</translation>
+        <translation>File name</translation>
     </message>
     <message>
         <source>Name of the file</source>
-        <translation>Nome del file</translation>
+        <translation>Name of the file</translation>
     </message>
 </context>
 <context>
     <name>SettingsPage</name>
     <message>
         <source>Settings</source>
-        <translation>Impostazioni</translation>
+        <translation>Settings</translation>
     </message>
     <message>
         <source>Theme</source>
-        <translation>Tema</translation>
+        <translation>Theme</translation>
     </message>
     <message>
         <source>Notifications</source>
-        <translation>Notifiche</translation>
+        <translation>Notifications</translation>
     </message>
     <message>
         <source>Opening external link in</source>
-        <translation>Apri link esterni in</translation>
+        <translation>Opening external link in</translation>
     </message>
     <message>
         <source>external browser</source>
-        <translation>browser esterno</translation>
+        <translation>external browser</translation>
     </message>
     <message>
         <source>Video quality</source>
-        <translation>Qualità video</translation>
+        <translation>Video quality</translation>
     </message>
     <message>
         <source>360p (SD)</source>
@@ -191,87 +189,87 @@
     </message>
     <message>
         <source>Enable notifications</source>
-        <translation>Attiva notifiche</translation>
+        <translation>Enable notifications</translation>
     </message>
     <message>
         <source>Appearance</source>
-        <translation>Aspetto</translation>
+        <translation>Appearance</translation>
     </message>
     <message>
         <source>External links</source>
-        <translation>Link esterni</translation>
+        <translation>External links</translation>
     </message>
     <message>
         <source>Video player</source>
-        <translation>Player video</translation>
+        <translation>Video player</translation>
     </message>
     <message>
         <source>Enable native videoplayer</source>
-        <translation>Attiva player video nativo</translation>
+        <translation>Enable native videoplayer</translation>
     </message>
     <message>
         <source>Enable nightmode</source>
-        <translation>Attiva modalità notte</translation>
+        <translation>Enable nightmode</translation>
     </message>
     <message>
         <source>Back button in</source>
-        <translation>Pulsante indietro in</translation>
+        <translation>Back button in</translation>
     </message>
     <message>
         <source>Show Facebook feed button</source>
-        <translation>Mostra pulsante feed</translation>
+        <translation>Show Facebook feed button</translation>
     </message>
     <message>
         <source>Show Facebook friends button</source>
-        <translation>Mostra pulsante amici</translation>
+        <translation>Show Facebook friends button</translation>
     </message>
     <message>
         <source>Show Facebook messages button</source>
-        <translation>Mostra pulsante messaggi</translation>
+        <translation>Show Facebook messages button</translation>
     </message>
     <message>
         <source>Show Facebook notifications button</source>
-        <translation>Mostra pulsante notifiche</translation>
+        <translation>Show Facebook notifications button</translation>
     </message>
     <message>
         <source>Show Facebook search button</source>
-        <translation>Mostra pulsante cerca</translation>
+        <translation>Show Facebook search button</translation>
     </message>
     <message>
         <source>Show Facebook events button</source>
-        <translation>Mostra pulsante eventi</translation>
+        <translation>Show Facebook events button</translation>
     </message>
     <message>
         <source>Show Facebook groups button</source>
-        <translation>Mostra pulsante gruppi</translation>
+        <translation>Show Facebook groups button</translation>
     </message>
     <message>
         <source>Show Facebook settings button</source>
-        <translation>Mostra pulsante impostazioni</translation>
+        <translation>Show Facebook settings button</translation>
     </message>
     <message>
         <source>When disabled, the notifications for friend requests aren&apos;t shown as well.</source>
-        <translation>Se disattivato, non verranno mostrate le notifiche per le richieste d&apos;amicizia.</translation>
+        <translation>When disabled, the notifications for friend requests aren&apos;t shown as well.</translation>
     </message>
     <message>
         <source>When disabled, the notifications for new messages aren&apos;t shown as well.</source>
-        <translation>Se disattivato, non verranno mostrate le notifiche per i nuovi messaggi.</translation>
+        <translation>When disabled, the notifications for new messages aren&apos;t shown as well.</translation>
     </message>
     <message>
         <source>When disabled, the notifications for events, ... aren&apos;t shown as well.</source>
-        <translation>Se disattivato, non verranno mostrate le notifiche per gli eventi.</translation>
+        <translation>When disabled, the notifications for events, ... aren&apos;t shown as well.</translation>
     </message>
     <message>
         <source>Show Facebook liked pages button</source>
-        <translation>Mostra pulsante pagine che mi piacciono</translation>
+        <translation>Show Facebook liked pages button</translation>
     </message>
     <message>
         <source>Show Facebook logout pulldown menu</source>
-        <translation>Mostra opzione logout nel pulley menu</translation>
+        <translation>Show Facebook logout pulldown menu</translation>
     </message>
     <message>
         <source>Ambience</source>
-        <translation>Ambiente</translation>
+        <translation>Ambience</translation>
     </message>
     <message>
         <source>Facebook</source>
@@ -279,114 +277,114 @@
     </message>
     <message>
         <source>Facebook nightmode</source>
-        <translation>Modalità notte</translation>
+        <translation>Facebook nightmode</translation>
     </message>
     <message>
         <source>Pulldown menu</source>
-        <translation>Menu a discesa</translation>
+        <translation>Pulldown menu</translation>
     </message>
     <message>
         <source>Menu bar</source>
-        <translation>Barra dei menu</translation>
+        <translation>Menu bar</translation>
     </message>
     <message>
         <source>Feed priority</source>
-        <translation>Priorità di alimentazione</translation>
+        <translation>Feed priority</translation>
     </message>
     <message>
         <source>Most recent</source>
-        <translation>Piu recente</translation>
+        <translation>Most recent</translation>
     </message>
     <message>
         <source>Top stories</source>
-        <translation>Storie principali</translation>
+        <translation>Top stories</translation>
     </message>
     <message>
         <source>%1 will use dark colors to reduce eye strain while browsing Facebook in the dark.</source>
-        <translation>%1 utilizza colori scuri per ridurre l&apos;affaticamento della vista mentre si usa Facebook al buio.</translation>
+        <translation>%1 will use dark colors to reduce eye strain while browsing Facebook in the dark.</translation>
     </message>
     <message>
         <source>%1 will open Facebook and Youtube videos in his native videoplayer. If disabled, they will be opened in the external browser.</source>
-        <translation>%1 apre i video di Facebook e YouTube all&apos;interno dell&apos;app. Se deselezionato, i video verranno aperti nel browser esterno.</translation>
+        <translation>%1 will open Facebook and Youtube videos in his native videoplayer. If disabled, they will be opened in the external browser.</translation>
     </message>
     <message>
         <source>%1 will send you notifications when you have a new message, a new notification or a friend request.</source>
-        <translation>%1 ti segnalerà l&apos;arrivo di un nuovo messaggio, notifica o richiesta di amicizia.</translation>
+        <translation>%1 will send you notifications when you have a new message, a new notification or a friend request.</translation>
     </message>
 </context>
 <context>
     <name>SplashScreen</name>
     <message>
         <source>Connecting...</source>
-        <translation>Connessione...</translation>
+        <translation>Connecting...</translation>
     </message>
 </context>
 <context>
     <name>TranslationsPage</name>
     <message>
         <source>Translation Platform</source>
-        <translation>Piattaforma di traduzione</translation>
+        <translation>Translation Platform</translation>
     </message>
     <message>
         <source>Translators</source>
-        <translation>Traduttori</translation>
+        <translation>Translators</translation>
     </message>
 </context>
 <context>
     <name>VideoPage</name>
     <message>
         <source>Videoplayer</source>
-        <translation>Player</translation>
+        <translation>Videoplayer</translation>
     </message>
     <message>
         <source>Unable to play this video</source>
-        <translation>Impossibile riprodurre il video</translation>
+        <translation>Unable to play this video</translation>
     </message>
     <message>
         <source>Use the pulley menu to open it in the browser.</source>
-        <translation>Usa il pulley menu per aprirlo nel browser.</translation>
+        <translation>Use the pulley menu to open it in the browser.</translation>
     </message>
 </context>
 <context>
     <name>messages</name>
     <message>
         <source>Opening external link</source>
-        <translation>Apertura link esterno</translation>
+        <translation>Opening external link</translation>
     </message>
     <message>
         <source>friend request(s)</source>
-        <translation>richieste di amicizia</translation>
+        <translation>friend request(s)</translation>
     </message>
     <message>
         <source>You have</source>
-        <translation>Hai</translation>
+        <translation>You have</translation>
     </message>
     <message>
         <source>message(s)</source>
-        <translation>messaggi</translation>
+        <translation>message(s)</translation>
     </message>
     <message>
         <source>notification(s)</source>
-        <translation>notifiche</translation>
+        <translation>notification(s)</translation>
     </message>
 </context>
 <context>
     <name>notify</name>
     <message>
         <source>You have</source>
-        <translation>Hai</translation>
+        <translation>You have</translation>
     </message>
     <message>
         <source>message(s)</source>
-        <translation>messaggi</translation>
+        <translation>message(s)</translation>
     </message>
     <message>
         <source>friend request(s)</source>
-        <translation>richieste di amicizia</translation>
+        <translation>friend request(s)</translation>
     </message>
     <message>
         <source>notification(s)</source>
-        <translation>notifiche</translation>
+        <translation>notification(s)</translation>
     </message>
 </context>
 </TS>

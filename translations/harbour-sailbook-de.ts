@@ -355,19 +355,19 @@
     </message>
     <message>
         <source>friend request(s)</source>
-        <translation type="unfinished">Freundschaftsanfrage(n)</translation>
+        <translation>Freundschaftsanfrage(n)</translation>
     </message>
     <message>
         <source>You have</source>
-        <translation type="unfinished">Du hast</translation>
+        <translation>Du hast</translation>
     </message>
     <message>
         <source>message(s)</source>
-        <translation type="unfinished">Nachricht(en)</translation>
+        <translation>Nachricht(en)</translation>
     </message>
     <message>
         <source>notification(s)</source>
-        <translation type="unfinished">Benachrichtigung(en)</translation>
+        <translation>Benachrichtigung(en)</translation>
     </message>
 </context>
 <context>

@@ -355,26 +355,26 @@
     </message>
     <message>
         <source>friend request(s)</source>
-        <translation type="unfinished">vriendschapsverzoek(en)</translation>
+        <translation>vriendschapsverzoek(en)</translation>
     </message>
     <message>
         <source>You have</source>
-        <translation type="unfinished">Jij hebt</translation>
+        <translation>U hebt</translation>
     </message>
     <message>
         <source>message(s)</source>
-        <translation type="unfinished">bericht(en)</translation>
+        <translation>bericht(en)</translation>
     </message>
     <message>
         <source>notification(s)</source>
-        <translation type="unfinished">melding(en)</translation>
+        <translation>notificatie(s)</translation>
     </message>
 </context>
 <context>
     <name>notify</name>
     <message>
         <source>You have</source>
-        <translation>Jij hebt</translation>
+        <translation>U hebt</translation>
     </message>
     <message>
         <source>message(s)</source>
