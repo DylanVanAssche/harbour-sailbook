@@ -1,3 +1,7 @@
+* Mon Sep 11 2017 Dylan Van Assche <dylan.van.assche@protonmail.com> 9.5-1
+- [MINOR BUGFIX] External links webview won't crash anymore with new splashscreen
+- [IMPROVEMENT] Notification backend now uses events
+
 * Thu Aug 29 2017 Matthias Weiß <info@codeandcreate.de> 9.2
 - [OPTIMAZE] Cover
 - [IMPROVEMENT] Facebook CSS
