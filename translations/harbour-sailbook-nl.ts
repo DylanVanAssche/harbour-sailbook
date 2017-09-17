@@ -372,7 +372,7 @@
     <name>notify</name>
     <message>
         <source>You have</source>
-        <translation>Jij hebt</translation>
+        <translation>U hebt</translation>
     </message>
     <message>
         <source>message(s)</source>
