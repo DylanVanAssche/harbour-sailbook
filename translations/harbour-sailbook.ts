@@ -354,38 +354,51 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>friend request(s)</source>
+        <source>New friend request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>You have</source>
+        <source>New friend requests</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>message(s)</source>
+        <source>New message</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>notification(s)</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>notify</name>
-    <message>
-        <source>You have</source>
+        <source>New messages</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>message(s)</source>
+        <source>New notification</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>friend request(s)</source>
+        <source>New notifications</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>notification(s)</source>
+        <source>You have %1 new friend request</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You have %1 friend requests</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You have %1 new message</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You have %1 messages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You have %1 new notification</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You have %1 notifications</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

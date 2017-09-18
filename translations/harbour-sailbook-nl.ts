@@ -354,39 +354,52 @@
         <translation>Open external link</translation>
     </message>
     <message>
-        <source>friend request(s)</source>
-        <translation>vriendschapsverzoek(en)</translation>
+        <source>New friend request</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>You have</source>
-        <translation>U hebt</translation>
+        <source>New friend requests</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>message(s)</source>
-        <translation>bericht(en)</translation>
+        <source>New message</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>notification(s)</source>
-        <translation>notificatie(s)</translation>
-    </message>
-</context>
-<context>
-    <name>notify</name>
-    <message>
-        <source>You have</source>
-        <translation>U hebt</translation>
+        <source>New messages</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>message(s)</source>
-        <translation>bericht(en)</translation>
+        <source>New notification</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>friend request(s)</source>
-        <translation>vriendschapsverzoek(en)</translation>
+        <source>New notifications</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>notification(s)</source>
-        <translation>melding(en)</translation>
+        <source>You have %1 new friend request</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You have %1 friend requests</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You have %1 new message</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You have %1 messages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You have %1 new notification</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You have %1 notifications</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

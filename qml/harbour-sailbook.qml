@@ -33,7 +33,6 @@ import Sailfish.Silica 1.0
 import io.thp.pyotherside 1.3
 import org.nemomobile.configuration 1.0
 import "pages"
-import "./pages/js/notify.js" as Notify
 
 ApplicationWindow
 {
