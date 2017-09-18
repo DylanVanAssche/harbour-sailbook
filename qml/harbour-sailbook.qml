@@ -33,7 +33,6 @@ import Sailfish.Silica 1.0
 import io.thp.pyotherside 1.3
 import org.nemomobile.configuration 1.0
 import "pages"
-import "./pages/js/notify.js" as Notify
 
 ApplicationWindow
 {
@@ -47,7 +46,7 @@ ApplicationWindow
     property bool connected: true // Improve startup speed
     property variant notifications: [0,0,0,0,0,0,0,0,0]
     property string appName: "Sailbook"
-    property string version: "9.5.1"
+    property string version: "9.6-0"
     property string userAgentName
     property string userAgent
 

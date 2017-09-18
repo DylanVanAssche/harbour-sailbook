@@ -19,7 +19,14 @@ INSTALLS += i18n_files
 
 CONFIG += sailfishapp
 
-SOURCES += src/harbour-sailbook.cpp
+QT += core \
+    dbus
+PKGCONFIG += nemonotifications-qt5
+
+SOURCES += src/harbour-sailbook.cpp \
+    src/sailbook.cpp \
+    src/os.cpp \
+    src/logger.cpp
 
 OTHER_FILES += qml/harbour-sailbook.qml \
     qml/cover/CoverPage.qml \
@@ -59,7 +66,6 @@ DISTFILES += \
     qml/pages/ExternalWebview.qml \
     qml/resources/js/external.js \
     qml/pages/NotificationManager.qml \
-    qml/pages/js/notify.js \
     qml/resources/images/icon-twitter.png \
     qml/resources/images/icon-sailbook.png \
     qml/resources/images/icon-paypal.png \
@@ -2312,3 +2318,8 @@ DISTFILES += \
     qml/backend/sailbook/youtube.py \
     qml/backend/__init__.py \
     qml/backend/app.py
+
+HEADERS += \
+    src/sailbook.h \
+    src/os.h \
+    src/logger.h
