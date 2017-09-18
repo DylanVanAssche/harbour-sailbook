@@ -46,7 +46,7 @@ ApplicationWindow
     property bool connected: true // Improve startup speed
     property variant notifications: [0,0,0,0,0,0,0,0,0]
     property string appName: "Sailbook"
-    property string version: "9.6-0"
+    property string version: "10.0-0"
     property string userAgentName
     property string userAgent
 
