@@ -355,19 +355,19 @@
     </message>
     <message>
         <source>friend request(s)</source>
-        <translation type="unfinished">Kaveripyyntö(jä)</translation>
+        <translation>Kaveripyyntö(jä)</translation>
     </message>
     <message>
         <source>You have</source>
-        <translation type="unfinished">Sinulla on</translation>
+        <translation>Sinulla on</translation>
     </message>
     <message>
         <source>message(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>Viesti(t)</translation>
     </message>
     <message>
         <source>notification(s)</source>
-        <translation type="unfinished">Ilmoituksia</translation>
+        <translation>Ilmoitukse(t)</translation>
     </message>
 </context>
 <context>
