@@ -3,9 +3,9 @@ import Sailfish.Silica 1.0
 import QtWebKit 3.0
 import org.nemomobile.dbus 2.0
 import Harbour.Sailbook.SFOS 1.0
-import "./js/util.js" as Util
-import "./js/messages.js" as Messages
-import "./js/media.js" as Media
+import "../js/util.js" as Util
+import "../js/messages.js" as Messages
+import "../js/media.js" as Media
 
 Item {
     property bool _wasLoading
@@ -147,13 +147,13 @@ Item {
             MenuItem {
                 color: Util.getPrimaryColor(settings.theme)
                 text: qsTr("About")
-                onClicked: pageStack.push(Qt.resolvedUrl("AboutPage.qml"))
+                onClicked: pageStack.push(Qt.resolvedUrl("../pages/AboutPage.qml"))
             }
 
             MenuItem {
                 color: Util.getPrimaryColor(settings.theme)
                 text: qsTr("Settings")
-                onClicked: pageStack.push(Qt.resolvedUrl("SettingsPage.qml"))
+                onClicked: pageStack.push(Qt.resolvedUrl("../pages/SettingsPage.qml"))
             }
 
             MenuItem {

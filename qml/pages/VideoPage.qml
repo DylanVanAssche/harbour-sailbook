@@ -1,7 +1,7 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
 import QtMultimedia 5.0
-import "./js/media.js" as Media
+import "../js/media.js" as Media
 
 Page {
     id: page

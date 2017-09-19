@@ -75,12 +75,12 @@
 <context>
     <name>CoverPage</name>
     <message>
-        <source>unread</source>
-        <translation>ongelezen</translation>
-    </message>
-    <message>
         <source>message(s)</source>
         <translation>bericht(en)</translation>
+    </message>
+    <message>
+        <source>Unread</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

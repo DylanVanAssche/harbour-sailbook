@@ -12,7 +12,7 @@ Page {
         PullDownMenu {
             MenuItem {
                 text: qsTr("Save")
-                onClicked: pageStack.push(Qt.resolvedUrl("InputPage.qml"), {path: StandardPaths.pictures + "/Sailbook", url: url})
+                onClicked: pageStack.push(Qt.resolvedUrl("../pages/InputPage.qml"), {path: StandardPaths.pictures + "/Sailbook", url: url})
             }
         }
 
