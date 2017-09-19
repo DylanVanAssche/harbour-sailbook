@@ -132,7 +132,7 @@ Item {
         url: "https://m.facebook.com/home.php?sk=" + Util.getFeedPriority(settings.priorityFeed)
         onLoadingChanged: loading? undefined: Messages.publishNotifications();
 
-        Behavior on opacity { FadeAnimation { duration: 1000} }
+        Behavior on opacity { FadeAnimation {} }
 
         PullDownMenu {
             backgroundColor: Util.getBackgroundColor(settings.theme)
