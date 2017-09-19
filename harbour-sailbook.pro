@@ -55,16 +55,10 @@ DISTFILES += \
     qml/resources/js/sailbook.js \
     qml/pages/AboutPage.qml \
     qml/pages/TranslationsPage.qml \
-    qml/pages/TextLabel.qml \
-    qml/pages/GlassButton.qml \
-    qml/pages/IconTextButton.qml \
     qml/pages/SettingsPage.qml \
     qml/pages/js/util.js \
-    qml/pages/NavigationButton.qml \
-    qml/pages/FBWebview.qml \
     qml/pages/js/messages.js \
     qml/pages/ExternalUrlPage.qml \
-    qml/pages/ExternalWebview.qml \
     qml/resources/js/external.js \
     qml/pages/NotificationManager.qml \
     qml/resources/images/icon-twitter.png \
@@ -75,7 +69,6 @@ DISTFILES += \
     qml/resources/images/icon-fontawesome.png \
     qml/resources/images/icon-external.png \
     qml/resources/images/sources.txt \
-    qml/pages/ImagePicker.qml \
     qml/pages/VideoPage.qml \
     qml/pages/ImagePage.qml \
     qml/pages/js/media.js \
@@ -2317,7 +2310,18 @@ DISTFILES += \
     qml/backend/sailbook/youtube.py \
     qml/backend/__init__.py \
     qml/backend/app.py \
-    qml/pages/PlaceholderWebview.qml
+    qml/pages/PlaceholderWebview.qml \
+    qml/components/ExternalWebview.qml \
+    qml/components/FBWebview.qml \
+    qml/components/GlassButton.qml \
+    qml/components/IconTextButton.qml \
+    qml/components/ImagePicker.qml \
+    qml/components/PlaceholderWebview.qml \
+    qml/components/TextLabel.qml \
+    qml/components/NavigationButton.qml \
+    qml/js/media.js \
+    qml/js/messages.js \
+    qml/js/util.js
 
 HEADERS += \
     src/sailbook.h \

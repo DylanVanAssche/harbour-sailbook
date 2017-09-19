@@ -1,7 +1,8 @@
 import QtQuick 2.2
 import Sailfish.Silica 1.0
 import QtWebKit 3.0
-import "./js/util.js" as Util
+import "../js/util.js" as Util
+import "../components"
 
 Page {
     Connections {

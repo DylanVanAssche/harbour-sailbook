@@ -34,7 +34,7 @@ import io.thp.pyotherside 1.3
 import org.nemomobile.configuration 1.0
 import org.nemomobile.dbus 2.0
 import "pages"
-import "./pages/js/util.js" as Util
+import "./js/util.js" as Util
 
 ApplicationWindow
 {

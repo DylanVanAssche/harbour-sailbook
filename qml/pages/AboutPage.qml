@@ -1,6 +1,7 @@
 import QtQuick 2.2
 import Sailfish.Silica 1.0
-import "./js/util.js" as Util
+import "../js/util.js" as Util
+import "../components"
 
 Page {
     SilicaFlickable {
@@ -80,7 +81,7 @@ Page {
                 anchors.horizontalCenter: parent.horizontalCenter
                 text: qsTr("Translations")
                 iconSource: "../resources/images/icon-trans.png"
-                onClicked: pageStack.push(Qt.resolvedUrl("TranslationsPage.qml"))
+                onClicked: pageStack.push(Qt.resolvedUrl("../pages/TranslationsPage.qml"))
             }
 
             SectionHeader { text: qsTr("Icons") }
