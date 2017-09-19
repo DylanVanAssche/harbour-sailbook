@@ -170,7 +170,7 @@ Dialog {
             IconTextSwitch {
                 id: notifications
                 text: qsTr("Enable notifications")
-                icon.source: "../resources/images/icon-notifications.png"
+                icon.source: "qrc:///images/icon-notifications.png"
                 icon.scale: Theme.iconSizeMedium/icon.width // Scale icons according to the screen sizes
                 checked: settings.enableNotifications
                 description: qsTr("%1 will send you notifications when you have a new message, a new notification or a friend request.").arg("Sailbook")

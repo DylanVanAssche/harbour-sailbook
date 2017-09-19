@@ -27,7 +27,7 @@ Page {
             width: parent.width
             height: parent.height
             fillMode: Image.PreserveAspectFit
-            source: visible? url: "../resources/images/image-placeholder.png"
+            source: visible? url: "qrc:///images/image-placeholder.png"
             asynchronous: true
         }
 

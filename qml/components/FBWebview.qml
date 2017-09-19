@@ -117,8 +117,8 @@ Item {
         experimental.customLayoutWidth: parent.width / devicePixelRatio
         experimental.overview: true
         experimental.userAgent: "Mozilla/5.0 (PlayStation 4 4.71) AppleWebKit/601.2 (KHTML, like Gecko)"
-        experimental.userStyleSheets: Qt.resolvedUrl(Util.getThemeFileName(settings.theme))
-        experimental.userScripts: Qt.resolvedUrl("../resources/js/sailbook.js")
+        experimental.userStyleSheets: Qt.resolvedUrl(Util.getThemeFileName(settings.enableNightmode))
+        experimental.userScripts: Qt.resolvedUrl("qrc:///js/sailbook.js")
         experimental.onMessageReceived: Messages.parse(message.data)
         experimental.filePicker: ImagePicker { filePicker: model } // Send filepicker model to our ImagePicker
         onNavigationRequested: Media.detectImage(request) //When link is an image, cancel request and show our image viewer
