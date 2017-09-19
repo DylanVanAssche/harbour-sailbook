@@ -97,7 +97,7 @@ Item {
         onLoadingChanged: loading? undefined: Messages.publishNotifications();
 
         // Rounding floating numbers in JS: https://stackoverflow.com/questions/9453421/how-to-round-float-numbers-in-javascript
-        // Default 1.5x zoom, can be adjusted in Settings
+        // Default 1.5x zoom
         property real devicePixelRatio: Math.round(1.5*Theme.pixelRatio * 10) / 10.0
 
         Behavior on opacity { FadeAnimation {} }

@@ -30,6 +30,8 @@ Item {
         experimental.userAgent: "Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_4 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko)"
         experimental.userStyleSheets: [Qt.resolvedUrl("../resources/css/external.css")]
         experimental.userScripts: Qt.resolvedUrl("../resources/js/external.js")
+        experimental.customLayoutWidth: parent.width / devicePixelRatio
+        experimental.overview: true
         clip: true
         opacity: loading? 0.0: 1.0
         url: externalUrl
@@ -37,6 +39,10 @@ Item {
             Media.detectDownload(request)
             Media.detectYoutubeDLVideo(request)
         }
+
+        // Rounding floating numbers in JS: https://stackoverflow.com/questions/9453421/how-to-round-float-numbers-in-javascript
+        // Default 1.5x zoom
+        property real devicePixelRatio: Math.round(1.5*Theme.pixelRatio * 10) / 10.0
 
         Behavior on opacity { FadeAnimation {} }
     }
