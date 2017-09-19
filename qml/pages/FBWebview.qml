@@ -113,12 +113,6 @@ Item {
         experimental.preferences.javascriptEnabled: true
         experimental.preferences.navigatorQtObjectEnabled: true
         experimental.preferences.developerExtrasEnabled: true
-
-        property variant devicePixelRatio: {//1.5
-            if (Screen.width <= 540) return 1.5;
-            else if (Screen.width > 540 && Screen.width <= 768) return 2.0;
-            else if (Screen.width > 768) return 3.0;
-        }
         experimental.customLayoutWidth: parent.width / devicePixelRatio
         experimental.overview: true
         experimental.userAgent: "Mozilla/5.0 (PlayStation 4 4.71) AppleWebKit/601.2 (KHTML, like Gecko)"
@@ -131,6 +125,10 @@ Item {
         opacity: loading || !connected? 0.0: 1.0
         url: "https://m.facebook.com/home.php?sk=" + Util.getFeedPriority(settings.priorityFeed)
         onLoadingChanged: loading? undefined: Messages.publishNotifications();
+
+        // Rounding floating numbers in JS: https://stackoverflow.com/questions/9453421/how-to-round-float-numbers-in-javascript
+        // Default 1.5x zoom
+        property real devicePixelRatio: Math.round(1.5*Theme.pixelRatio * 10) / 10.0
 
         Behavior on opacity { FadeAnimation {} }
 
