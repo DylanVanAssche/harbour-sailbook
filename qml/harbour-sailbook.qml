@@ -32,7 +32,9 @@ import QtQuick 2.0
 import Sailfish.Silica 1.0
 import io.thp.pyotherside 1.3
 import org.nemomobile.configuration 1.0
+import org.nemomobile.dbus 2.0
 import "pages"
+import "./pages/js/util.js" as Util
 
 ApplicationWindow
 {
@@ -97,18 +99,8 @@ ApplicationWindow
                 }
 
                 importModule("app", function() {}); // Import "app" after we imported our platform specific modules
-                call("app.connection.status") // Check our network status at launch
                 pythonReady = true
-                if(Qt.application.arguments[1] == "debug") {
-                    console.log("[INFO] User enabled debugging, check the log file for verbose output.")
-                    call("app.debug.enable")
-                }
             })
-
-            setHandler("network", function (status, type) {
-                console.log("[INFO] Network status: " + status)
-                connected = status
-            });
         }
         onError: console.log("Error: %1".arg(traceback));
         onReceived: console.log("Message: " + JSON.stringify(data));

@@ -74,7 +74,6 @@ DISTFILES += \
     qml/resources/images/icon-fontawesome.png \
     qml/resources/images/icon-external.png \
     qml/resources/images/sources.txt \
-    qml/pages/LoadscreenWebview.qml \
     qml/pages/ImagePicker.qml \
     qml/pages/VideoPage.qml \
     qml/pages/ImagePage.qml \
@@ -84,7 +83,6 @@ DISTFILES += \
     qml/pages/Toaster.qml \
     qml/pages/InputPage.qml \
     rpm/harbour-sailbook.changes \
-    qml/pages/SplashScreen.qml \
     qml/backend/lib/armv7l/werkzeug/debug/shared/debugger.js \
     qml/backend/lib/armv7l/werkzeug/debug/shared/jquery.js \
     qml/backend/lib/i486/werkzeug/debug/shared/debugger.js \
@@ -2317,7 +2315,8 @@ DISTFILES += \
     qml/backend/sailbook/sfos.py \
     qml/backend/sailbook/youtube.py \
     qml/backend/__init__.py \
-    qml/backend/app.py
+    qml/backend/app.py \
+    qml/pages/PlaceholderWebview.qml
 
 HEADERS += \
     src/sailbook.h \
