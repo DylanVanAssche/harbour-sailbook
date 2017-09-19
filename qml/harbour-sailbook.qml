@@ -52,8 +52,6 @@ ApplicationWindow
     property string userAgentName
     property string userAgent
 
-    onConnectedChanged: console.log("System connection state=" + connected)
-
     // App settings
     ConfigurationGroup {
         id: settings
