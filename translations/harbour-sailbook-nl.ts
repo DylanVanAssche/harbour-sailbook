@@ -84,6 +84,13 @@
     </message>
 </context>
 <context>
+    <name>ExternalWebview</name>
+    <message>
+        <source>No network</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>FBWebview</name>
     <message>
         <source>Facebook logout</source>
@@ -100,6 +107,10 @@
     <message>
         <source>Back</source>
         <translation>Terug</translation>
+    </message>
+    <message>
+        <source>No network</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -312,13 +323,6 @@
     <message>
         <source>%1 will send you notifications when you have a new message, a new notification or a friend request.</source>
         <translation>%1 zal je meldingen sturen wanneer je een nieuw bericht, een nieuwe aanmelding of een vriend verzoek krijgt.</translation>
-    </message>
-</context>
-<context>
-    <name>SplashScreen</name>
-    <message>
-        <source>Connecting...</source>
-        <translation>Verbinden maken...</translation>
     </message>
 </context>
 <context>

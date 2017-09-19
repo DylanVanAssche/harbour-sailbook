@@ -1,7 +1,7 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
 import QtWebKit 3.0
-import Nemo.DBus 2.0
+import org.nemomobile.dbus 2.0
 import Harbour.Sailbook.SFOS 1.0
 import "./js/util.js" as Util
 import "./js/messages.js" as Messages
@@ -10,30 +10,18 @@ import "./js/media.js" as Media
 Item {
     property bool _wasLoading
     property bool canGoBack: webview.canGoBack
+    property bool connected: true
 
     function setUrl(url) { // Make url accessible from outside our component
-        python.call("app.connection.status", [], function(result) { // Check our connection status before we do something
-            console.log(result)
-            if(result) {
-                webview.url = url;
-            }
-        })
+        webview.url = url;
     }
 
     function reload() { // webview.reload() isn't broken out outside our component
-        python.call("app.connection.status", [], function(result) { // Check our connection status before we do something
-            if(result) {
-                webview.reload()
-            }
-        })
+        webview.reload()
     }
 
     function goBack() { // webview.goBack() isn't broken out outside our component
-        python.call("app.connection.status", [], function(result) { // Check our connection status before we do something
-            if(result) {
-                webview.goBack();
-            }
-        })
+        webview.goBack();
     }
 
     function logout() {
@@ -41,36 +29,78 @@ Item {
         webview.reload()
     }
 
-    DBusAdaptor {
-             id: dbus
-             service: sfos.appName.replace("-", ".")
-             iface: sfos.appName.replace("-", ".")
-             path: "/"
-             xml: '  <interface name="' + sfos.appName.replace("-", ".") + '">\n' +
-                  '    <method name="activate" />\n' +
-                  '  </interface>\n'
+    DBusInterface {
+        id: networkDBusListener
+        bus: DBus.SystemBus
+        service: "net.connman"
+        path: "/"
+        iface: "net.connman.Manager"
+        signalsEnabled: true
+        Component.onCompleted: getStatus() // Init
 
-             function activate(category) {
-                 if(category == "sailbook-request") {
-                     webview.url = "https://m.facebook.com/friends";
-                     app.activate();
-                     console.debug("Notification activation: " + category);
-                 }
-                 else if(category == "sailbook-message") {
-                     webview.url = "https://m.facebook.com/messages";
-                     app.activate();
-                     console.debug("Notification activation: " + category);
-                 }
-                 else if(category == "sailbook-notification") {
-                     webview.url = "https://m.facebook.com/notifications";
-                     app.activate();
-                     console.debug("Notification activation: " + category);
-                 }
-                 else {
-                     console.warn("Notification activation doesn't match with our categories: " + category);
-                 }
-             }
-         }
+        // Methods
+        function getStatus() {
+            typedCall("GetProperties", [], function(properties) {
+                if(properties["State"] == "online") {
+                    console.debug("Network connected, loading...");
+                    connected = true;
+                }
+                else {
+                    console.debug("Offline!");
+                    connected = false;
+                }
+            },
+            function(trace) {
+                console.error("Network state couldn't be retrieved: " + trace);
+            })
+        }
+
+        // Signals
+        function propertyChanged(name, value) {
+            if(name == "State") {
+                if(value == "online") {
+                    console.debug("Network connected, reloading...");
+                    webview.reload();
+                    connected = true;
+                }
+                else {
+                    console.debug("Offline!");
+                    connected = false;
+                }
+            }
+        }
+    }
+
+    DBusAdaptor {
+        id: sailbookDBusInterface
+        service: sfos.appName.replace("-", ".")
+        iface: sfos.appName.replace("-", ".")
+        path: "/"
+        xml: '  <interface name="' + sfos.appName.replace("-", ".") + '">\n' +
+             '    <method name="activate" />\n' +
+             '  </interface>\n'
+
+        function activate(category) {
+            if(category == "sailbook-request") {
+                webview.url = "https://m.facebook.com/friends";
+                app.activate();
+                console.debug("Notification activation: " + category);
+            }
+            else if(category == "sailbook-message") {
+                webview.url = "https://m.facebook.com/messages";
+                app.activate();
+                console.debug("Notification activation: " + category);
+            }
+            else if(category == "sailbook-notification") {
+                webview.url = "https://m.facebook.com/notifications";
+                app.activate();
+                console.debug("Notification activation: " + category);
+            }
+            else {
+                console.warn("Notification activation doesn't match with our categories: " + category);
+            }
+        }
+    }
 
     SFOS {
         id: sfos
@@ -79,7 +109,7 @@ Item {
     SilicaWebView {
         id: webview
         anchors { fill: parent }
-        enabled: !loading
+        enabled: !loading && connected
         experimental.preferences.javascriptEnabled: true
         experimental.preferences.navigatorQtObjectEnabled: true
         experimental.preferences.developerExtrasEnabled: true
@@ -91,7 +121,6 @@ Item {
         }
         experimental.customLayoutWidth: parent.width / devicePixelRatio
         experimental.overview: true
-
         experimental.userAgent: "Mozilla/5.0 (PlayStation 4 4.71) AppleWebKit/601.2 (KHTML, like Gecko)"
         experimental.userStyleSheets: Qt.resolvedUrl(Util.getThemeFileName(settings.enableNightmode))
         experimental.userScripts: Qt.resolvedUrl("../resources/js/sailbook.js")
@@ -99,11 +128,11 @@ Item {
         experimental.filePicker: ImagePicker { filePicker: model } // Send filepicker model to our ImagePicker
         onNavigationRequested: Media.detectImage(request) //When link is an image, cancel request and show our image viewer
         clip: true // Enforce painting inside our defined screen
-        opacity: loading? 0.0: 1.0
+        opacity: loading || !connected? 0.0: 1.0
         url: "https://m.facebook.com/home.php?sk=" + Util.getFeedPriority(settings.priorityFeed)
         onLoadingChanged: loading? undefined: Messages.publishNotifications();
 
-        Behavior on opacity { FadeAnimation {} }
+        Behavior on opacity { FadeAnimation { duration: 1000} }
 
         PullDownMenu {
             backgroundColor: Util.getBackgroundColor(settings.theme)
@@ -126,15 +155,7 @@ Item {
             MenuItem {
                 color: Util.getPrimaryColor(settings.theme)
                 text: qsTr("Settings")
-                onClicked: {
-                    var oldUrl = webview.url
-                    var settingsDialog = pageStack.push(Qt.resolvedUrl("SettingsPage.qml"))
-                    settingsDialog.accepted.connect(function(){ // Refresh Javascript specific settings by reloading
-                        if(oldUrl == webview.url) { // Don't do this when url has been changed
-                            webview.reload()
-                        }
-                    })
-                }
+                onClicked: pageStack.push(Qt.resolvedUrl("SettingsPage.qml"))
             }
 
             MenuItem {
@@ -146,6 +167,10 @@ Item {
         }
     }
 
-    // Loadscreen
-    LoadscreenWebview { id: loadScreen }
+    // Placeholder
+    PlaceholderWebview {
+        id: placeholder
+        opacity: connected && !webview.loading? 0.0: 1.0
+        note: !connected? qsTr("No network"): ""
+    }
 }

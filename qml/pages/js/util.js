@@ -80,3 +80,27 @@ function getThemeFileName(index) {
 	//default, blank theme:
     return "../resources/css/sailbook.css";
 }
+
+// DBus properties are returned with a capital letter, this is against the QML code syntax
+// -> Objects
+function decapitalizeObject(obj) {
+    Object.keys(obj).forEach(function (key) {
+        var k = key.charAt(0).toLowerCase() + key.slice(1);
+
+        if (k !== key) {
+            obj[k] = obj[key];
+            delete obj[key]; // Remove old key
+        }
+    });
+    return obj;
+}
+
+// -> Strings
+function decapitalizeString(str) {
+    return str.charAt(0).toLowerCase() + str.slice(1);
+}
+
+// Force conversion to boolean
+function parseBool(value) {
+    return value? true: false;
+}

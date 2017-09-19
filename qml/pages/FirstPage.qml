@@ -7,7 +7,7 @@ Page {
     Connections {
         target: app
         onConnectedChanged: {
-            switch(app.connected) {
+            /*switch(app.connected) {
             case 0:
                 console.log("[DEBUG] Connection lost, destroying webview...")
                 break;
@@ -19,6 +19,10 @@ Page {
             case 2:
                 console.log("[DEBUG] Connection back, creating webview...")
                 break;
+            }*/
+
+            if(app.connected) {
+                fbWebview.reload()
             }
         }
     }
@@ -59,7 +63,5 @@ Page {
             NavigationButton { onClicked: fbWebview.setUrl("https://m.facebook.com/settings"); notifyIndicator: app.notifications[8]; iconSource: "../resources/images/icon-settings.svg"; visible: settings.showSettings }
         }
     }
-
-    SplashScreen { opacity: app.connected? 0.0: 1.0 }
 }
 
