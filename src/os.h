@@ -4,6 +4,7 @@
 #include <QtGlobal>
 #include <sailfishapp/sailfishapp.h>
 #include <nemonotifications-qt5/notification.h>
+#include <QtGui/QGuiApplication>
 #include <QtCore/QString>
 #include <QtCore/QStringList>
 #include <QtCore/QList>

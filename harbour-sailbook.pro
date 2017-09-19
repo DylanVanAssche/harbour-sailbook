@@ -20,6 +20,7 @@ INSTALLS += i18n_files
 CONFIG += sailfishapp
 
 QT += core \
+    gui \
     dbus
 PKGCONFIG += nemonotifications-qt5
 
