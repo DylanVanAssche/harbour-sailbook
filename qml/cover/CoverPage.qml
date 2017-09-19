@@ -19,12 +19,12 @@ CoverBackground {
     }
 
     Column {
-		anchors {
-			fill: parent
-			topMargin: Theme.paddingMedium
-			leftMargin: Theme.paddingLarge
-			rightMargin: Theme.paddingLarge 
-		}
+        anchors {
+            fill: parent
+            topMargin: Theme.paddingMedium
+            leftMargin: Theme.paddingLarge
+            rightMargin: Theme.paddingLarge
+        }
         spacing: Theme.paddingMedium
 
         // Messages
@@ -42,12 +42,12 @@ CoverBackground {
 
             Label {
                 wrapMode: Text.WordWrap
-                text: qsTr("unread") + "\n" + qsTr("message(s)")
+                text: qsTr("Unread") + "\n" + qsTr("message(s)")
                 font.pixelSize: Theme.fontSizeExtraSmall
                 font.family: Theme.fontFamilyHeading
                 font.weight: Font.Light
                 lineHeight: 0.8
-                truncationMode: TruncationMode.Fade 
+                truncationMode: TruncationMode.Fade
 
                 anchors {
                     left: numberOfMessages.right
