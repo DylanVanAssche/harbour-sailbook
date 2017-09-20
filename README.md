@@ -3,7 +3,7 @@
   <img src="https://raw.githubusercontent.com/DylanVanAssche/harbour-sailbook/master/icons/256x256/harbour-sailbook.png" width="256px" alt="Sailbook">
   <br>
   <br>
-  Sailbook Wiki
+  Sailbook
   <br>
   <br>
 </h1>
