@@ -27,11 +27,11 @@ function parse(msg) {
             Qt.openUrlExternally(msg.data);
         }
         else {
-            pageStack.push(Qt.resolvedUrl("../ExternalUrlPage.qml"), { url: msg.data });
+            pageStack.push(Qt.resolvedUrl("../pages/ExternalUrlPage.qml"), { url: msg.data });
         }
         break;
     case 2:
-        pageStack.push(Qt.resolvedUrl("../VideoPage.qml"), { url: [msg.data], type: 0 }); // Facebook video
+        pageStack.push(Qt.resolvedUrl("../pages/VideoPage.qml"), { url: [msg.data], type: 0 }); // Facebook video
         break;
     default:
         console.log(JSON.stringify(msg));
