@@ -1,3 +1,7 @@
+/* Sailbook theme Night stylesheet
+ * '!important' CSS property enforces to overide FB CSS styles.
+ */
+
 ._s15 {
     display: none;
     visibility: hidden;
@@ -28,7 +32,7 @@
 /* black: */
 
 body {
-    background-color:#191919 !important;
+    background-color: #191919 !important;
 }
 
 body * {
@@ -40,20 +44,20 @@ body * {
 }
 
 .mFuturePageHeader + div {
-	padding-top: 50px;
+    padding-top: 50px;
 }
 
 .storyStream > article {
-	border-bottom: 4px solid #444;
+    border-bottom: 4px solid #444;
 }
 
 ._56bu > span, ._56bt > span, .touch ._5c9u > span {
-	color: #fff !Important;
+    color: #fff !Important;
 }
 
 .touch ._56bt, .touch ._5c9u {
-	background-image: none !important;
-	background-color: #333 !important;
+    background-image: none !important;
+    background-color: #333 !important;
     text-shadow: none;
 }
 
