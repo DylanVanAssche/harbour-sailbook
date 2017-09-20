@@ -8,7 +8,7 @@ Sailbook::Sailbook() {
 
 /* Clear the webview cache and return true if succesfull otherwise false. */
 bool Sailbook::clearCache() {
-    const QString cachePath = sfos.cacheLocation() + "/harbour-sailbook/.QtWebkit";
+    const QString cachePath = sfos.cacheLocation() + "/" + sfos.appName() + "/.QtWebKit";
     qDebug() << cachePath;
     QDir webcache(cachePath);
     if (webcache.exists()) {
