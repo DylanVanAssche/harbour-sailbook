@@ -221,10 +221,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Enable nightmode</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Back button in</source>
         <translation type="unfinished"></translation>
     </message>
@@ -310,10 +306,6 @@
     </message>
     <message>
         <source>Top stories</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>%1 will use dark colors to reduce eye strain while browsing Facebook in the dark.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

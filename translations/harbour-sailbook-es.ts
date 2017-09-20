@@ -221,10 +221,6 @@
         <translation>Reproductor de video nativo</translation>
     </message>
     <message>
-        <source>Enable nightmode</source>
-        <translation>Modo de noche</translation>
-    </message>
-    <message>
         <source>Back button in</source>
         <translation>Botón de: regresar, en:</translation>
     </message>
@@ -311,10 +307,6 @@
     <message>
         <source>Top stories</source>
         <translation>Historias superiores</translation>
-    </message>
-    <message>
-        <source>%1 will use dark colors to reduce eye strain while browsing Facebook in the dark.</source>
-        <translation>%1 usará colores oscuros para reducir la fatiga ocular mientras navega en facebook en la oscuridad.</translation>
     </message>
     <message>
         <source>%1 will open Facebook and Youtube videos in his native videoplayer. If disabled, they will be opened in the external browser.</source>

@@ -221,10 +221,6 @@
         <translation>Ota käyttöön paikallinen videosoitin</translation>
     </message>
     <message>
-        <source>Enable nightmode</source>
-        <translation>Ota käyttöön yötila</translation>
-    </message>
-    <message>
         <source>Back button in</source>
         <translation>Taaksepäin nappula</translation>
     </message>
@@ -311,10 +307,6 @@
     <message>
         <source>Top stories</source>
         <translation>Parhaat tarinat</translation>
-    </message>
-    <message>
-        <source>%1 will use dark colors to reduce eye strain while browsing Facebook in the dark.</source>
-        <translation>%1 käyttää tummia värejä vähentääkseen silmien rasitusta kun käytät Facebookkia pimeässä.</translation>
     </message>
     <message>
         <source>%1 will open Facebook and Youtube videos in his native videoplayer. If disabled, they will be opened in the external browser.</source>

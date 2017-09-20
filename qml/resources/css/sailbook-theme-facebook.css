@@ -1,3 +1,7 @@
+/* Sailbook theme Facebook stylesheet
+ * '!important' CSS property enforces to overide FB CSS styles.
+ */
+
 ._s15 {
     display: none;
     visibility: hidden;
@@ -16,6 +20,7 @@
     max-width: 100%;
 }
 
+/* Hidden navigation bar */
 .hidden {
     display: none;
     visibility: hidden;
