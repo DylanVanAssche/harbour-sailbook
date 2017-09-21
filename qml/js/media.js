@@ -31,7 +31,7 @@ function detectYoutubeDLVideo(request) {
             _isYoutube = true;
             request.action = WebView.IgnoreRequest;
             python.call("app.youtubedl.getStream", [request.url.toString()], function(videoData) {
-                pageStack.replace("../VideoPage.qml", { url: videoData, type: 1 });
+                pageStack.replace("../pages/VideoPage.qml", { url: videoData, type: 1 });
             });
             return true;
         }
