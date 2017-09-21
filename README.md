@@ -1,9 +1,30 @@
-Sailbook is an unofficial Facebook client for Sailfish OS based on QTWebkit & Python
+<h1 align="center">
+  <br>
+  <img src="https://raw.githubusercontent.com/DylanVanAssche/harbour-sailbook/master/icons/256x256/harbour-sailbook.png" width="256px" alt="Sailbook">
+  <br>
+  <br>
+  Sailbook
+  <br>
+  <br>
+</h1>
 
-Sailbook is licensed under the GNU General Public License v3.0
+Sailbook is an unofficial Facebook client for Sailfish OS based on QTWebkit.
 
-Translations:
+## Features
+- Browse your timeline
+- Send messages
+- See upcoming events
+- Sailfish OS style
+- Themes: Sailfish Ambience, Facebook & Nightmode
+- Native notifications
+- Highly customizable: UI, notifications, theme, ...
+- Open source & free
+- 2 factor authentication
+- Embedded browser
+- Integrated videoplayer
 
-Transifex project: https://www.transifex.com/sailbook/sailbook/
+## I want to contribute
+You can find more information on how to help in the [Sailbook wiki](https://github.com/DylanVanAssche/harbour-sailbook/wiki).
 
-In case a language is missing, you can request it. Feel free to translate Sailbook in your language, the translations are updated with every release.
+## License
+GNU General Public License v3.0

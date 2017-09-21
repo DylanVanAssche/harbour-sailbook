@@ -51,7 +51,6 @@ TRANSLATIONS += \
     translations/harbour-sailbook-fr.ts
 
 DISTFILES += \
-    qml/resources/css/sailbook.css \
     qml/resources/js/sailbook.js \
     qml/pages/AboutPage.qml \
     qml/pages/TranslationsPage.qml \
@@ -2321,7 +2320,10 @@ DISTFILES += \
     qml/components/NavigationButton.qml \
     qml/js/media.js \
     qml/js/messages.js \
-    qml/js/util.js
+    qml/js/util.js \
+    qml/resources/css/sailbook-theme-night.css \
+    qml/resources/css/sailbook-theme-ambience.css \
+    qml/resources/css/sailbook-theme-facebook.css
 
 HEADERS += \
     src/sailbook.h \

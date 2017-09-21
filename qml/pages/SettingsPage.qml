@@ -19,7 +19,6 @@ Dialog {
         settings.showLogout = showLogout.checked
         settings.placeBack = placeBack.currentIndex
         settings.theme = theme.currentIndex
-        settings.enableNightmode = enableNightmode.checked
         settings.externalLink = externalLink.currentIndex
         settings.enableVideoPlayer = enableVideoPlayer.checked
         settings.videoQuality = videoQuality.currentIndex
@@ -49,13 +48,6 @@ Dialog {
                     MenuItem { text: qsTr("Facebook") }
                     MenuItem { text: qsTr("Facebook nightmode") }
                 }
-            }
-
-            TextSwitch {
-                id: enableNightmode
-                text: qsTr("Enable nightmode")
-                checked: settings.enableNightmode
-                description: qsTr("%1 will use dark colors to reduce eye strain while browsing Facebook in the dark.").arg("Sailbook")
             }
 
             ComboBox {

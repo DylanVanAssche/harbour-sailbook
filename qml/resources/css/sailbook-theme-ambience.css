@@ -1,0 +1,44 @@
+/* Sailbook theme Ambience stylesheet
+ * '!important' CSS property enforces to overide FB CSS styles.
+ */
+
+/* Transparent background */
+body {
+    background-color: transparent !important;
+}
+
+._2v9s {
+    background: transparent !important;
+}
+
+._s15 {
+    display: none;
+    visibility: hidden;
+}
+
+._400s {
+    display: none !important;
+}
+
+[data-reactid='.0.1'] {
+    min-width: 100%;
+}
+
+[data-reactid='.0.1.$0'] {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Hidden navigation bar */
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+#header {
+    display: none;
+}
+
+.mFuturePageHeader + div {
+	padding-top: 50px;
+}
