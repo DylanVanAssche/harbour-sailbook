@@ -1,7 +1,6 @@
 <RCC>
     <qresource prefix="/">
         <file>css/external.css</file>
-        <file>css/sailbook.css</file>
         <file>css/sailbook-theme-night.css</file>
         <file>images/icon-back.svg</file>
         <file>images/icon-belgium.png</file>
@@ -40,5 +39,7 @@
         <file>images/sources.txt</file>
         <file>js/external.js</file>
         <file>js/sailbook.js</file>
+        <file>css/sailbook-theme-ambience.css</file>
+        <file>css/sailbook-theme-facebook.css</file>
     </qresource>
 </RCC>
