@@ -142,22 +142,6 @@
         <translation>Właściwe rozszerzenie jest automatycznie dodawane.</translation>
     </message>
     <message>
-        <source>Saving image OK!</source>
-        <translation>Zapisywanie obrazka zakończone powodzeniem!</translation>
-    </message>
-    <message>
-        <source>Saving image failed!</source>
-        <translation>Zapisywanie obrazka zakończone niepowodzeniem!</translation>
-    </message>
-    <message>
-        <source>Download complete!</source>
-        <translation>Pobieranie ukończone!</translation>
-    </message>
-    <message>
-        <source>Download failed!</source>
-        <translation>Pobieranie zakończone niepowodzeniem!</translation>
-    </message>
-    <message>
         <source>File name</source>
         <translation>Nazwa pliku</translation>
     </message>
@@ -345,10 +329,6 @@
 </context>
 <context>
     <name>messages</name>
-    <message>
-        <source>Opening external link</source>
-        <translation>Owieranie zewnętrzengo odnośnika</translation>
-    </message>
     <message>
         <source>New friend request</source>
         <translation type="unfinished"></translation>

@@ -142,22 +142,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Saving image OK!</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Saving image failed!</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Download complete!</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Download failed!</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>File name</source>
         <translation type="unfinished"></translation>
     </message>
@@ -345,10 +329,6 @@
 </context>
 <context>
     <name>messages</name>
-    <message>
-        <source>Opening external link</source>
-        <translation type="unfinished"></translation>
-    </message>
     <message>
         <source>New friend request</source>
         <translation type="unfinished"></translation>

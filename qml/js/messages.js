@@ -16,8 +16,7 @@ function parse(msg) {
         console.debug(eventMsg)
         break;
     case 1:
-        toaster.previewBody = qsTr("Opening external link") + "...";
-        toaster.publish();
+        //sfos.createToaster(qsTr("Opening external link") + "...", "icon-s-time", "sailbook-external");
 
         if(msg.data.match("cdn.fbsbx.com")) { // When attachment downloaded, go back
             fbWebview.goBack();

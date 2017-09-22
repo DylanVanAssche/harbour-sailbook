@@ -113,6 +113,22 @@ void OS::createNotification(QString title, QString text, QString feedback, QStri
     notification.publish();
 }
 
+/* Construct a Notification object as a Toaster. */
+void OS::createToaster(QString text, QString icon, QString category) {
+    // Trim when too long
+    const QString preview = text.length() > MAX_PREVIEW_LENGTH ? text.left(MAX_PREVIEW_LENGTH-3) + "..." : text;
+
+    // Build Notification object
+    // See /usr/share/lipstick/notificationcatergories/x-jolla.settings.clock.conf for an example
+    Notification notification;
+    notification.setAppIcon(icon);
+    notification.setPreviewBody(preview);
+    notification.setCategory(category);
+    notification.setHintValue("x-nemo-icon", 120);
+    notification.setHintValue("transient", true);
+    notification.publish();
+}
+
 /* Close all notifications by a given replacesId */
 void OS::closeNotificationByReplacesId(QString replacesId) {
     qDebug() << "Searching for notification with replacesId: " << replacesId;
