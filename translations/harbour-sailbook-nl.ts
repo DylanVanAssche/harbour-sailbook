@@ -142,22 +142,6 @@
         <translation>De juiste extensie wordt automatisch toegevoegd.</translation>
     </message>
     <message>
-        <source>Saving image OK!</source>
-        <translation>Afbeeldingen opslaan OK!</translation>
-    </message>
-    <message>
-        <source>Saving image failed!</source>
-        <translation>Afbeeldingen opslaan mislukt!</translation>
-    </message>
-    <message>
-        <source>Download complete!</source>
-        <translation>Download compleet!</translation>
-    </message>
-    <message>
-        <source>Download failed!</source>
-        <translation>Download mislukt!</translation>
-    </message>
-    <message>
         <source>File name</source>
         <translation>Bestandsnaam</translation>
     </message>
@@ -345,10 +329,6 @@
 </context>
 <context>
     <name>messages</name>
-    <message>
-        <source>Opening external link</source>
-        <translation>Open external link</translation>
-    </message>
     <message>
         <source>New friend request</source>
         <translation type="unfinished"></translation>

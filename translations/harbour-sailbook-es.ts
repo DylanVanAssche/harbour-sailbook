@@ -142,22 +142,6 @@
         <translation>La extensión correcta está auto agregada</translation>
     </message>
     <message>
-        <source>Saving image OK!</source>
-        <translation>Guardando imagen!</translation>
-    </message>
-    <message>
-        <source>Saving image failed!</source>
-        <translation>Error al guardar imagen!</translation>
-    </message>
-    <message>
-        <source>Download complete!</source>
-        <translation>Descarga completa!</translation>
-    </message>
-    <message>
-        <source>Download failed!</source>
-        <translation>Error de descarga!</translation>
-    </message>
-    <message>
         <source>File name</source>
         <translation>Nombre de archivo</translation>
     </message>
@@ -345,10 +329,6 @@
 </context>
 <context>
     <name>messages</name>
-    <message>
-        <source>Opening external link</source>
-        <translation>Abriendo enlace externo</translation>
-    </message>
     <message>
         <source>New friend request</source>
         <translation type="unfinished"></translation>

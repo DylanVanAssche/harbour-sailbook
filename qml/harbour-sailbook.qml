@@ -30,7 +30,6 @@
 
 import QtQuick 2.0
 import Sailfish.Silica 1.0
-import io.thp.pyotherside 1.3
 import org.nemomobile.configuration 1.0
 import org.nemomobile.dbus 2.0
 import "pages"
@@ -44,8 +43,6 @@ ApplicationWindow
     allowedOrientations: Orientation.All
     _defaultPageOrientations: Orientation.All
 
-    property bool pythonReady
-    property bool connected: true // Improve startup speed
     property variant notifications: [0,0,0,0,0,0,0,0,0]
     property string appName: "Sailbook"
     property string version: "10.0-0"
@@ -75,35 +72,6 @@ ApplicationWindow
         property int theme: 0
         property int externalLink: 0
         property int videoQuality: 0
-    }
-
-    Toaster { id: toaster }
-    NotificationManager { id: notifyRequests }
-    NotificationManager { id: notifyMessages }
-    NotificationManager { id: notifyNotifications }
-
-    Python {
-        id: python
-
-        Component.onCompleted: {
-            addImportPath(Qt.resolvedUrl("./backend")); //Add the import path for our QML/Python bridge 'app.py'
-            addImportPath(Qt.resolvedUrl("./backend/sailbook")); //Add import path for our backend module 'sailbook'
-            addImportPath(Qt.resolvedUrl("./backend/lib/noarch/")); //Platform indepent imports
-            importModule("platform", function() {   //Add the right import path depending on the architecture of the processor
-                if (evaluate("platform.machine()") == "armv7l") {
-                    console.log("[INFO] ARM processor detected")
-                    addImportPath(Qt.resolvedUrl("./backend/lib/armv7l/"));
-                } else {
-                    console.log("[INFO] x86 processor detected")
-                    addImportPath(Qt.resolvedUrl("./backend/lib/i486/"));
-                }
-
-                importModule("app", function() {}); // Import "app" after we imported our platform specific modules
-                pythonReady = true
-            })
-        }
-        onError: console.log("Error: %1".arg(traceback));
-        onReceived: console.log("Message: " + JSON.stringify(data));
     }
 }
 

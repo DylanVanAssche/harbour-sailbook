@@ -142,22 +142,6 @@
         <translation>Oikea liitännäinen on automaattisesti lisätty</translation>
     </message>
     <message>
-        <source>Saving image OK!</source>
-        <translation>Kuvan tallennus valmis</translation>
-    </message>
-    <message>
-        <source>Saving image failed!</source>
-        <translation>Kuvan tallennus epäonnistui</translation>
-    </message>
-    <message>
-        <source>Download complete!</source>
-        <translation>Lataus on valmistunut!</translation>
-    </message>
-    <message>
-        <source>Download failed!</source>
-        <translation>Lataus epäonnistui!</translation>
-    </message>
-    <message>
         <source>File name</source>
         <translation>Tiedostonimi</translation>
     </message>
@@ -345,10 +329,6 @@
 </context>
 <context>
     <name>messages</name>
-    <message>
-        <source>Opening external link</source>
-        <translation>Avaamalla ulkoisen osoitteen</translation>
-    </message>
     <message>
         <source>New friend request</source>
         <translation type="unfinished"></translation>

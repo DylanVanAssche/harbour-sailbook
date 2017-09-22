@@ -142,22 +142,6 @@
         <translation>La bonne extension est ajoutée automatiquement.</translation>
     </message>
     <message>
-        <source>Saving image OK!</source>
-        <translation>Image enregistrée !</translation>
-    </message>
-    <message>
-        <source>Saving image failed!</source>
-        <translation>Échec de l&apos;enregistrement de l&apos;image !</translation>
-    </message>
-    <message>
-        <source>Download complete!</source>
-        <translation>Téléchargement terminé !</translation>
-    </message>
-    <message>
-        <source>Download failed!</source>
-        <translation>Échec du téléchargement !</translation>
-    </message>
-    <message>
         <source>File name</source>
         <translation>Nom de fichier</translation>
     </message>
@@ -345,10 +329,6 @@
 </context>
 <context>
     <name>messages</name>
-    <message>
-        <source>Opening external link</source>
-        <translation>Ouverture du lien externe</translation>
-    </message>
     <message>
         <source>New friend request</source>
         <translation type="unfinished"></translation>

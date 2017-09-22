@@ -5,33 +5,9 @@ import "../js/util.js" as Util
 import "../components"
 
 Page {
-    Connections {
-        target: app
-        onConnectedChanged: {
-            /*switch(app.connected) {
-            case 0:
-                console.log("[DEBUG] Connection lost, destroying webview...")
-                break;
-
-            case 1:
-                console.log("[DEBUG] Connection back but different network, recreating webview...")
-                break;
-
-            case 2:
-                console.log("[DEBUG] Connection back, creating webview...")
-                break;
-            }*/
-
-            if(app.connected) {
-                fbWebview.reload()
-            }
-        }
-    }
-
     FBWebview {
         id: fbWebview
         anchors { left: parent.left; right: parent.right; top: parent.top; bottom: navigation.top }
-        opacity: app.connected? 1.0: 0.0
         visible: opacity > 0
         Behavior on opacity { FadeAnimation {} }
     }
@@ -40,15 +16,11 @@ Page {
         id: navigation
         height: Theme.itemSizeMedium
         color: Util.getBackgroundColor(settings.theme)
-        opacity: app.connected? 1.0: 0.0
-        visible: opacity > 0
         anchors {
             left: parent.left
             right: parent.right
             bottom: parent.bottom
         }
-
-        Behavior on opacity { FadeAnimation {} }
 
         Row {
             anchors { fill: parent }
