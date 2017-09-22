@@ -16,7 +16,7 @@ function detectImage(request) {
         if(request.url.toString().match(imageExtensions[i])) {
             request.action = WebView.IgnoreRequest;
             python.call("app.facebook.followReferal", [request.url.toString()], function(link) {
-                pageStack.push(Qt.resolvedUrl("../ImagePage.qml"), { url: link });
+                pageStack.push(Qt.resolvedUrl("../pages/ImagePage.qml"), { url: link });
             });
             return true;
         }
