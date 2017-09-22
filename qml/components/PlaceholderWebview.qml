@@ -14,7 +14,7 @@ Rectangle {
     
     Image {
         anchors { fill: parent }
-        source: "../resources/images/icon-cover.svg"
+        source: "qrc:///images/icon-cover.svg"
         fillMode: Image.PreserveAspectFit
         opacity: 0.2
         asynchronous: true

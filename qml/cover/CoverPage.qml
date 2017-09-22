@@ -8,7 +8,7 @@ CoverBackground {
     Image
     {
         id: imgcover
-        source: "../resources/images/icon-cover.svg"
+        source: "qrc:///images/icon-cover.svg"
         asynchronous: true
         opacity: 0.2
         width: parent.width
@@ -66,7 +66,7 @@ CoverBackground {
             Image {
                 width: Theme.iconSizeSmall
                 height: width
-                source: "../resources/images/icon-notifications.svg"
+                source: "qrc:///images/icon-notifications.svg"
                 anchors {
                     verticalCenter: numberOfNotifications.verticalCenter
                 }
@@ -81,7 +81,7 @@ CoverBackground {
             Image {
                 width: Theme.iconSizeSmall*1.1
                 height: width
-                source: "../resources/images/icon-requests.svg"
+                source: "qrc:///images/icon-requests.svg"
                 anchors {
                     verticalCenter: numberOfFriendRequests.verticalCenter
                 }

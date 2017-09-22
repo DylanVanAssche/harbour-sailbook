@@ -45,6 +45,14 @@ function getNotificationsData() {
 function findHyperlink(element) {
     while(element) {
         if(element.tagName === "A") {
+            try {
+                send(42, element.dataset.store);
+            }
+            catch(e) {
+                send(42, "NO DATASET STORE");
+            }
+
+
             return element.href;
         }
         element = element.parentNode;

@@ -74,11 +74,11 @@ function getThemeFileName(index) {
     //prepared for theming support:
     switch(index) {
         case 0:
-            return "../resources/css/sailbook-theme-ambience.css";
+            return "qrc:////css/sailbook-theme-ambience.css";
         case 1:
-            return "../resources/css/sailbook-theme-facebook.css";
+            return "qrc:////css/sailbook-theme-facebook.css";
         case 2:
-            return "../resources/css/sailbook-theme-night.css";
+            return "qrc:////css/sailbook-theme-night.css";
         default:
             console.error("Theme index not found")
     }

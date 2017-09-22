@@ -2329,3 +2329,6 @@ HEADERS += \
     src/sailbook.h \
     src/os.h \
     src/logger.h
+
+RESOURCES += \
+    qml/resources/resources.qrc

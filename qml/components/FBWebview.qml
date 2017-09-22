@@ -118,7 +118,7 @@ Item {
         experimental.overview: true
         experimental.userAgent: "Mozilla/5.0 (PlayStation 4 4.71) AppleWebKit/601.2 (KHTML, like Gecko)"
         experimental.userStyleSheets: Qt.resolvedUrl(Util.getThemeFileName(settings.theme))
-        experimental.userScripts: Qt.resolvedUrl("../resources/js/sailbook.js")
+        experimental.userScripts: Qt.resolvedUrl("qrc:///js/sailbook.js")
         experimental.onMessageReceived: Messages.parse(message.data)
         experimental.filePicker: ImagePicker { filePicker: model } // Send filepicker model to our ImagePicker
         onNavigationRequested: Media.detectImage(request) //When link is an image, cancel request and show our image viewer
@@ -129,7 +129,7 @@ Item {
 
         // Rounding floating numbers in JS: https://stackoverflow.com/questions/9453421/how-to-round-float-numbers-in-javascript
         // Default 1.5x zoom
-        property real devicePixelRatio: Math.round(1.5*Theme.pixelRatio * 10) / 10.0
+        property real devicePixelRatio: Math.round(1.5*Theme.pixelRatio*10)/10.0
 
         Behavior on opacity { FadeAnimation {} }
 
