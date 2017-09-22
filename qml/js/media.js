@@ -15,9 +15,10 @@ function detectImage(request) {
     for (var i=0; i < Object.keys(imageExtensions).length; i++) { // Search for common image formats in the URL
         if(request.url.toString().match(imageExtensions[i])) {
             request.action = WebView.IgnoreRequest;
-            python.call("app.facebook.followReferal", [request.url.toString()], function(link) {
+            // Github ISSUE 49 & 22
+            /*python.call("app.facebook.followReferal", [request.url.toString()], function(link) {
                 pageStack.push(Qt.resolvedUrl("../ImagePage.qml"), { url: link });
-            });
+            });*/
             return true;
         }
     }
@@ -30,9 +31,10 @@ function detectYoutubeDLVideo(request) {
         if(request.url.toString().match(youtubeLinks[i])) {
             _isYoutube = true;
             request.action = WebView.IgnoreRequest;
-            python.call("app.youtubedl.getStream", [request.url.toString()], function(videoData) {
+            // Github ISSUE 49 & 22
+            /*python.call("app.youtubedl.getStream", [request.url.toString()], function(videoData) {
                 pageStack.replace("../pages/VideoPage.qml", { url: videoData, type: 1 });
-            });
+            });*/
             return true;
         }
     }

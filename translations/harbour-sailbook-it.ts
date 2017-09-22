@@ -142,22 +142,6 @@
         <translation>L&apos;estensione sarà aggiunta automaticamente.</translation>
     </message>
     <message>
-        <source>Saving image OK!</source>
-        <translation>Immagine salvata!</translation>
-    </message>
-    <message>
-        <source>Saving image failed!</source>
-        <translation>Salvataggio non riuscito!</translation>
-    </message>
-    <message>
-        <source>Download complete!</source>
-        <translation>Download completo!</translation>
-    </message>
-    <message>
-        <source>Download failed!</source>
-        <translation>Download fallito!</translation>
-    </message>
-    <message>
         <source>File name</source>
         <translation>Nome file</translation>
     </message>
@@ -345,10 +329,6 @@
 </context>
 <context>
     <name>messages</name>
-    <message>
-        <source>Opening external link</source>
-        <translation>Apertura link esterno</translation>
-    </message>
     <message>
         <source>New friend request</source>
         <translation type="unfinished"></translation>

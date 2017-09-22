@@ -24,7 +24,9 @@ Dialog {
     }
 
     onAccepted: {
-        switch(type) {
+        // Github ISSUE 49 & 22
+        // NEW API: sfos.createToaster(text, icon, category)
+        /*switch(type) {
         case 0:
             python.call("app.gallery.save", [path, fileName.text , url], function(result) {
                 if(result) {
@@ -47,6 +49,6 @@ Dialog {
                 toaster.publish()
             })
             break;
-        }
+        }*/
     }
 }
