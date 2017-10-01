@@ -12,8 +12,6 @@
 #include "os.h"
 #include "transferengine.h"
 
-#define APP_VERSION "10.0-0"
-
 int main(int argc, char *argv[])
 {
     // Setup environment

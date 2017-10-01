@@ -24,6 +24,13 @@ QT += core \
     dbus \
     network
 
+# Disable debug and warning messages while releasing for security reasons
+CONFIG(release, debug|release):DEFINES += QT_NO_DEBUG_OUTPUT \
+QT_NO_WARNING_OUTPUT
+
+# APP_VERSION retrieved from .spec file
+DEFINES += APP_VERSION=\"\\\"$${VERSION}\\\"\"
+
 PKGCONFIG += nemonotifications-qt5
 
 SOURCES += src/harbour-sailbook.cpp \

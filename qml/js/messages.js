@@ -37,7 +37,7 @@ function parse(msg) {
         Qt.openUrlExternally(msg.data);
         break;
     default:
-        console.log(JSON.stringify(msg));
+        console.debug(JSON.stringify(msg));
         break;
     }
 }

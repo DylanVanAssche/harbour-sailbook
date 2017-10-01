@@ -19,7 +19,7 @@ Transferengine::Transferengine()
 
 /* Download a file from the Internet given an URL */
 void Transferengine::download(QString url) {
-    qDebug() << "Download started for URL:" << url;
+    qInfo() << "Download started for URL:" << url;
     QNetworkRequest request(url);
     request.setHeader(QNetworkRequest::UserAgentHeader, m_useragent);
     QNAM->get(request);

@@ -12,6 +12,7 @@
 
 class Sailbook: public QObject {
     Q_OBJECT
+
     public:
         explicit Sailbook();
         bool clearCache();

@@ -51,11 +51,11 @@ function handleImagePicker(filePicker) {
     var imageSelector = pageStack.push(Qt.resolvedUrl("../pages/ImageSelectorPage.qml"));
     imageSelector.finished.connect(function(){
         if(imageSelector.imageUrl.length > 0) {
-            console.log("[INFO] User selected image: " + imageSelector.imageUrl);
+            console.debug("User selected image: " + imageSelector.imageUrl);
             filePicker.accept(imageSelector.imageUrl.slice(7,imageSelector.imageUrl.length));
         }
         else {
-            console.log("[INFO] User canceled image upload");
+            console.debug("User canceled image upload");
             filePicker.reject();
         }
     })

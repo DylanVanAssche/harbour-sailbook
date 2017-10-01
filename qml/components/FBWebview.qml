@@ -125,7 +125,6 @@ Item {
             if(Media.detectImage(request)) { // When link is an image, cancel request and show our image viewer
                 request.action = WebView.IgnoreRequest;
             }
-            console.log(request.url);
         }
         clip: true // Enforce painting inside our defined screen
         opacity: loading || !connected? 0.0: 1.0
