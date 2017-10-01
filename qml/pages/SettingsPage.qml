@@ -145,26 +145,6 @@ Dialog {
                 }
             }
 
-            SectionHeader{ text: qsTr("Video player") }
-
-            TextSwitch {
-                id: enableVideoPlayer
-                text: qsTr("Enable native videoplayer")
-                enabled: settings.externalLink==0
-                checked: settings.enableVideoPlayer
-                description: qsTr("%1 will open Facebook and Youtube videos in his native videoplayer. If disabled, they will be opened in the external browser.").arg("Sailbook")
-            }
-
-            ComboBox {
-                id: videoQuality
-                label: qsTr("Video quality")
-                currentIndex: settings.videoQuality
-                menu: ContextMenu {
-                    MenuItem { text: qsTr("360p (SD)") }
-                    MenuItem { text: qsTr("720p (HD)") }
-                }
-            }
-
             SectionHeader{ text: qsTr("Notifications") }
 
             IconTextSwitch {

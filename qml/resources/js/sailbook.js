@@ -1,4 +1,4 @@
-var msgCode = {"NOTIFICATION": 0, "EXTERNAL": 1, "VIDEO": 2, "DEBUG": 42};
+var msgCode = {"NOTIFICATION": 0, "EXTERNAL": 1, "FACEBOOK_VIDEO": 2, "YOUTUBE_VIDEO": 3, "DEBUG": 42};
 var nightModeState = false;
 var facebookExtLinkRegex = /lm\.facebook.com\/l\.php\?u=(.*)&h=/;
 var facebookIntLinkRegex = /m\.facebook.*\//;
@@ -91,7 +91,7 @@ for(var i=0; i<notificationClasses.length; i++) {
 document.addEventListener('click', function(element) { // Trigger on link click
     var externalUrl = findHyperlink(element.target);
     if(externalUrl.match("goo.gl")) { // Check for youtube video: youtube-dl https://goo.gl/RJApWi -g --no-warnings -e -i
-        send(msgCode["VIDEO"], externalUrl);
+        send(msgCode["YOUTUBE_VIDEO"], externalUrl);
     }
     else if(!facebookIntLinkRegex.test(externalUrl)) { // Ignore internal links
         send(msgCode["EXTERNAL"], externalUrl);
@@ -101,6 +101,6 @@ document.addEventListener('click', function(element) { // Trigger on link click
 document.addEventListener("touchend",  function(touchEvent) { // Trigger on video touch
     var videoUrl = findFacebookVideo(touchEvent);
     if(videoUrl.match("fbcdn.net")) { // Valid Facebook video link detection
-        send(msgCode["VIDEO"], videoUrl);
+        send(msgCode["FACEBOOK_VIDEO"], videoUrl);
     }
 }, true); // useCapture=true: trigger on touch begin

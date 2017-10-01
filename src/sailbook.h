@@ -1,7 +1,7 @@
 #ifndef SAILBOOK_H
 #define SAILBOOK_H
 
-#include <QtGlobal>
+#include <QtCore/QtGlobal>
 #include <QtCore/QObject>
 #include <QtCore/QDebug>
 #include <QtCore/QString>

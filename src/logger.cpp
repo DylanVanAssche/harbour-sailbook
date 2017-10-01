@@ -38,7 +38,6 @@ void handler(QtMsgType type, const QMessageLogContext &context, const QString &m
     OS sfos;
     QTextStream logStream;
     QDir logdir(sfos.logLocation());
-    logdir.mkpath(sfos.logLocation());
     QFile outFile(logdir.absolutePath() + "/" + sfos.logFile());
 
     // At launch, clear log otherwise append to it

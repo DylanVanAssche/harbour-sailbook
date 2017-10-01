@@ -1,8 +1,8 @@
 #ifndef LOGGER_H
 #define LOGGER_H
 
-#include <QtGlobal>
 #include <QtDebug>
+#include <QtCore/QtGlobal>
 #include <QtCore/QCoreApplication>
 #include <QtCore/QString>
 #include <QtCore/QTextStream>

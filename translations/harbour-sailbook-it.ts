@@ -123,31 +123,16 @@
         <source>Save</source>
         <translation>Salva</translation>
     </message>
+    <message>
+        <source>Saving image complete</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ImageSelectorPage</name>
     <message>
         <source>Upload image</source>
         <translation>Carica immagine</translation>
-    </message>
-</context>
-<context>
-    <name>InputPage</name>
-    <message>
-        <source>Name</source>
-        <translation>Nome</translation>
-    </message>
-    <message>
-        <source>The right extension is automatically added.</source>
-        <translation>L&apos;estensione sarà aggiunta automaticamente.</translation>
-    </message>
-    <message>
-        <source>File name</source>
-        <translation>Nome file</translation>
-    </message>
-    <message>
-        <source>Name of the file</source>
-        <translation>Nome del file</translation>
     </message>
 </context>
 <context>
@@ -173,18 +158,6 @@
         <translation>browser esterno</translation>
     </message>
     <message>
-        <source>Video quality</source>
-        <translation>Qualità video</translation>
-    </message>
-    <message>
-        <source>360p (SD)</source>
-        <translation>360p (SD)</translation>
-    </message>
-    <message>
-        <source>720p (HD)</source>
-        <translation>720p (HD)</translation>
-    </message>
-    <message>
         <source>Enable notifications</source>
         <translation>Attiva notifiche</translation>
     </message>
@@ -195,14 +168,6 @@
     <message>
         <source>External links</source>
         <translation>Link esterni</translation>
-    </message>
-    <message>
-        <source>Video player</source>
-        <translation>Player video</translation>
-    </message>
-    <message>
-        <source>Enable native videoplayer</source>
-        <translation>Attiva player video nativo</translation>
     </message>
     <message>
         <source>Back button in</source>
@@ -293,10 +258,6 @@
         <translation>Storie principali</translation>
     </message>
     <message>
-        <source>%1 will open Facebook and Youtube videos in his native videoplayer. If disabled, they will be opened in the external browser.</source>
-        <translation>%1 apre i video di Facebook e YouTube all&apos;interno dell&apos;app. Se deselezionato, i video verranno aperti nel browser esterno.</translation>
-    </message>
-    <message>
         <source>%1 will send you notifications when you have a new message, a new notification or a friend request.</source>
         <translation>%1 ti segnalerà l&apos;arrivo di un nuovo messaggio, notifica o richiesta di amicizia.</translation>
     </message>
@@ -315,16 +276,12 @@
 <context>
     <name>VideoPage</name>
     <message>
+        <source>Error!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Videoplayer</source>
-        <translation>Player</translation>
-    </message>
-    <message>
-        <source>Unable to play this video</source>
-        <translation>Impossibile riprodurre il video</translation>
-    </message>
-    <message>
-        <source>Use the pulley menu to open it in the browser.</source>
-        <translation>Usa il pulley menu per aprirlo nel browser.</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -375,6 +332,10 @@
     </message>
     <message>
         <source>You have %1 notifications</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Opening external link</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

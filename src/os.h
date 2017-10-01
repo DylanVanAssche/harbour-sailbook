@@ -1,11 +1,12 @@
 #ifndef OS_H
 #define OS_H
 
-#include <QtGlobal>
 #include <sailfishapp/sailfishapp.h>
 #include <QtGui/QGuiApplication>
 #include <nemonotifications-qt5/notification.h>
 #include <QtGui/QGuiApplication>
+#include <QtCore/QtGlobal>
+#include <QtCore/QDir>
 #include <QtCore/QString>
 #include <QtCore/QStringList>
 #include <QtCore/QList>
@@ -41,6 +42,11 @@ public:
     QString cacheLocation();
     QString dataLocation();
     QString configLocation();
+    QString photoLocation();
+    QString musicLocation();
+    QString documentLocation();
+    QString videoLocation();
+    QString downloadLocation();
     QString logLocation();
     QString logFile();
     QString appName();

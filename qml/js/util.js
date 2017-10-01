@@ -48,7 +48,7 @@ function getMenubarItems() { // Count how many elements we have in our menu bar
 }
 
 function handleImagePicker(filePicker) {
-    var imageSelector = pageStack.push(Qt.resolvedUrl("../ImageSelectorPage.qml"));
+    var imageSelector = pageStack.push(Qt.resolvedUrl("../pages/ImageSelectorPage.qml"));
     imageSelector.finished.connect(function(){
         if(imageSelector.imageUrl.length > 0) {
             console.log("[INFO] User selected image: " + imageSelector.imageUrl);

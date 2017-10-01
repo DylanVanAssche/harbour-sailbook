@@ -21,13 +21,16 @@ CONFIG += sailfishapp
 
 QT += core \
     gui \
-    dbus
+    dbus \
+    network
+
 PKGCONFIG += nemonotifications-qt5
 
 SOURCES += src/harbour-sailbook.cpp \
     src/sailbook.cpp \
     src/os.cpp \
-    src/logger.cpp
+    src/logger.cpp \
+    src/transferengine.cpp
 
 OTHER_FILES += qml/harbour-sailbook.qml \
     qml/cover/CoverPage.qml \
@@ -61,7 +64,6 @@ DISTFILES += \
     qml/pages/ImagePage.qml \
     qml/pages/js/media.js \
     qml/pages/ImageSelectorPage.qml \
-    qml/pages/InputPage.qml \
     rpm/harbour-sailbook.changes \
     qml/pages/PlaceholderWebview.qml \
     qml/components/ExternalWebview.qml \
@@ -73,12 +75,13 @@ DISTFILES += \
     qml/components/NavigationButton.qml \
     qml/js/media.js \
     qml/js/messages.js \
-    qml/js/util.js \
+    qml/js/util.js
 
 HEADERS += \
     src/sailbook.h \
     src/os.h \
-    src/logger.h
+    src/logger.h \
+    src/transferengine.h
 
 RESOURCES += \
     qml/resources/resources.qrc

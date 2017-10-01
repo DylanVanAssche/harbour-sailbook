@@ -5,10 +5,17 @@ import "../js/media.js" as Media
 
 Page {
     id: page
-    Component.onCompleted: url = Media.getVideoUrl(type, url)
-
-    property variant url
+    property string url
     property int type
+
+    Component.onCompleted: {
+        switch(type) {
+        case 0: // Internal Facebook video
+            console.debug("Internal Facebook video: " + url);
+            videoPlayer.source = url;
+            break;
+        }
+    }
 
     Timer {
         id: hideControlBar
@@ -45,9 +52,14 @@ Page {
                 source: MediaPlayer {
                     id: videoPlayer
                     autoPlay: true
-                    source: url? url: null
                     onStopped: controlBar.opacity = 1.0
-                    onError: console.log("[ERROR] Videoplayer can't load video: " + errorString)
+                    onError: {
+                        placeholder.enabled = true;
+                        placeholder.text = qsTr("Error!");
+                        placeholder.hintText = errorString;
+                        video.visible = false;
+                        console.error("Videoplayer can't load video: " + errorString)
+                    }
                     onBufferProgressChanged: bufferProgress > 0.95? buffering.restart(): pause()
                 }
             }
@@ -56,7 +68,7 @@ Page {
         BusyIndicator { // Buffering video
             anchors.centerIn: parent
             size: BusyIndicatorSize.Large
-            visible: videoPlayer.bufferProgress < 0.05 || buffering.running
+            visible: (videoPlayer.bufferProgress < 0.05 || buffering.running) && !placeholder.enabled
             running: true
         }
 
@@ -102,9 +114,7 @@ Page {
         }
 
         ViewPlaceholder {
-            text: qsTr("Unable to play this video") + " :-("
-            hintText: qsTr("Use the pulley menu to open it in the browser.")
-            enabled: !url
+            id: placeholder
         }
     }
 }

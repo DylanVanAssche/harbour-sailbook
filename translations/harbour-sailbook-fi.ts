@@ -123,31 +123,16 @@
         <source>Save</source>
         <translation>Tallenna</translation>
     </message>
+    <message>
+        <source>Saving image complete</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ImageSelectorPage</name>
     <message>
         <source>Upload image</source>
         <translation>Lataa kuva</translation>
-    </message>
-</context>
-<context>
-    <name>InputPage</name>
-    <message>
-        <source>Name</source>
-        <translation>Nimi</translation>
-    </message>
-    <message>
-        <source>The right extension is automatically added.</source>
-        <translation>Oikea liitännäinen on automaattisesti lisätty</translation>
-    </message>
-    <message>
-        <source>File name</source>
-        <translation>Tiedostonimi</translation>
-    </message>
-    <message>
-        <source>Name of the file</source>
-        <translation>Tiedoston nimi</translation>
     </message>
 </context>
 <context>
@@ -173,18 +158,6 @@
         <translation>Ulkoinen selain</translation>
     </message>
     <message>
-        <source>Video quality</source>
-        <translation>Videon laatu</translation>
-    </message>
-    <message>
-        <source>360p (SD)</source>
-        <translation>360p (Peruslaatu)</translation>
-    </message>
-    <message>
-        <source>720p (HD)</source>
-        <translation>720p (Korkea laatu)</translation>
-    </message>
-    <message>
         <source>Enable notifications</source>
         <translation>Ota käyttöön ilmoitukset</translation>
     </message>
@@ -195,14 +168,6 @@
     <message>
         <source>External links</source>
         <translation>Ulkoiset osoitteet</translation>
-    </message>
-    <message>
-        <source>Video player</source>
-        <translation>Videosoitin</translation>
-    </message>
-    <message>
-        <source>Enable native videoplayer</source>
-        <translation>Ota käyttöön paikallinen videosoitin</translation>
     </message>
     <message>
         <source>Back button in</source>
@@ -293,10 +258,6 @@
         <translation>Parhaat tarinat</translation>
     </message>
     <message>
-        <source>%1 will open Facebook and Youtube videos in his native videoplayer. If disabled, they will be opened in the external browser.</source>
-        <translation>%1 avaa Facebook ja Youtube videot omassa videosoittimessaan. Jos tämä on disabloitu, avataan ne ulkoisessa selaimessa.</translation>
-    </message>
-    <message>
         <source>%1 will send you notifications when you have a new message, a new notification or a friend request.</source>
         <translation>%1 lähettää ilmoituksia kun saat uuden viestin, uuden ilmoituksen tai kaveripyynnön.</translation>
     </message>
@@ -315,16 +276,12 @@
 <context>
     <name>VideoPage</name>
     <message>
+        <source>Error!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Videoplayer</source>
-        <translation>Videosoitin</translation>
-    </message>
-    <message>
-        <source>Unable to play this video</source>
-        <translation>Videon toistaminen ei onnistu</translation>
-    </message>
-    <message>
-        <source>Use the pulley menu to open it in the browser.</source>
-        <translation>Käytä ylhäältä pyyhkäistävää valikkoa avataksesi sen selaimessa.</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -375,6 +332,10 @@
     </message>
     <message>
         <source>You have %1 notifications</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Opening external link</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

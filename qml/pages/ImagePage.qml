@@ -1,10 +1,21 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
+import Harbour.Sailbook.Transferengine 1.0
+import Harbour.Sailbook.SFOS 1.0
 
 Page {
     id: page
 
     property string url
+
+    SFOS {
+        id: sfos
+    }
+
+    Transferengine {
+        id: transferengine
+        onDownloadFinished: sfos.createToaster(qsTr("Saving image complete") + "!", "icon-s-installed", "sailbook-external");
+    }
 
     SilicaFlickable {
         anchors { fill: parent }
@@ -12,7 +23,7 @@ Page {
         PullDownMenu {
             MenuItem {
                 text: qsTr("Save")
-                onClicked: pageStack.push(Qt.resolvedUrl("../pages/InputPage.qml"), {path: StandardPaths.pictures + "/Sailbook", url: url})
+                onClicked: transferengine.download(url)
             }
         }
 
@@ -27,7 +38,7 @@ Page {
             width: parent.width
             height: parent.height
             fillMode: Image.PreserveAspectFit
-            source: visible? url: "qrc:///images/image-placeholder.png"
+            source: url
             asynchronous: true
         }
 
