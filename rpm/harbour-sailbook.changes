@@ -8,6 +8,9 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Sun Oct 1 2017 Dylan Van Assche <dylan.van.assche@protonmail.com> 10.0-2
+- [MINOR BUGFIX] Removed Pyotherside dependency from YAML file
+
 * Sun Oct 1 2017 Dylan Van Assche <dylan.van.assche@protonmail.com> 10.0-1
 - [MAJOR BUGFIX] Logfile is cleared with every launch, avoids incrementing diskspace
 - [NEW] Unified logging system using a single log file
