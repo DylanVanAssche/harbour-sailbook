@@ -27,16 +27,12 @@ int main(int argc, char *argv[])
     QGuiApplication* app = SailfishApp::application(argc, argv);
     qApp->setApplicationVersion(QString(APP_VERSION));
 
+    // Enable logger
+    enableLogger(true);
+
     // Init Sailbook object and clear webview cache
     Sailbook sailbook;
     sailbook.clearCache();
-
-    // TEST
-    //Transferengine engine;
-    //engine.download("https://upload.wikimedia.org/wikipedia/en/d/dc/Gran_Palacio%2C_Bangkok%2C_Tailandia%2C_2013-08-22%2C_DD_57_%28Cropped%29.jpg");
-
-    // Enable logger
-    enableLogger(true);
 
     // Expose C++ modules to QML
     qmlRegisterType<OS>("Harbour.Sailbook.SFOS", 1, 0, "SFOS");
