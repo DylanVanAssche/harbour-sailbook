@@ -37,7 +37,7 @@
     </message>
     <message>
         <source>Sailbook icons made by Alain Molteni.</source>
-        <translation>Iconos de Sailbook hechos por Alain Molteni.</translation>
+        <translation>Iconos hechos por Alain Molteni.</translation>
     </message>
     <message>
         <source>is free software released under the GNU General Public License (GPL), version 3 or later.</source>
@@ -76,18 +76,18 @@
     <name>CoverPage</name>
     <message>
         <source>message(s)</source>
-        <translation>no leído(s)</translation>
+        <translation>no leído (s)</translation>
     </message>
     <message>
         <source>Unread</source>
-        <translation type="unfinished"></translation>
+        <translation>mensaje (s)</translation>
     </message>
 </context>
 <context>
     <name>ExternalWebview</name>
     <message>
         <source>No network</source>
-        <translation type="unfinished"></translation>
+        <translation>Sin red</translation>
     </message>
 </context>
 <context>
@@ -110,7 +110,7 @@
     </message>
     <message>
         <source>No network</source>
-        <translation type="unfinished"></translation>
+        <translation>Sin red</translation>
     </message>
 </context>
 <context>
@@ -125,7 +125,7 @@
     </message>
     <message>
         <source>Saving image complete</source>
-        <translation type="unfinished"></translation>
+        <translation>Guardando la imagen completa</translation>
     </message>
 </context>
 <context>
@@ -235,7 +235,7 @@
     </message>
     <message>
         <source>Facebook nightmode</source>
-        <translation>Facebook modo de noche</translation>
+        <translation>Modo de noche</translation>
     </message>
     <message>
         <source>Pulldown menu</source>
@@ -251,7 +251,7 @@
     </message>
     <message>
         <source>Most recent</source>
-        <translation>Más reciente</translation>
+        <translation>Más recientes</translation>
     </message>
     <message>
         <source>Top stories</source>
@@ -277,66 +277,66 @@
     <name>VideoPage</name>
     <message>
         <source>Error!</source>
-        <translation type="unfinished"></translation>
+        <translation>Error!</translation>
     </message>
     <message>
         <source>Videoplayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Reproductor de video</translation>
     </message>
 </context>
 <context>
     <name>messages</name>
     <message>
         <source>New friend request</source>
-        <translation type="unfinished"></translation>
+        <translation>Nueva solicitud de amistad</translation>
     </message>
     <message>
         <source>New friend requests</source>
-        <translation type="unfinished"></translation>
+        <translation>Nueva solicitud de amistad</translation>
     </message>
     <message>
         <source>New message</source>
-        <translation type="unfinished"></translation>
+        <translation>Nuevo mensaje</translation>
     </message>
     <message>
         <source>New messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Nuevos mensajes</translation>
     </message>
     <message>
         <source>New notification</source>
-        <translation type="unfinished"></translation>
+        <translation>Nueva notificacion</translation>
     </message>
     <message>
         <source>New notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Nuevas notificaciones</translation>
     </message>
     <message>
         <source>You have %1 new friend request</source>
-        <translation type="unfinished"></translation>
+        <translation>Usted tiene %1 nueva solicitud de amistad</translation>
     </message>
     <message>
         <source>You have %1 friend requests</source>
-        <translation type="unfinished"></translation>
+        <translation>Usted tiene %1 solicitudes de amistad</translation>
     </message>
     <message>
         <source>You have %1 new message</source>
-        <translation type="unfinished"></translation>
+        <translation>Usted tiene %1 nuevo mensaje</translation>
     </message>
     <message>
         <source>You have %1 messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Usted tiene %1 mensajes</translation>
     </message>
     <message>
         <source>You have %1 new notification</source>
-        <translation type="unfinished"></translation>
+        <translation>Usted tiene %1 nueva notificación</translation>
     </message>
     <message>
         <source>You have %1 notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Usted tiene %1 notificaciones</translation>
     </message>
     <message>
         <source>Opening external link</source>
-        <translation type="unfinished"></translation>
+        <translation>Abriendo un enlace externo</translation>
     </message>
 </context>
 </TS>
