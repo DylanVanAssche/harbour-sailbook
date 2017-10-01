@@ -21,7 +21,7 @@ URL:        https://github.com/DylanVanAssche/harbour-sailbook
 Source0:    %{name}-%{version}.tar.bz2
 Source100:  harbour-sailbook.yaml
 Requires:   sailfishsilica-qt5 >= 0.10.9
-Requires:   pyotherside-qml-plugin-python3-qt5 >= 1.3
+Requires:   nemo-qml-plugin-dbus-qt5 >= 0.0.1
 Requires:   nemo-qml-plugin-configuration-qt5 >= 0.0.1
 Requires:   nemo-qml-plugin-notifications-qt5 >= 0.0.1
 BuildRequires:  pkgconfig(sailfishapp) >= 1.0.2
