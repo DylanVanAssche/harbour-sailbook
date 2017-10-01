@@ -14,10 +14,10 @@ Name:       harbour-sailbook
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    Sailbook
 Version:    10.0
-Release:    0
+Release:    1
 Group:      Qt/Qt
 License:    GPLv3
-URL:        https://gitlab.com/Xray2000/harbour-sailbook
+URL:        https://github.com/DylanVanAssche/harbour-sailbook
 Source0:    %{name}-%{version}.tar.bz2
 Source100:  harbour-sailbook.yaml
 Requires:   sailfishsilica-qt5 >= 0.10.9
@@ -45,7 +45,8 @@ Sailbook is an unofficial Facebook client for Sailfish OS
 # >> build pre
 # << build pre
 
-%qtc_qmake5 
+%qtc_qmake5  \
+    VERSION=%{version}
 
 %qtc_make %{?_smp_mflags}
 

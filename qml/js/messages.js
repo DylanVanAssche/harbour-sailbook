@@ -16,7 +16,7 @@ function parse(msg) {
         console.debug(eventMsg)
         break;
     case 1:
-        //sfos.createToaster(qsTr("Opening external link") + "...", "icon-s-time", "sailbook-external");
+        sfos.createToaster(qsTr("Opening external link") + "...", "icon-s-time", "sailbook-external");
 
         if(msg.data.match("cdn.fbsbx.com")) { // When attachment downloaded, go back
             fbWebview.goBack();
@@ -30,27 +30,18 @@ function parse(msg) {
         }
         break;
     case 2:
-        pageStack.push(Qt.resolvedUrl("../pages/VideoPage.qml"), { url: [msg.data], type: 0 }); // Facebook video
+        pageStack.push(Qt.resolvedUrl("../pages/VideoPage.qml"), { url: msg.data }); // Facebook video
+        break;
+
+    case 3:
+        Qt.openUrlExternally(msg.data);
         break;
     default:
-        console.log(JSON.stringify(msg));
+        console.debug(JSON.stringify(msg));
         break;
     }
 }
 
-// Follow link first before sending to Youtube-DL !!!! Python?
-// Check if link is a video and supported by Youtube-DL
-function checkYoutubeDLcompatible(link) {
-    var compatibleLinks = ["youtube", "m.youtube", "youtu", "goo.gl", "dailymotion"]
-    for (var i=0; i < Object.keys(compatibleLinks).length; i++) {
-        if(link.match(compatibleLinks[i])) {
-            return true;
-        }
-    }
-    return false;
-}
-
-/* Video links for Youtube and other sites are detected on external link click*/
 
 var requestsData = 0;
 var messagesData = 0;

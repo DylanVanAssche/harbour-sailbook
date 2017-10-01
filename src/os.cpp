@@ -13,7 +13,14 @@
  */
 OS::OS() {
     QList<QPair<QString, QString> > dataList;
-    QPair<QString, QString> pair;
+    QList<QString> directoryList({logLocation(), cacheLocation(), dataLocation(), photoLocation(), musicLocation(), documentLocation(), videoLocation(), downloadLocation()});
+
+    // Creating default directories
+    QDir directory;
+    foreach (QString path, directoryList) {
+        directory.setPath(path);
+        directory.mkpath(path);
+    }
 
     // Get SFOS release info
     QStringList querrySFOSList;
@@ -124,7 +131,7 @@ void OS::createToaster(QString text, QString icon, QString category) {
     notification.setAppIcon(icon);
     notification.setPreviewBody(preview);
     notification.setCategory(category);
-    notification.setHintValue("x-nemo-icon", 120);
+    notification.setHintValue("x-nemo-icon", icon);
     notification.setHintValue("transient", true);
     notification.publish();
 }
@@ -243,4 +250,24 @@ QString OS::logLocation() {
 /* Return the default logging file name */
 QString OS::logFile() {
     return "log.txt";
+}
+
+QString OS::photoLocation() {
+    return QStandardPaths::standardLocations(QStandardPaths::PicturesLocation).at(0) + "/" + appNamePretty();
+}
+
+QString OS::musicLocation() {
+    return QStandardPaths::standardLocations(QStandardPaths::MusicLocation).at(0) + "/" + appNamePretty();
+}
+
+QString OS::documentLocation() {
+    return QStandardPaths::standardLocations(QStandardPaths::DocumentsLocation).at(0) + "/" + appNamePretty();
+}
+
+QString OS::videoLocation() {
+    return QStandardPaths::standardLocations(QStandardPaths::MoviesLocation).at(0) + "/" + appNamePretty();
+}
+
+QString OS::downloadLocation() {
+    return QStandardPaths::standardLocations(QStandardPaths::DownloadLocation).at(0) + "/" + appNamePretty();
 }

@@ -9,7 +9,6 @@ Item {
     anchors { fill: parent }
 
     property string externalUrl
-    property bool _isYoutube
     property bool connected
 
     function setUrl(url) { // Make setting url possible from outside our component
@@ -80,10 +79,6 @@ Item {
         clip: true
         opacity: loading || !connected? 0.0: 1.0
         url: externalUrl
-        onNavigationRequested: {
-            Media.detectDownload(request)
-            Media.detectYoutubeDLVideo(request)
-        }
 
         // Rounding floating numbers in JS: https://stackoverflow.com/questions/9453421/how-to-round-float-numbers-in-javascript
         // Default 1.5x zoom

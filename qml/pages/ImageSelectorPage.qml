@@ -6,5 +6,5 @@ ImagePickerPage {
     signal finished
 
     title: qsTr("Upload image")
-    Component.onDestruction: { console.log(JSON.stringify(selectedContent)); finished() }
+    Component.onDestruction: { console.debug(JSON.stringify(selectedContent)); finished() }
 }

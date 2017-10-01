@@ -121,7 +121,11 @@ Item {
         experimental.userScripts: Qt.resolvedUrl("qrc:///js/sailbook.js")
         experimental.onMessageReceived: Messages.parse(message.data)
         experimental.filePicker: ImagePicker { filePicker: model } // Send filepicker model to our ImagePicker
-        onNavigationRequested: Media.detectImage(request) //When link is an image, cancel request and show our image viewer
+        onNavigationRequested: {
+            if(Media.detectImage(request)) { // When link is an image, cancel request and show our image viewer
+                request.action = WebView.IgnoreRequest;
+            }
+        }
         clip: true // Enforce painting inside our defined screen
         opacity: loading || !connected? 0.0: 1.0
         url: "https://m.facebook.com/home.php?sk=" + Util.getFeedPriority(settings.priorityFeed)

@@ -123,30 +123,15 @@
         <source>Save</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Saving image complete</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ImageSelectorPage</name>
     <message>
         <source>Upload image</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>InputPage</name>
-    <message>
-        <source>Name</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>The right extension is automatically added.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>File name</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Name of the file</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -173,18 +158,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Video quality</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>360p (SD)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>720p (HD)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Enable notifications</source>
         <translation type="unfinished"></translation>
     </message>
@@ -194,14 +167,6 @@
     </message>
     <message>
         <source>External links</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Video player</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enable native videoplayer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -293,10 +258,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>%1 will open Facebook and Youtube videos in his native videoplayer. If disabled, they will be opened in the external browser.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>%1 will send you notifications when you have a new message, a new notification or a friend request.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -315,15 +276,11 @@
 <context>
     <name>VideoPage</name>
     <message>
+        <source>Error!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Videoplayer</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Unable to play this video</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Use the pulley menu to open it in the browser.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -375,6 +332,10 @@
     </message>
     <message>
         <source>You have %1 notifications</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Opening external link</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

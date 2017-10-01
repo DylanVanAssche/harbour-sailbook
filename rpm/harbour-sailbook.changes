@@ -8,6 +8,27 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Sun Oct 1 2017 Dylan Van Assche <dylan.van.assche@protonmail.com> 10.0-1
+- [MAJOR BUGFIX] Logfile is cleared with every launch, avoids incrementing diskspace
+- [NEW] Unified logging system using a single log file
+- [NEW] QT Resource System taken in use, all assets are now compiled into the binary for faster access
+- [NEW] Automatically reconnect to the network using DBus
+- [NEW] Tapping on a notification will open the according tab in Sailbook
+- [IMPROVEMENT] Better link handling
+- [IMPROVEMENT] Versioning is now better handled
+- [IMPROVEMENT] Version is now read from RPM when building
+- [IMPROVEMENT] New C++ download engine for images
+- [IMPROVEMENT] Notifications are now using a C++ version which provides better integration in SFOS
+- [IMPROVEMENT] Ambience theme has transparency now
+- [IMPROVEMENT] Youtube videos are now opened in the Browser
+- [IMPROVEMENT] Moved from Python to C++ backend
+- [IMPROVEMENT] Components and JS files are now in a seperate folder for easier maintaining
+- [IMPROVEMENT] Silica Devicepixelratio API taken in use for the webviews
+- [GITHUB] README updated according to the latest development
+- [GITHUB] Dylan Van Assche is now the official maintainer of the Github repository
+- [GITHUB] Sailbook Wiki released with information about how to contribute, translate, ...
+- [STORE] Harbour compatible from SFOS 2.1.1
+
 * Mon Sep 11 2017 Dylan Van Assche <dylan.van.assche@protonmail.com> 9.5-1
 - [MINOR BUGFIX] External links webview won't crash anymore with new splashscreen
 - [IMPROVEMENT] Notification backend now uses events
