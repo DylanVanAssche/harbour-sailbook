@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="pl">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="pl" version="2.1">
 <context>
     <name>AboutPage</name>
     <message>
@@ -80,14 +78,14 @@
     </message>
     <message>
         <source>Unread</source>
-        <translation type="unfinished"></translation>
+        <translation>Nieprzeczytane</translation>
     </message>
 </context>
 <context>
     <name>ExternalWebview</name>
     <message>
         <source>No network</source>
-        <translation type="unfinished"></translation>
+        <translation>Brak sieci</translation>
     </message>
 </context>
 <context>
@@ -110,7 +108,7 @@
     </message>
     <message>
         <source>No network</source>
-        <translation type="unfinished"></translation>
+        <translation>Brak sieci</translation>
     </message>
 </context>
 <context>
@@ -125,7 +123,7 @@
     </message>
     <message>
         <source>Saving image complete</source>
-        <translation type="unfinished"></translation>
+        <translation>Zapisywanie obrazu jest kompletne</translation>
     </message>
 </context>
 <context>
@@ -277,66 +275,66 @@
     <name>VideoPage</name>
     <message>
         <source>Error!</source>
-        <translation type="unfinished"></translation>
+        <translation>Błąd!</translation>
     </message>
     <message>
         <source>Videoplayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Odtwarzacz wideo</translation>
     </message>
 </context>
 <context>
     <name>messages</name>
     <message>
         <source>New friend request</source>
-        <translation type="unfinished"></translation>
+        <translation>Nowe zaproszenie do znajomości</translation>
     </message>
     <message>
         <source>New friend requests</source>
-        <translation type="unfinished"></translation>
+        <translation>Nowe zaproszenia do znajomości</translation>
     </message>
     <message>
         <source>New message</source>
-        <translation type="unfinished"></translation>
+        <translation>Nowa wiadomość</translation>
     </message>
     <message>
         <source>New messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Nowe wiadomości</translation>
     </message>
     <message>
         <source>New notification</source>
-        <translation type="unfinished"></translation>
+        <translation>Nowe powiadomienie</translation>
     </message>
     <message>
         <source>New notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Nowe powiadomienia</translation>
     </message>
     <message>
         <source>You have %1 new friend request</source>
-        <translation type="unfinished"></translation>
+        <translation>Masz %1 nowe zaproszenie do znajomości</translation>
     </message>
     <message>
         <source>You have %1 friend requests</source>
-        <translation type="unfinished"></translation>
+        <translation>Masz %1 nowe zaproszenia do znajomości</translation>
     </message>
     <message>
         <source>You have %1 new message</source>
-        <translation type="unfinished"></translation>
+        <translation>Masz %1 nową wiadomość</translation>
     </message>
     <message>
         <source>You have %1 messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Masz %1 nowe wiadomości</translation>
     </message>
     <message>
         <source>You have %1 new notification</source>
-        <translation type="unfinished"></translation>
+        <translation>Masz %1 nowe powiadomienie</translation>
     </message>
     <message>
         <source>You have %1 notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Masz %1 nowe powiadomienia</translation>
     </message>
     <message>
         <source>Opening external link</source>
-        <translation type="unfinished"></translation>
+        <translation>Otwieranie łącza zewnętrznego</translation>
     </message>
 </context>
 </TS>

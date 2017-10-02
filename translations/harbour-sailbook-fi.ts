@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="fi">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="fi" version="2.1">
 <context>
     <name>AboutPage</name>
     <message>
@@ -80,14 +78,14 @@
     </message>
     <message>
         <source>Unread</source>
-        <translation type="unfinished"></translation>
+        <translation>Lukemattomat</translation>
     </message>
 </context>
 <context>
     <name>ExternalWebview</name>
     <message>
         <source>No network</source>
-        <translation type="unfinished"></translation>
+        <translation>Ei verkkoa</translation>
     </message>
 </context>
 <context>
@@ -110,7 +108,7 @@
     </message>
     <message>
         <source>No network</source>
-        <translation type="unfinished"></translation>
+        <translation>Ei verkkoa</translation>
     </message>
 </context>
 <context>
@@ -125,7 +123,7 @@
     </message>
     <message>
         <source>Saving image complete</source>
-        <translation type="unfinished"></translation>
+        <translation>Kuvan tallennus valmis</translation>
     </message>
 </context>
 <context>
@@ -277,66 +275,66 @@
     <name>VideoPage</name>
     <message>
         <source>Error!</source>
-        <translation type="unfinished"></translation>
+        <translation>Virhe!</translation>
     </message>
     <message>
         <source>Videoplayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Videosoitin</translation>
     </message>
 </context>
 <context>
     <name>messages</name>
     <message>
         <source>New friend request</source>
-        <translation type="unfinished"></translation>
+        <translation>Uusi kaveripyyntö</translation>
     </message>
     <message>
         <source>New friend requests</source>
-        <translation type="unfinished"></translation>
+        <translation>Uusia kaveripyyntöjä</translation>
     </message>
     <message>
         <source>New message</source>
-        <translation type="unfinished"></translation>
+        <translation>Uusi viesti</translation>
     </message>
     <message>
         <source>New messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Uusia viestejä</translation>
     </message>
     <message>
         <source>New notification</source>
-        <translation type="unfinished"></translation>
+        <translation>Uusi ilmoitus</translation>
     </message>
     <message>
         <source>New notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Uusia ilmoituksia</translation>
     </message>
     <message>
         <source>You have %1 new friend request</source>
-        <translation type="unfinished"></translation>
+        <translation>Sinulle on %1 uusi kaveripyyntö</translation>
     </message>
     <message>
         <source>You have %1 friend requests</source>
-        <translation type="unfinished"></translation>
+        <translation>Sinulla on %1 kaveripyyntöä</translation>
     </message>
     <message>
         <source>You have %1 new message</source>
-        <translation type="unfinished"></translation>
+        <translation>Sinulle on %1 uusi viesti</translation>
     </message>
     <message>
         <source>You have %1 messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Sinulla on %1 viestejä</translation>
     </message>
     <message>
         <source>You have %1 new notification</source>
-        <translation type="unfinished"></translation>
+        <translation>Sinulle on %1 uusia ilmoituksia</translation>
     </message>
     <message>
         <source>You have %1 notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Sinulla on %1 ilmoituksia</translation>
     </message>
     <message>
         <source>Opening external link</source>
-        <translation type="unfinished"></translation>
+        <translation>Avaamalla ulkoisen osoitteen</translation>
     </message>
 </context>
 </TS>
