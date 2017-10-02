@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="de">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="de" version="2.1">
 <context>
     <name>AboutPage</name>
     <message>
@@ -80,14 +78,14 @@
     </message>
     <message>
         <source>Unread</source>
-        <translation type="unfinished"></translation>
+        <translation>Ungelesen</translation>
     </message>
 </context>
 <context>
     <name>ExternalWebview</name>
     <message>
         <source>No network</source>
-        <translation type="unfinished"></translation>
+        <translation>Keine Verbindung</translation>
     </message>
 </context>
 <context>
@@ -110,7 +108,7 @@
     </message>
     <message>
         <source>No network</source>
-        <translation type="unfinished"></translation>
+        <translation>Keine Verbindung</translation>
     </message>
 </context>
 <context>
@@ -125,7 +123,7 @@
     </message>
     <message>
         <source>Saving image complete</source>
-        <translation type="unfinished"></translation>
+        <translation>Bild erfolgreich gespeichert</translation>
     </message>
 </context>
 <context>
@@ -277,66 +275,66 @@
     <name>VideoPage</name>
     <message>
         <source>Error!</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler!</translation>
     </message>
     <message>
         <source>Videoplayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Videospieler</translation>
     </message>
 </context>
 <context>
     <name>messages</name>
     <message>
         <source>New friend request</source>
-        <translation type="unfinished"></translation>
+        <translation>Neue Freundschaftsanfrage</translation>
     </message>
     <message>
         <source>New friend requests</source>
-        <translation type="unfinished"></translation>
+        <translation>Neue Freundschaftsanfragen</translation>
     </message>
     <message>
         <source>New message</source>
-        <translation type="unfinished"></translation>
+        <translation>Neue Nachricht</translation>
     </message>
     <message>
         <source>New messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Neue Nachrichten</translation>
     </message>
     <message>
         <source>New notification</source>
-        <translation type="unfinished"></translation>
+        <translation>Neue Benachrichtigung</translation>
     </message>
     <message>
         <source>New notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Neue Benachrichtigungen</translation>
     </message>
     <message>
         <source>You have %1 new friend request</source>
-        <translation type="unfinished"></translation>
+        <translation>Du hast %1 neue Freundschaftsanfrage(n)</translation>
     </message>
     <message>
         <source>You have %1 friend requests</source>
-        <translation type="unfinished"></translation>
+        <translation>Du hast %1 Freundschaftsanfrage(n)</translation>
     </message>
     <message>
         <source>You have %1 new message</source>
-        <translation type="unfinished"></translation>
+        <translation>Du hast %1 neue Nachricht(en)</translation>
     </message>
     <message>
         <source>You have %1 messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Du hast %1 Nachricht(en)</translation>
     </message>
     <message>
         <source>You have %1 new notification</source>
-        <translation type="unfinished"></translation>
+        <translation>Du hast %1 neue Benachrichtigung(en)</translation>
     </message>
     <message>
         <source>You have %1 notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Du hast %1 Benachrichtigung(en)</translation>
     </message>
     <message>
         <source>Opening external link</source>
-        <translation type="unfinished"></translation>
+        <translation>Öffne externen Link</translation>
     </message>
 </context>
 </TS>
