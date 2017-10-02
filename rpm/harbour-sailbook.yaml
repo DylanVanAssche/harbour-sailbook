@@ -1,7 +1,7 @@
 Name: harbour-sailbook
 Summary: Sailbook
 Version: 10.0
-Release: 1
+Release: 3
 # The contents of the Group field should be one of the groups listed here:
 # http://gitorious.org/meego-developer-tools/spectacle/blobs/master/data/GROUPS
 Group: Qt/Qt
@@ -36,9 +36,9 @@ PkgConfigBR:
 # Runtime dependencies which are not automatically detected
 Requires:
   - sailfishsilica-qt5 >= 0.10.9
-  - nemo-qml-plugin-dbus-qt5 >= 0.0.1
-  - nemo-qml-plugin-configuration-qt5 >= 0.0.1
-  - nemo-qml-plugin-notifications-qt5 >= 0.0.1
+  - nemo-qml-plugin-dbus-qt5
+  - nemo-qml-plugin-configuration-qt5
+  - nemo-qml-plugin-notifications-qt5
 
 # All installed files
 Files:

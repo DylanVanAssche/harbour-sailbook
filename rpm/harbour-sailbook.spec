@@ -14,16 +14,16 @@ Name:       harbour-sailbook
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    Sailbook
 Version:    10.0
-Release:    1
+Release:    3
 Group:      Qt/Qt
 License:    GPLv3
 URL:        https://github.com/DylanVanAssche/harbour-sailbook
 Source0:    %{name}-%{version}.tar.bz2
 Source100:  harbour-sailbook.yaml
 Requires:   sailfishsilica-qt5 >= 0.10.9
-Requires:   nemo-qml-plugin-dbus-qt5 >= 0.0.1
-Requires:   nemo-qml-plugin-configuration-qt5 >= 0.0.1
-Requires:   nemo-qml-plugin-notifications-qt5 >= 0.0.1
+Requires:   nemo-qml-plugin-dbus-qt5
+Requires:   nemo-qml-plugin-configuration-qt5
+Requires:   nemo-qml-plugin-notifications-qt5
 BuildRequires:  pkgconfig(sailfishapp) >= 1.0.2
 BuildRequires:  pkgconfig(nemonotifications-qt5)
 BuildRequires:  pkgconfig(Qt5Core)

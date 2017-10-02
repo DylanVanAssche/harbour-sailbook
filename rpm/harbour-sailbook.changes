@@ -8,6 +8,9 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Sun Oct 8 2017 Dylan Van Assche <dylan.van.assche@protonmail.com> 10.0-3
+- [TRANSLATIONS] Updated translations from Transifex (Thanks Rudi Timmermans)
+
 * Sun Oct 1 2017 Dylan Van Assche <dylan.van.assche@protonmail.com> 10.0-2
 - [MINOR BUGFIX] Removed Pyotherside dependency from YAML file
 
