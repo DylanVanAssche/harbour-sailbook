@@ -8,4 +8,5 @@
     1. Steps
 
 4. **Environment**: 
-    - Modelsim V10.4 PE Student Edition _simulation only_
+    - Sailfish OS version:
+    - Sailfish OS hardware: 
