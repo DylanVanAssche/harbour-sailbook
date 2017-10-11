@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="it">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="it" version="2.1">
 <context>
     <name>AboutPage</name>
     <message>
@@ -80,14 +78,14 @@
     </message>
     <message>
         <source>Unread</source>
-        <translation type="unfinished"></translation>
+        <translation>Non letto</translation>
     </message>
 </context>
 <context>
     <name>ExternalWebview</name>
     <message>
         <source>No network</source>
-        <translation type="unfinished"></translation>
+        <translation>Nessuna rete</translation>
     </message>
 </context>
 <context>
@@ -110,7 +108,7 @@
     </message>
     <message>
         <source>No network</source>
-        <translation type="unfinished"></translation>
+        <translation>Nessuna rete</translation>
     </message>
 </context>
 <context>
@@ -125,7 +123,7 @@
     </message>
     <message>
         <source>Saving image complete</source>
-        <translation type="unfinished"></translation>
+        <translation>Immagine salvata</translation>
     </message>
 </context>
 <context>
@@ -277,66 +275,66 @@
     <name>VideoPage</name>
     <message>
         <source>Error!</source>
-        <translation type="unfinished"></translation>
+        <translation>Errore!</translation>
     </message>
     <message>
         <source>Videoplayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Player</translation>
     </message>
 </context>
 <context>
     <name>messages</name>
     <message>
         <source>New friend request</source>
-        <translation type="unfinished"></translation>
+        <translation>Nuova richiesta d&apos;amicizia</translation>
     </message>
     <message>
         <source>New friend requests</source>
-        <translation type="unfinished"></translation>
+        <translation>Nuove richieste d&apos;amicizia</translation>
     </message>
     <message>
         <source>New message</source>
-        <translation type="unfinished"></translation>
+        <translation>Nuovo messaggio</translation>
     </message>
     <message>
         <source>New messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Nuovi messaggi</translation>
     </message>
     <message>
         <source>New notification</source>
-        <translation type="unfinished"></translation>
+        <translation>Nuova notifica</translation>
     </message>
     <message>
         <source>New notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Nuove notifiche</translation>
     </message>
     <message>
         <source>You have %1 new friend request</source>
-        <translation type="unfinished"></translation>
+        <translation>Hai %1 nuova richiesta d&apos;amicizia</translation>
     </message>
     <message>
         <source>You have %1 friend requests</source>
-        <translation type="unfinished"></translation>
+        <translation>Hai %1 richieste d&apos;amicizia</translation>
     </message>
     <message>
         <source>You have %1 new message</source>
-        <translation type="unfinished"></translation>
+        <translation>Hai %1 nuovo messaggio</translation>
     </message>
     <message>
         <source>You have %1 messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Hai %1 messaggi</translation>
     </message>
     <message>
         <source>You have %1 new notification</source>
-        <translation type="unfinished"></translation>
+        <translation>Hai %1 nuova notifica</translation>
     </message>
     <message>
         <source>You have %1 notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Hai %1 notifiche</translation>
     </message>
     <message>
         <source>Opening external link</source>
-        <translation type="unfinished"></translation>
+        <translation>Apertura link esterno</translation>
     </message>
 </context>
 </TS>
