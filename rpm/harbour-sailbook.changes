@@ -8,6 +8,13 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Sat Oct 14 2017 Dylan Van Assche <dylan.van.assche@protonmail.com> 10.0-5
+- [STORE] Visual assets updated
+
+* Wed Oct 11 2017 Dylan Van Assche <dylan.van.assche@protonmail.com> 10.0-4
+- [TRANSLATIONS] Updated translations
+- [STORE] Visual assets updated
+
 * Sun Oct 8 2017 Dylan Van Assche <dylan.van.assche@protonmail.com> 10.0-3
 - [TRANSLATIONS] Updated translations from Transifex (Thanks Rudi Timmermans)
 
@@ -40,8 +47,8 @@
 - [IMPROVEMENT] Notification backend now uses events
 
 * Sat Sep 2 2017 Matthias Weiß <info@codeandcreate.de> 9.4
-- [IMPROVEMENT] Nightmode
 - [NEW] Nightmode ambience
+- [IMPROVEMENT] Nightmode
 - [IMPROVEMENT] Fix for comments / hide of view switcher
 
 * Thu Aug 31 2017 Rudi Timmermans <rudi.timmer@gmx.us> 9.3
