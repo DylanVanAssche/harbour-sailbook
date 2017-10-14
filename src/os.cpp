@@ -256,34 +256,34 @@ QString OS::photoLocation() {
     QDir directory;
     directory.setPath(QStandardPaths::standardLocations(QStandardPaths::PicturesLocation).at(0) + "/" + appNamePretty());
     directory.mkpath(QStandardPaths::standardLocations(QStandardPaths::PicturesLocation).at(0) + "/" + appNamePretty());
-    return directory;
+    return directory.path();
 }
 
 QString OS::musicLocation() {
     QDir directory;
     directory.setPath(QStandardPaths::standardLocations(QStandardPaths::MusicLocation).at(0) + "/" + appNamePretty());
     directory.mkpath(QStandardPaths::standardLocations(QStandardPaths::MusicLocation).at(0) + "/" + appNamePretty());
-    return directory;
+    return directory.path();
 }
 
 QString OS::documentLocation() {
     QDir directory;
     directory.setPath(QStandardPaths::standardLocations(QStandardPaths::DocumentsLocation).at(0) + "/" + appNamePretty());
     directory.mkpath(QStandardPaths::standardLocations(QStandardPaths::DocumentsLocation).at(0) + "/" + appNamePretty());
-    return directory;
+    return directory.path();
 }
 
 QString OS::videoLocation() {
     QDir directory;
     directory.setPath(QStandardPaths::standardLocations(QStandardPaths::MoviesLocation).at(0) + "/" + appNamePretty());
     directory.mkpath(QStandardPaths::standardLocations(QStandardPaths::MoviesLocation).at(0) + "/" + appNamePretty());
-    return directory;
+    return directory.path();
 }
 
 QString OS::downloadLocation() {
     QDir directory;
     directory.setPath(QStandardPaths::standardLocations(QStandardPaths::DownloadLocation).at(0) + "/" + appNamePretty());
     directory.mkpath(QStandardPaths::standardLocations(QStandardPaths::DownloadLocation).at(0) + "/" + appNamePretty());
-    return directory;
+    return directory.path();
 }
 
