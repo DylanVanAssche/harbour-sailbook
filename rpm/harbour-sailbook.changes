@@ -9,6 +9,7 @@
 # - Summary of changes
 
 * Sat Oct 14 2017 Dylan Van Assche <dylan.van.assche@protonmail.com> 10.0-5
+- [MINOR BUGFIX] Sailbook only makes his own directory when it's actually used.
 - [STORE] Visual assets updated
 
 * Wed Oct 11 2017 Dylan Van Assche <dylan.van.assche@protonmail.com> 10.0-4

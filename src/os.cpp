@@ -13,7 +13,7 @@
  */
 OS::OS() {
     QList<QPair<QString, QString> > dataList;
-    QList<QString> directoryList({logLocation(), cacheLocation(), dataLocation(), photoLocation(), musicLocation(), documentLocation(), videoLocation(), downloadLocation()});
+    QList<QString> directoryList({logLocation(), cacheLocation(), dataLocation()});
 
     // Creating default directories
     QDir directory;
@@ -253,21 +253,37 @@ QString OS::logFile() {
 }
 
 QString OS::photoLocation() {
-    return QStandardPaths::standardLocations(QStandardPaths::PicturesLocation).at(0) + "/" + appNamePretty();
+    QDir directory;
+    directory.setPath(QStandardPaths::standardLocations(QStandardPaths::PicturesLocation).at(0) + "/" + appNamePretty());
+    directory.mkpath(QStandardPaths::standardLocations(QStandardPaths::PicturesLocation).at(0) + "/" + appNamePretty());
+    return directory;
 }
 
 QString OS::musicLocation() {
-    return QStandardPaths::standardLocations(QStandardPaths::MusicLocation).at(0) + "/" + appNamePretty();
+    QDir directory;
+    directory.setPath(QStandardPaths::standardLocations(QStandardPaths::MusicLocation).at(0) + "/" + appNamePretty());
+    directory.mkpath(QStandardPaths::standardLocations(QStandardPaths::MusicLocation).at(0) + "/" + appNamePretty());
+    return directory;
 }
 
 QString OS::documentLocation() {
-    return QStandardPaths::standardLocations(QStandardPaths::DocumentsLocation).at(0) + "/" + appNamePretty();
+    QDir directory;
+    directory.setPath(QStandardPaths::standardLocations(QStandardPaths::DocumentsLocation).at(0) + "/" + appNamePretty());
+    directory.mkpath(QStandardPaths::standardLocations(QStandardPaths::DocumentsLocation).at(0) + "/" + appNamePretty());
+    return directory;
 }
 
 QString OS::videoLocation() {
-    return QStandardPaths::standardLocations(QStandardPaths::MoviesLocation).at(0) + "/" + appNamePretty();
+    QDir directory;
+    directory.setPath(QStandardPaths::standardLocations(QStandardPaths::MoviesLocation).at(0) + "/" + appNamePretty());
+    directory.mkpath(QStandardPaths::standardLocations(QStandardPaths::MoviesLocation).at(0) + "/" + appNamePretty());
+    return directory;
 }
 
 QString OS::downloadLocation() {
-    return QStandardPaths::standardLocations(QStandardPaths::DownloadLocation).at(0) + "/" + appNamePretty();
+    QDir directory;
+    directory.setPath(QStandardPaths::standardLocations(QStandardPaths::DownloadLocation).at(0) + "/" + appNamePretty());
+    directory.mkpath(QStandardPaths::standardLocations(QStandardPaths::DownloadLocation).at(0) + "/" + appNamePretty());
+    return directory;
 }
+
