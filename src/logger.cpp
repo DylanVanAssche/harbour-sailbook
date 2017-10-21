@@ -48,7 +48,7 @@ void handler(QtMsgType type, const QMessageLogContext &context, const QString &m
         }
         logStream.setDevice(&outFile);
         clearLog = false;
-        logStream << QString("%1 V%2\t%3 %4").arg(sfos.appName(), sfos.appVersion(), __DATE__, __TIME__) << endl;
+        logStream << QString("%1 V%2 (%3 %4)").arg(sfos.appName(), sfos.appVersion(), __DATE__, __TIME__) << endl;
         logStream << QString("%1\t%2").arg(sfos.release(), sfos.device()) << endl;
         logStream << QString("-").repeated(LINE_LENGTH) << endl;
     }

@@ -8,8 +8,11 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
-* Sat Oct 14 2017 Dylan Van Assche <dylan.van.assche@protonmail.com> 10.0-5
-- [MINOR BUGFIX] Sailbook only makes his own directory when it's actually used.
+* Sat Oct 21 2017 Dylan Van Assche <dylan.van.assche@protonmail.com> 10.0-5
+- [MINOR BUGFIX] Sailbook only makes his own directories when it's actually used
+- [MINOR BUGFIX] Fixed logger spacing in title
+- [MAJOR BUGFIX] Revert Ambience CSS theme since rendering fails due other Facebook CSS elements and QTWebkit
+- [STORE] Jolla Store release version based on SFOS 2.1.2.X
 - [STORE] Visual assets updated
 
 * Wed Oct 11 2017 Dylan Van Assche <dylan.van.assche@protonmail.com> 10.0-4
