@@ -2,15 +2,6 @@
  * '!important' CSS property enforces to overide FB CSS styles.
  */
 
-/* Transparent background */
-body {
-    background-color: transparent !important;
-}
-
-._2v9s {
-    background: transparent !important;
-}
-
 ._s15 {
     display: none;
     visibility: hidden;
