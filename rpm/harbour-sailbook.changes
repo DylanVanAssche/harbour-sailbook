@@ -8,6 +8,9 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Sat Nov 2 2017 Dylan Van Assche <dylan.van.assche@protonmail.com> 10.0-6
+- [MAJOR BUGFIX] Search not shown
+
 * Sat Oct 21 2017 Dylan Van Assche <dylan.van.assche@protonmail.com> 10.0-5
 - [MINOR BUGFIX] Sailbook only makes his own directories when it's actually used
 - [MINOR BUGFIX] Fixed logger spacing in title
