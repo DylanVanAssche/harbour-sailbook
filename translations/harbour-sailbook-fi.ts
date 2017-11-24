@@ -158,10 +158,6 @@
         <translation>Ulkoinen selain</translation>
     </message>
     <message>
-        <source>Enable notifications</source>
-        <translation>Ota käyttöön ilmoitukset</translation>
-    </message>
-    <message>
         <source>Appearance</source>
         <translation>Ulkoasu</translation>
     </message>
@@ -258,8 +254,28 @@
         <translation>Parhaat tarinat</translation>
     </message>
     <message>
-        <source>%1 will send you notifications when you have a new message, a new notification or a friend request.</source>
-        <translation>%1 lähettää ilmoituksia kun saat uuden viestin, uuden ilmoituksen tai kaveripyynnön.</translation>
+        <source>Notify friend requests</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Notify incoming messages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 will send you notifications when getting a friend request.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 will send you notifications when receiving a new message.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Notify new notifications</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 will send you notifications when you have a new Facebook notification.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

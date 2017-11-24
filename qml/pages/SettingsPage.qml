@@ -5,7 +5,9 @@ import "../js/util.js" as Util
 Dialog {
 
     onAccepted: {
-        settings.enableNotifications = notifications.checked
+        settings.notifyRequests = notifyRequests.checked
+        settings.notifyMessages = notifyMessages.checked
+        settings.notifyNotifications = notifyNotifications.checked
         settings.priorityFeed = priorityFeed.currentIndex
         settings.showFeed = showFeed.checked
         settings.showFriends = showFriends.checked
@@ -147,13 +149,25 @@ Dialog {
 
             SectionHeader{ text: qsTr("Notifications") }
 
-            IconTextSwitch {
-                id: notifications
-                text: qsTr("Enable notifications")
-                icon.source: "qrc:///images/icon-notifications.png"
-                icon.scale: Theme.iconSizeMedium/icon.width // Scale icons according to the screen sizes
-                checked: settings.enableNotifications
-                description: qsTr("%1 will send you notifications when you have a new message, a new notification or a friend request.").arg("Sailbook")
+            TextSwitch {
+                id: notifyRequests
+                text: qsTr("Notify friend requests")
+                checked: settings.notifyRequests
+                description: qsTr("%1 will send you notifications when getting a friend request.").arg("Sailbook")
+            }
+
+            TextSwitch {
+                id: notifyMessages
+                text: qsTr("Notify incoming messages")
+                checked: settings.notifyMessages
+                description: qsTr("%1 will send you notifications when receiving a new message.").arg("Sailbook")
+            }
+
+            TextSwitch {
+                id: notifyNotifications
+                text: qsTr("Notify new notifications")
+                checked: settings.notifyNotifications
+                description: qsTr("%1 will send you notifications when you have a new Facebook notification.").arg("Sailbook")
             }
         }
     }

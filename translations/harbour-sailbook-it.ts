@@ -158,10 +158,6 @@
         <translation>browser esterno</translation>
     </message>
     <message>
-        <source>Enable notifications</source>
-        <translation>Attiva notifiche</translation>
-    </message>
-    <message>
         <source>Appearance</source>
         <translation>Aspetto</translation>
     </message>
@@ -258,8 +254,28 @@
         <translation>Storie principali</translation>
     </message>
     <message>
-        <source>%1 will send you notifications when you have a new message, a new notification or a friend request.</source>
-        <translation>%1 ti segnalerà l&apos;arrivo di un nuovo messaggio, notifica o richiesta di amicizia.</translation>
+        <source>Notify friend requests</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Notify incoming messages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 will send you notifications when getting a friend request.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 will send you notifications when receiving a new message.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Notify new notifications</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 will send you notifications when you have a new Facebook notification.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

@@ -54,7 +54,9 @@ ApplicationWindow
         id: settings
         path: "/apps/harbour-sailbook/settings"
 
-        property bool enableNotifications: false
+        property bool notifyRequests: false
+        property bool notifyMessages: false
+        property bool notifyNotifications: false
         property bool showFeed: true
         property bool showFriends: true
         property bool showMessages: true
