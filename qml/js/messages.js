@@ -56,7 +56,7 @@ function _requests() {
         requestsDataOld = 0;
         sfos.closeNotificationByCategory("sailbook-request");
     }
-    else if(requestsDataOld != requestsData && settings.showFriends && settings.enableNotifications) {
+    else if(requestsDataOld != requestsData && settings.showFriends && settings.notifyRequests) {
         var title = requestsData==1? qsTr("New friend request"): qsTr("New friend requests");
         var text = requestsData==1? qsTr("You have %1 new friend request").arg(requestsData): qsTr("You have %1 friend requests").arg(requestsData);
         sfos.createNotification(title, text, "social", "sailbook-request");
@@ -70,7 +70,7 @@ function _messages() {
         messagesDataOld = 0;
         sfos.closeNotificationByCategory("sailbook-message");
     }
-    else if(messagesDataOld != messagesData && settings.showMessages && settings.enableNotifications) {
+    else if(messagesDataOld != messagesData && settings.showMessages && settings.notifyMessages) {
         var title = messagesData==1? qsTr("New message"): qsTr("New messages");
         var text = messagesData==1? qsTr("You have %1 new message").arg(messagesData): qsTr("You have %1 messages").arg(messagesData);
         sfos.createNotification(title, text, "social", "sailbook-message");
@@ -84,7 +84,7 @@ function _notifications() {
         notificationsDataOld = 0;
         sfos.closeNotificationByCategory("sailbook-notification");
     }
-    else if(notificationsDataOld != notificationsData && settings.showNotifications && settings.enableNotifications) {
+    else if(notificationsDataOld != notificationsData && settings.showNotifications && settings.notifyNotifications) {
         var title = notificationsData==1? qsTr("New notification"): qsTr("New notifications");
         var text = notificationsData==1? qsTr("You have %1 new notification").arg(notificationsData): qsTr("You have %1 notifications").arg(notificationsData);
         sfos.createNotification(title, text, "social", "sailbook-notification");

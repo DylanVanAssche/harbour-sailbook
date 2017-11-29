@@ -158,10 +158,6 @@
         <translation>externer Webbrowser</translation>
     </message>
     <message>
-        <source>Enable notifications</source>
-        <translation>Benachrichtigungen aktivieren</translation>
-    </message>
-    <message>
         <source>Appearance</source>
         <translation>Erscheinungsbild</translation>
     </message>
@@ -258,8 +254,28 @@
         <translation>Top-Meldungen</translation>
     </message>
     <message>
-        <source>%1 will send you notifications when you have a new message, a new notification or a friend request.</source>
-        <translation>%1 benachrichtigt dich automatisch, wenn du neue Nachrichten erhältst, bei Facebook-Benachrichtigungen oder bei Freundschaftsanfragen.</translation>
+        <source>Notify friend requests</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Notify incoming messages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 will send you notifications when getting a friend request.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 will send you notifications when receiving a new message.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Notify new notifications</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 will send you notifications when you have a new Facebook notification.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
