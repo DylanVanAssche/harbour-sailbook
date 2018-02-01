@@ -8,6 +8,9 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Wed Feb 1 2018 Dylan Van Assche <dylan.van.assche@protonmail.com> 10.1-2
+- [MINOR BUGFIX] Fixed Hungarian translation include
+
 * Wed Feb 1 2018 Dylan Van Assche <dylan.van.assche@protonmail.com> 10.1-1
 - [NEW] Select which type of notifications you want to receive in Settings
 - [TRANSLATIONS] Updated translations

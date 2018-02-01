@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="hu" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="hu">
 <context>
     <name>AboutPage</name>
     <message>
@@ -156,10 +158,6 @@
         <translation>külső böngésző</translation>
     </message>
     <message>
-        <source>Enable notifications</source>
-        <translation>Értesítések engedélyezése</translation>
-    </message>
-    <message>
         <source>Appearance</source>
         <translation>Megjelenés</translation>
     </message>
@@ -256,8 +254,28 @@
         <translation>Legjobb történetek</translation>
     </message>
     <message>
-        <source>%1 will send you notifications when you have a new message, a new notification or a friend request.</source>
-        <translation>%1  értesítéseket küld, ha új üzeneted, új értesítésed vagy új ismerősnek jelölésed van.</translation>
+        <source>Notify friend requests</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 will send you notifications when getting a friend request.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Notify incoming messages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 will send you notifications when receiving a new message.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Notify new notifications</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 will send you notifications when you have a new Facebook notification.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
