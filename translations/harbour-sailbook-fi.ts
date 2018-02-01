@@ -258,11 +258,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Notify incoming messages</source>
+        <source>%1 will send you notifications when getting a friend request.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>%1 will send you notifications when getting a friend request.</source>
+        <source>Notify incoming messages</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

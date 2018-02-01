@@ -9,19 +9,19 @@
     </message>
     <message>
         <source>What&apos;s</source>
-        <translation>Qu&apos;est ce</translation>
+        <translation>Qu&apos;est-ce donc que</translation>
     </message>
     <message>
         <source>Sailbook is an unofficial Facebook client for Sailfish OS.</source>
-        <translation>Sailbook est un client non-officiel de Facebook pour Sailfish OS</translation>
+        <translation>Sailbook est un client non-officiel Facebook pour Sailfish OS.</translation>
     </message>
     <message>
         <source>Privacy &amp; licensing</source>
-        <translation>Termes de confidentialités &amp; license</translation>
+        <translation>Licence et Confidentialité</translation>
     </message>
     <message>
         <source>Developers</source>
-        <translation>Developeurs</translation>
+        <translation>Développeurs</translation>
     </message>
     <message>
         <source>Version</source>
@@ -53,7 +53,7 @@
     </message>
     <message>
         <source>Telegram Sailbook Group</source>
-        <translation>Groupe Telegram dedié a Sailbook</translation>
+        <translation>Groupe Telegram dédié à Sailbook</translation>
     </message>
     <message>
         <source>Rudi Timmermans</source>
@@ -65,7 +65,7 @@
     </message>
     <message>
         <source>Donate with Paypal</source>
-        <translation>Faire un don par Paypal</translation>
+        <translation>Donation via PayPal</translation>
     </message>
     <message>
         <source>Matthias Weiß</source>
@@ -76,25 +76,25 @@
     <name>CoverPage</name>
     <message>
         <source>message(s)</source>
-        <translation>message(s)</translation>
+        <translation>non lu(s)</translation>
     </message>
     <message>
         <source>Unread</source>
-        <translation>Non lu</translation>
+        <translation>message(s)</translation>
     </message>
 </context>
 <context>
     <name>ExternalWebview</name>
     <message>
         <source>No network</source>
-        <translation>Pas de réseau</translation>
+        <translation>Aucun réseau</translation>
     </message>
 </context>
 <context>
     <name>FBWebview</name>
     <message>
         <source>Facebook logout</source>
-        <translation>Déconnexion de Facebook</translation>
+        <translation>Déconnexion</translation>
     </message>
     <message>
         <source>About</source>
@@ -110,7 +110,7 @@
     </message>
     <message>
         <source>No network</source>
-        <translation>Pas de réseau</translation>
+        <translation>Aucun réseau</translation>
     </message>
 </context>
 <context>
@@ -125,7 +125,7 @@
     </message>
     <message>
         <source>Saving image complete</source>
-        <translation>Het opslaan van de afbeelding is voltooid</translation>
+        <translation>Image enregistrée avec succès</translation>
     </message>
 </context>
 <context>
@@ -151,15 +151,15 @@
     </message>
     <message>
         <source>Opening external link in</source>
-        <translation>Ouverture des liens externes dans</translation>
+        <translation>Ouverture des liens externes</translation>
     </message>
     <message>
         <source>external browser</source>
-        <translation>navigateur externe</translation>
+        <translation>Navigateur</translation>
     </message>
     <message>
         <source>Appearance</source>
-        <translation>Apparance</translation>
+        <translation>Aspect</translation>
     </message>
     <message>
         <source>External links</source>
@@ -167,63 +167,63 @@
     </message>
     <message>
         <source>Back button in</source>
-        <translation>Bouton de retour dans</translation>
+        <translation>Position du bouton Retour</translation>
     </message>
     <message>
         <source>Show Facebook feed button</source>
-        <translation>Afficher le bouton des actualités Facebook</translation>
+        <translation>Afficher le bouton Fil d&apos;actualité</translation>
     </message>
     <message>
         <source>Show Facebook friends button</source>
-        <translation>Afficher le bouton des Ami(e)s Facebook</translation>
+        <translation>Afficher le bouton Amis</translation>
     </message>
     <message>
         <source>Show Facebook messages button</source>
-        <translation>Afficher le bouton des messages Facebook</translation>
+        <translation>Afficher le bouton Messenger</translation>
     </message>
     <message>
         <source>Show Facebook notifications button</source>
-        <translation>Afficher le bouton des notifications Facebook</translation>
+        <translation>Afficher le bouton Notifications</translation>
     </message>
     <message>
         <source>Show Facebook search button</source>
-        <translation>Afficher le bouton de recherche Facebook</translation>
+        <translation>Afficher le bouton Recherche</translation>
     </message>
     <message>
         <source>Show Facebook events button</source>
-        <translation>Afficher le bouton des événements Facebook</translation>
+        <translation>Afficher le bouton Événements</translation>
     </message>
     <message>
         <source>Show Facebook groups button</source>
-        <translation>Afficher le bouton des groupes Facebook</translation>
+        <translation>Afficher le bouton Groupes</translation>
     </message>
     <message>
         <source>Show Facebook settings button</source>
-        <translation>Afficher le bouton des paramètres Facebook</translation>
+        <translation>Afficher le bouton Paramètres</translation>
     </message>
     <message>
         <source>When disabled, the notifications for friend requests aren&apos;t shown as well.</source>
-        <translation>Quand désactivé, les notifications de demande d&apos;ami(e)s ne seront pas affichées non plus.</translation>
+        <translation>Si désactivé, les notifs de demande d&apos;ajout à une liste d&apos;amis ne seront pas non plus délivrées.</translation>
     </message>
     <message>
         <source>When disabled, the notifications for new messages aren&apos;t shown as well.</source>
-        <translation>Quand désactivé, les notifications de nouveaux messages ne seront pas affichées non plus.</translation>
+        <translation>Si désactivé, les notifs de réception de nouveaux messages ne seront pas non plus délivrées.</translation>
     </message>
     <message>
         <source>When disabled, the notifications for events, ... aren&apos;t shown as well.</source>
-        <translation>Quand désactivé, les notifications des événements ne seront pas affichées non plus.</translation>
+        <translation>Si désactivé, les notifs de rappel d&apos;événements ne seront pas non plus délivrées.</translation>
     </message>
     <message>
         <source>Show Facebook liked pages button</source>
-        <translation>Afficher le bouton des pages Facebook aimé</translation>
+        <translation>Afficher le bouton Pages</translation>
     </message>
     <message>
         <source>Show Facebook logout pulldown menu</source>
-        <translation>Afficher le menu déroulant Facebook Logout</translation>
+        <translation>Afficher l&apos;option de déconnexion dans le menu déroulant</translation>
     </message>
     <message>
         <source>Ambience</source>
-        <translation>Ambiance</translation>
+        <translation>Ambiance Sailfish</translation>
     </message>
     <message>
         <source>Facebook</source>
@@ -231,7 +231,7 @@
     </message>
     <message>
         <source>Facebook nightmode</source>
-        <translation>Facebook mode nuit</translation>
+        <translation>Night Mode</translation>
     </message>
     <message>
         <source>Pulldown menu</source>
@@ -247,22 +247,22 @@
     </message>
     <message>
         <source>Most recent</source>
-        <translation>Du plus récent</translation>
+        <translation>Le plus récent</translation>
     </message>
     <message>
         <source>Top stories</source>
-        <translation>Meilleures histoires</translation>
+        <translation>À la une</translation>
     </message>
     <message>
         <source>Notify friend requests</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Notify incoming messages</source>
+        <source>%1 will send you notifications when getting a friend request.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>%1 will send you notifications when getting a friend request.</source>
+        <source>Notify incoming messages</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -293,11 +293,11 @@
     <name>VideoPage</name>
     <message>
         <source>Error!</source>
-        <translation>Fout!</translation>
+        <translation>Erreur !</translation>
     </message>
     <message>
         <source>Videoplayer</source>
-        <translation>Lecteur video</translation>
+        <translation>Lecteur vidéo</translation>
     </message>
 </context>
 <context>
@@ -328,31 +328,31 @@
     </message>
     <message>
         <source>You have %1 new friend request</source>
-        <translation>Vous avez %1 nouvelle demande d&apos;ami</translation>
+        <translation>Vous avez %1 nouvelle demande d&apos;ami !</translation>
     </message>
     <message>
         <source>You have %1 friend requests</source>
-        <translation>Vous avez %1 demandes d&apos;ami</translation>
+        <translation>Vous avez %1 demandes d&apos;ami !</translation>
     </message>
     <message>
         <source>You have %1 new message</source>
-        <translation>Vous avez %1 nouveau message</translation>
+        <translation>Vous avez %1 nouveau message !</translation>
     </message>
     <message>
         <source>You have %1 messages</source>
-        <translation>Vous avez %1 messages</translation>
+        <translation>Vous avez %1 messages !</translation>
     </message>
     <message>
         <source>You have %1 new notification</source>
-        <translation>Vous avez %1 nouvelle notification</translation>
+        <translation>Vous avez %1 nouvelle notification !</translation>
     </message>
     <message>
         <source>You have %1 notifications</source>
-        <translation>Vous avez %1 notifications</translation>
+        <translation>Vous avez %1 notifications !</translation>
     </message>
     <message>
         <source>Opening external link</source>
-        <translation>Externe link openen</translation>
+        <translation>Ouverture du lien externe</translation>
     </message>
 </context>
 </TS>
