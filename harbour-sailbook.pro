@@ -59,6 +59,7 @@ TRANSLATIONS += \
     translations/harbour-sailbook-es.ts \
     translations/harbour-sailbook-pl.ts \
     translations/harbour-sailbook-hu.ts \
+    translations/harbour-sailbook-pt.ts \
     translations/harbour-sailbook-fr.ts
 
 DISTFILES += \
