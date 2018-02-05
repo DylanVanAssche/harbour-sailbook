@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="nl">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="nl" version="2.1">
 <context>
     <name>AboutPage</name>
     <message>
@@ -255,27 +253,27 @@
     </message>
     <message>
         <source>Notify friend requests</source>
-        <translation type="unfinished"></translation>
+        <translation>Meld vriendschapsverzoeken</translation>
     </message>
     <message>
         <source>Notify incoming messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Meld binnenkomende berichten</translation>
     </message>
     <message>
         <source>%1 will send you notifications when getting a friend request.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 stuurt je meldingen wanneer je een vriendschapsverzoek ontvangt.</translation>
     </message>
     <message>
         <source>%1 will send you notifications when receiving a new message.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 stuurt je meldingen wanneer je een nieuw bericht ontvangt.</translation>
     </message>
     <message>
         <source>Notify new notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Meld nieuwe meldingen</translation>
     </message>
     <message>
         <source>%1 will send you notifications when you have a new Facebook notification.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 stuurt je meldingen wanneer je een nieuwe Facebook-melding hebt.</translation>
     </message>
 </context>
 <context>
