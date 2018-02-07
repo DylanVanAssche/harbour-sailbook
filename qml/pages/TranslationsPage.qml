@@ -78,6 +78,12 @@ Page {
                 text: "Carlos Gonzalez"
                 iconSource: "qrc:///images/icon-spain.png"
             }
+            
+            IconTextButton {
+                anchors.horizontalCenter: parent.horizontalCenter
+                text: "TamarindoJuice"
+                iconSource: "qrc:///images/icon-brasil.png"
+            }
          }
     }
 }           
