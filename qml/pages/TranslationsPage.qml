@@ -69,12 +69,6 @@ Page {
 
             IconTextButton {
                 anchors.horizontalCenter: parent.horizontalCenter
-                text: "A Atlochowski"
-                iconSource: "qrc:///images/icon-polish.png"
-            }
-
-            IconTextButton {
-                anchors.horizontalCenter: parent.horizontalCenter
                 text: "Carlos Gonzalez"
                 iconSource: "qrc:///images/icon-spain.png"
             }
