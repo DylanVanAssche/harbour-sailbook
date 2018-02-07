@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="hu">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="hu" version="2.1">
 <context>
     <name>AboutPage</name>
     <message>
@@ -255,27 +253,27 @@
     </message>
     <message>
         <source>Notify friend requests</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>%1 will send you notifications when getting a friend request.</source>
-        <translation type="unfinished"></translation>
+        <translation>Értesítse a barátok kéréseit</translation>
     </message>
     <message>
         <source>Notify incoming messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Értesítse a bejövő üzeneteket</translation>
+    </message>
+    <message>
+        <source>%1 will send you notifications when getting a friend request.</source>
+        <translation>A %1 értesítéseket küld Önnek, amikor barátok kérését megkapja.</translation>
     </message>
     <message>
         <source>%1 will send you notifications when receiving a new message.</source>
-        <translation type="unfinished"></translation>
+        <translation>A %1 értesítést küld Önnek, amikor új üzenetet kap.</translation>
     </message>
     <message>
         <source>Notify new notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Értesítés új értesítésekről</translation>
     </message>
     <message>
         <source>%1 will send you notifications when you have a new Facebook notification.</source>
-        <translation type="unfinished"></translation>
+        <translation>A %1 értesítést küld Önnek, ha új Facebook-értesítést kap.</translation>
     </message>
 </context>
 <context>
