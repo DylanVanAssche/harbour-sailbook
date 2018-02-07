@@ -51,12 +51,6 @@ Page {
 
             IconTextButton {
                 anchors.horizontalCenter: parent.horizontalCenter
-                text: "Pawel Radomychelski"
-                iconSource: "qrc:///images/icon-germany.png"
-            }
-
-            IconTextButton {
-                anchors.horizontalCenter: parent.horizontalCenter
                 text: "Matthias Weiß"
                 iconSource: "qrc:///images/icon-germany.png"
             }
@@ -65,12 +59,6 @@ Page {
                 anchors.horizontalCenter: parent.horizontalCenter
                 text: "Francesco Vaccaro"
                 iconSource: "qrc:///images/icon-italy.png"
-            }
-
-            IconTextButton {
-                anchors.horizontalCenter: parent.horizontalCenter
-                text: "Carlos Gonzalez"
-                iconSource: "qrc:///images/icon-spain.png"
             }
             
             IconTextButton {
