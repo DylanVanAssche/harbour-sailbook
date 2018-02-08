@@ -46,7 +46,7 @@ Page {
             IconTextButton {
                 anchors.horizontalCenter: parent.horizontalCenter
                 text: qsTr("Rudi Timmermans")
-                iconSource: "qrc:///images/image-rudi.jpg"
+                iconSource: "qrc:///images/image-rudi.png"
                 onClicked: { Qt.openUrlExternally("https://www.twitter.com/xray20001");
                 }
             }
@@ -54,7 +54,7 @@ Page {
             IconTextButton {
                 anchors.horizontalCenter: parent.horizontalCenter
                 text: qsTr("Dylan Van Assche")
-                iconSource: "qrc:///images/image-dylan.jpg"
+                iconSource: "qrc:///images/image-dylan.png"
                 onClicked: { Qt.openUrlExternally("https://www.github.com/modulebaan");
                 }
             }
@@ -62,7 +62,7 @@ Page {
             IconTextButton {
                 anchors.horizontalCenter: parent.horizontalCenter
                 text: qsTr("Matthias Weiß")
-                iconSource: "qrc:///images/image-matthias.jpg"
+                iconSource: "qrc:///images/image-matthias.png"
                 onClicked: { Qt.openUrlExternally("https://github.com/codeandcreate");
                 }
             }
