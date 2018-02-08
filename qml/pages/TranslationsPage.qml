@@ -1,6 +1,7 @@
 import QtQuick 2.2
 import Sailfish.Silica 1.0
 import "../js/util.js" as Util
+import "../components"
 
 Page {
     SilicaFlickable {
@@ -45,12 +46,6 @@ Page {
 
             IconTextButton {
                 anchors.horizontalCenter: parent.horizontalCenter
-                text: "Alain Molteni"
-                iconSource: "qrc:///images/icon-germany.png"
-            }
-
-            IconTextButton {
-                anchors.horizontalCenter: parent.horizontalCenter
                 text: "Matthias Weiß"
                 iconSource: "qrc:///images/icon-germany.png"
             }
@@ -63,8 +58,14 @@ Page {
             
             IconTextButton {
                 anchors.horizontalCenter: parent.horizontalCenter
-                text: "TamarindoJuice"
+                text: "Adriano C"
                 iconSource: "qrc:///images/icon-brasil.png"
+            }
+
+            IconTextButton {
+                anchors.horizontalCenter: parent.horizontalCenter
+                text: "Szabó G"
+                iconSource: "qrc:///images/icon-hungary.png"
             }
          }
     }
