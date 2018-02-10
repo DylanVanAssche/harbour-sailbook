@@ -9,11 +9,11 @@
     </message>
     <message>
         <source>What&apos;s</source>
-        <translation>Qu&apos;est-ce donc que</translation>
+        <translation>Qu&apos;est-ce que</translation>
     </message>
     <message>
         <source>Sailbook is an unofficial Facebook client for Sailfish OS.</source>
-        <translation>Sailbook est un client non-officiel Facebook pour Sailfish OS.</translation>
+        <translation>Sailbook est un client Facebook non-officiel conçu pour Sailfish OS.</translation>
     </message>
     <message>
         <source>Privacy &amp; licensing</source>
@@ -255,27 +255,27 @@
     </message>
     <message>
         <source>Notify friend requests</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>%1 will send you notifications when getting a friend request.</source>
-        <translation type="unfinished"></translation>
+        <translation>M&apos;avertir de chaque nouvelle demande d&apos;ajout</translation>
     </message>
     <message>
         <source>Notify incoming messages</source>
-        <translation type="unfinished"></translation>
+        <translation>M&apos;avertir de chaque nouveau message</translation>
+    </message>
+    <message>
+        <source>%1 will send you notifications when getting a friend request.</source>
+        <translation>%1 vous enverra une alerte pour toute nouvelle demande d&apos;ajout à une liste d&apos;amis reçue.</translation>
     </message>
     <message>
         <source>%1 will send you notifications when receiving a new message.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 vous enverra une alerte pour tout nouveau message reçu.</translation>
     </message>
     <message>
         <source>Notify new notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>M&apos;avertir de chaque nouvelle notification</translation>
     </message>
     <message>
         <source>%1 will send you notifications when you have a new Facebook notification.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 vous enverra une alerte pour toute nouvelle notification Facebook reçue.</translation>
     </message>
 </context>
 <context>
@@ -304,51 +304,51 @@
     <name>messages</name>
     <message>
         <source>New friend request</source>
-        <translation>Nouvelle demande d&apos;ami</translation>
+        <translation>Ohé, un(e) ami(e) !</translation>
     </message>
     <message>
         <source>New friend requests</source>
-        <translation>Nouvelles demandes d&apos;ami</translation>
+        <translation>Ohé, des ami(e)s !</translation>
     </message>
     <message>
         <source>New message</source>
-        <translation>Nouveau message</translation>
+        <translation>Ohé, un message !</translation>
     </message>
     <message>
         <source>New messages</source>
-        <translation>Nouveaux messages</translation>
+        <translation>Ohé, des messages !</translation>
     </message>
     <message>
         <source>New notification</source>
-        <translation>Nouvelle notification</translation>
+        <translation>Ohé, une notif !</translation>
     </message>
     <message>
         <source>New notifications</source>
-        <translation>Nouvelles notifications</translation>
+        <translation>Ohé, des notifs !</translation>
     </message>
     <message>
         <source>You have %1 new friend request</source>
-        <translation>Vous avez %1 nouvelle demande d&apos;ami !</translation>
+        <translation>Vous avez %1 nouvelle demande d&apos;ajout.</translation>
     </message>
     <message>
         <source>You have %1 friend requests</source>
-        <translation>Vous avez %1 demandes d&apos;ami !</translation>
+        <translation>Vous avez %1 nouvelles demandes d&apos;ajout.</translation>
     </message>
     <message>
         <source>You have %1 new message</source>
-        <translation>Vous avez %1 nouveau message !</translation>
+        <translation>Vous avez %1 nouveau message.</translation>
     </message>
     <message>
         <source>You have %1 messages</source>
-        <translation>Vous avez %1 messages !</translation>
+        <translation>Vous avez %1 nouveaux messages.</translation>
     </message>
     <message>
         <source>You have %1 new notification</source>
-        <translation>Vous avez %1 nouvelle notification !</translation>
+        <translation>Vous avez %1 nouvelle notification.</translation>
     </message>
     <message>
         <source>You have %1 notifications</source>
-        <translation>Vous avez %1 notifications !</translation>
+        <translation>Vous avez %1 nouvelles notifications.</translation>
     </message>
     <message>
         <source>Opening external link</source>

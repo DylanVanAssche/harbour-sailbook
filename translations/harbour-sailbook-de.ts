@@ -255,27 +255,27 @@
     </message>
     <message>
         <source>Notify friend requests</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>%1 will send you notifications when getting a friend request.</source>
-        <translation type="unfinished"></translation>
+        <translation>Benachrichtigung bei Freundschaftsanfragen</translation>
     </message>
     <message>
         <source>Notify incoming messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Benachrichtigung bei neuen Nachrichten</translation>
+    </message>
+    <message>
+        <source>%1 will send you notifications when getting a friend request.</source>
+        <translation>%1 benachrichtigt dich automatisch, wenn du eine Freundschaftsanfrage bekommst. </translation>
     </message>
     <message>
         <source>%1 will send you notifications when receiving a new message.</source>
-        <translation type="unfinished"></translation>
+        <translation> %1 benachrichtigt dich automatisch, wenn du eine neue Nachricht bekommst. </translation>
     </message>
     <message>
         <source>Notify new notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Benachrichtigung bei neuen Facebook-Benachrichtigungen</translation>
     </message>
     <message>
         <source>%1 will send you notifications when you have a new Facebook notification.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 benachrichtigt dich automatisch, wenn du neue Facebook-Benachrichtigungen erhältst.</translation>
     </message>
 </context>
 <context>

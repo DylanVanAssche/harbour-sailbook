@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="pt_BR" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="pt_BR">
 <context>
     <name>AboutPage</name>
     <message>
@@ -156,10 +158,6 @@
         <translation>Navegador externo</translation>
     </message>
     <message>
-        <source>Enable notifications</source>
-        <translation>Habilitar notificações</translation>
-    </message>
-    <message>
         <source>Appearance</source>
         <translation>Aparência</translation>
     </message>
@@ -256,8 +254,28 @@
         <translation>Principais histórias</translation>
     </message>
     <message>
-        <source>%1 will send you notifications when you have a new message, a new notification or a friend request.</source>
-        <translation>%1 enviará notificações quando você tiver uma nova mensagem, uma nova notificação ou pedido de amizade.</translation>
+        <source>Notify friend requests</source>
+        <translation>Notificar solicitações de amizade</translation>
+    </message>
+    <message>
+        <source>Notify incoming messages</source>
+        <translation>Notificar novas mensagens</translation>
+    </message>
+    <message>
+        <source>%1 will send you notifications when getting a friend request.</source>
+        <translation>%1 Enviará uma notificação quando houver uma solicitação de amizade.</translation>
+    </message>
+    <message>
+        <source>%1 will send you notifications when receiving a new message.</source>
+        <translation>%1 enviará uma notificação quando você receber uma nova mensagem.</translation>
+    </message>
+    <message>
+        <source>Notify new notifications</source>
+        <translation>Notificar novas notificações</translation>
+    </message>
+    <message>
+        <source>%1 will send you notifications when you have a new Facebook notification.</source>
+        <translation>%1 enviará notificações quando houverem novas notificações do Facebook.</translation>
     </message>
 </context>
 <context>
