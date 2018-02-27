@@ -5,7 +5,7 @@
     <name>AboutPage</name>
     <message>
         <source>About</source>
-        <translation>Rólunk</translation>
+        <translation>Névjegy</translation>
     </message>
     <message>
         <source>What&apos;s</source>
@@ -37,7 +37,7 @@
     </message>
     <message>
         <source>Sailbook icons made by Alain Molteni.</source>
-        <translation>A Sailbook-ot Alain Molteni készítette.</translation>
+        <translation>A Sailbook ikonokat Alain Molteni készítette.</translation>
     </message>
     <message>
         <source>is free software released under the GNU General Public License (GPL), version 3 or later.</source>
@@ -65,7 +65,7 @@
     </message>
     <message>
         <source>Donate with Paypal</source>
-        <translation>Adomány Paypal-on keresztül</translation>
+        <translation>Adományozz Paypal-on</translation>
     </message>
     <message>
         <source>Matthias Weiß</source>
@@ -98,7 +98,7 @@
     </message>
     <message>
         <source>About</source>
-        <translation>Rólunk</translation>
+        <translation>Névjegy</translation>
     </message>
     <message>
         <source>Settings</source>
@@ -223,7 +223,7 @@
     </message>
     <message>
         <source>Ambience</source>
-        <translation>Hangulat</translation>
+        <translation>Téma</translation>
     </message>
     <message>
         <source>Facebook</source>
@@ -255,19 +255,19 @@
     </message>
     <message>
         <source>Notify friend requests</source>
-        <translation>Értesítse a barátok kéréseit</translation>
+        <translation>Értesítés az ismerősnek jelölésekről</translation>
     </message>
     <message>
         <source>Notify incoming messages</source>
-        <translation>Értesítse a bejövő üzeneteket</translation>
+        <translation>Értesítés a bejövő üzenetekről</translation>
     </message>
     <message>
         <source>%1 will send you notifications when getting a friend request.</source>
-        <translation>A %1 értesítéseket küld Önnek, amikor barátok kérését megkapja.</translation>
+        <translation>A %1 értesítéseket küld, ha ismerősnek jelölnek.</translation>
     </message>
     <message>
         <source>%1 will send you notifications when receiving a new message.</source>
-        <translation>A %1 értesítést küld Önnek, amikor új üzenetet kap.</translation>
+        <translation>A %1 értesítést küld, ha új üzenetet kapsz.</translation>
     </message>
     <message>
         <source>Notify new notifications</source>
@@ -275,7 +275,7 @@
     </message>
     <message>
         <source>%1 will send you notifications when you have a new Facebook notification.</source>
-        <translation>A %1 értesítést küld Önnek, ha új Facebook-értesítést kap.</translation>
+        <translation>A %1 értesítést küld, ha új Facebook-értesítést kapsz.</translation>
     </message>
 </context>
 <context>
