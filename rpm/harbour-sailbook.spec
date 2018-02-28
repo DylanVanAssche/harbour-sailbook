@@ -14,7 +14,7 @@ Name:       harbour-sailbook
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    Sailbook
 Version:    10.1
-Release:    3
+Release:    4
 Group:      Qt/Qt
 License:    GPLv3
 URL:        https://github.com/DylanVanAssche/harbour-sailbook
