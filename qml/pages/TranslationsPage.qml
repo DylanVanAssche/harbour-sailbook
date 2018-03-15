@@ -64,6 +64,18 @@ Page {
 
             IconTextButton {
                 anchors.horizontalCenter: parent.horizontalCenter
+                text: "Carmen Fernández B"
+                iconSource: "qrc:///images/icon-spain.png"
+            }
+
+            IconTextButton {
+                anchors.horizontalCenter: parent.horizontalCenter
+                text: "Jimmy Chen"
+                iconSource: "qrc:///images/icon-taiwan.png"
+            }
+
+            IconTextButton {
+                anchors.horizontalCenter: parent.horizontalCenter
                 text: "Szabó G"
                 iconSource: "qrc:///images/icon-hungary.png"
             }
