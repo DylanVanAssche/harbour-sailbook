@@ -76,6 +76,12 @@ Page {
 
             IconTextButton {
                 anchors.horizontalCenter: parent.horizontalCenter
+                text: "Sebastian Nilsson"
+                iconSource: "qrc:///images/icon-sweden.png"
+            }
+
+            IconTextButton {
+                anchors.horizontalCenter: parent.horizontalCenter
                 text: "Szabó G"
                 iconSource: "qrc:///images/icon-hungary.png"
             }
