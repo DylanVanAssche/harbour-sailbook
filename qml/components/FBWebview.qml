@@ -82,17 +82,17 @@ Item {
 
         function activate(category) {
             if(category == "sailbook-request") {
-                webview.url = "https://m.facebook.com/friends";
+                webview.url = "https://touch.facebook.com/friends";
                 app.activate();
                 console.debug("Notification activation: " + category);
             }
             else if(category == "sailbook-message") {
-                webview.url = "https://m.facebook.com/messages";
+                webview.url = "https://touch.facebook.com/messages";
                 app.activate();
                 console.debug("Notification activation: " + category);
             }
             else if(category == "sailbook-notification") {
-                webview.url = "https://m.facebook.com/notifications";
+                webview.url = "https://touch.facebook.com/notifications";
                 app.activate();
                 console.debug("Notification activation: " + category);
             }
@@ -128,7 +128,7 @@ Item {
         }
         clip: true // Enforce painting inside our defined screen
         opacity: loading || !connected? 0.0: 1.0
-        url: "https://m.facebook.com/home.php?sk=" + Util.getFeedPriority(settings.priorityFeed)
+        url: "https://touch.facebook.com/home.php?sk=" + Util.getFeedPriority(settings.priorityFeed)
         onLoadingChanged: loading? undefined: Messages.publishNotifications();
 
         // Rounding floating numbers in JS: https://stackoverflow.com/questions/9453421/how-to-round-float-numbers-in-javascript
