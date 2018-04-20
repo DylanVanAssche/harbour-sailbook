@@ -82,17 +82,17 @@ Item {
 
         function activate(category) {
             if(category == "sailbook-request") {
-                webview.url = "https://touch.facebook.com/friends";
+                webview.url = "https://m.facebook.com/friends";
                 app.activate();
                 console.debug("Notification activation: " + category);
             }
             else if(category == "sailbook-message") {
-                webview.url = "https://touch.facebook.com/messages";
+                webview.url = "https://m.facebook.com/messages";
                 app.activate();
                 console.debug("Notification activation: " + category);
             }
             else if(category == "sailbook-notification") {
-                webview.url = "https://touch.facebook.com/notifications";
+                webview.url = "https://m.facebook.com/notifications";
                 app.activate();
                 console.debug("Notification activation: " + category);
             }
@@ -116,7 +116,7 @@ Item {
         experimental.transparentBackground: true
         experimental.customLayoutWidth: parent.width / devicePixelRatio
         experimental.overview: true
-        experimental.userAgent: "Mozilla/5.0 (PlayStation 4 4.71) AppleWebKit/601.2 (KHTML, like Gecko)"
+        experimental.userAgent: "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.45 Safari/535.19"
         experimental.userStyleSheets: Qt.resolvedUrl(Util.getThemeFileName(settings.theme))
         experimental.userScripts: Qt.resolvedUrl("qrc:///js/sailbook.js")
         experimental.onMessageReceived: Messages.parse(message.data)
