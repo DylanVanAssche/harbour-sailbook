@@ -116,7 +116,7 @@ Item {
         experimental.transparentBackground: true
         experimental.customLayoutWidth: parent.width / devicePixelRatio
         experimental.overview: true
-        experimental.userAgent: "Mozilla/5.0 (PlayStation 4 4.71) AppleWebKit/601.2 (KHTML, like Gecko)"
+        experimental.userAgent: "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.45 Safari/535.19"
         experimental.userStyleSheets: Qt.resolvedUrl(Util.getThemeFileName(settings.theme))
         experimental.userScripts: Qt.resolvedUrl("qrc:///js/sailbook.js")
         experimental.onMessageReceived: Messages.parse(message.data)
@@ -128,7 +128,7 @@ Item {
         }
         clip: true // Enforce painting inside our defined screen
         opacity: loading || !connected? 0.0: 1.0
-        url: "https://m.facebook.com/home.php?sk=" + Util.getFeedPriority(settings.priorityFeed)
+        url: "https://touch.facebook.com/home.php?sk=" + Util.getFeedPriority(settings.priorityFeed)
         onLoadingChanged: loading? undefined: Messages.publishNotifications();
 
         // Rounding floating numbers in JS: https://stackoverflow.com/questions/9453421/how-to-round-float-numbers-in-javascript

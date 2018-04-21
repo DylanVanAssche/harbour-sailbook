@@ -45,7 +45,7 @@ ApplicationWindow
 
     property variant notifications: [0,0,0,0,0,0,0,0,0]
     property string appName: "Sailbook"
-    property string version: "10.0-0"
+    property string version: "11.0-0"
     property string userAgentName
     property string userAgent
 
