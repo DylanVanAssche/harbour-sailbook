@@ -54,10 +54,10 @@ CONFIG += sailfishapp_i18n
 TRANSLATIONS += \
     translations/harbour-sailbook-de.ts \
     translations/harbour-sailbook-fi.ts \
-    translations/harbour-sailbook-nl.ts \
     translations/harbour-sailbook-it.ts \
     translations/harbour-sailbook-hu.ts \
     translations/harbour-sailbook-es.ts \
+    translations/harbour-sailbook-nl.ts \
     translations/harbour-sailbook-zh_TW.ts \
     translations/harbour-sailbook-pt_BR.ts \
     translations/harbour-sailbook-sv.ts \

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="nl">
+<TS version="2.1" language="nl_BE">
 <context>
     <name>AboutPage</name>
     <message>
@@ -13,7 +13,7 @@
     </message>
     <message>
         <source>Sailbook is an unofficial Facebook client for Sailfish OS.</source>
-        <translation>Sailbook is een niet-officiële Facebook-client voor Sailfish OS</translation>
+        <translation>Sailbook is nen onofficiële Facebook-cliënt voor Sailfish OS</translation>
     </message>
     <message>
         <source>Privacy &amp; licensing</source>
@@ -29,7 +29,7 @@
     </message>
     <message>
         <source>Icons</source>
-        <translation>Icons</translation>
+        <translation>Pictogrammen</translation>
     </message>
     <message>
         <source>Translators</source>
@@ -37,11 +37,11 @@
     </message>
     <message>
         <source>Sailbook icons made by Alain Molteni.</source>
-        <translation>Sailbook iconen gemaakt door Alain Molteni.</translation>
+        <translation>Sailbook-pictogrammen gemaakt door Alain Molteni.</translation>
     </message>
     <message>
         <source>is free software released under the GNU General Public License (GPL), version 3 or later.</source>
-        <translation>is gratis software vrijgegeven onder de GNU General Public License (GPL), versie 3 of hoger.</translation>
+        <translation>is vrije software vrijgegeven onder de GNU General Public License (GPL), versie 3 of hoger.</translation>
     </message>
     <message>
         <source>Translations</source>
@@ -53,7 +53,7 @@
     </message>
     <message>
         <source>Telegram Sailbook Group</source>
-        <translation>Telegram Sailbook Groep</translation>
+        <translation>Sailbook-groep op Telegram</translation>
     </message>
     <message>
         <source>Rudi Timmermans</source>
@@ -121,11 +121,11 @@
     </message>
     <message>
         <source>Save</source>
-        <translation>Bewaar</translation>
+        <translation>Opslaan</translation>
     </message>
     <message>
         <source>Saving image complete</source>
-        <translation>Het opslaan van de afbeelding is voltooid</translation>
+        <translation>’t Opslaan van d’afbeelding is voltooid</translation>
     </message>
 </context>
 <context>
@@ -151,11 +151,11 @@
     </message>
     <message>
         <source>Opening external link in</source>
-        <translation>Externe link wordt geopend</translation>
+        <translation>Externe koppeling word g’opend</translation>
     </message>
     <message>
         <source>external browser</source>
-        <translation>externe browser</translation>
+        <translation>externen browser</translation>
     </message>
     <message>
         <source>Appearance</source>
@@ -163,7 +163,7 @@
     </message>
     <message>
         <source>External links</source>
-        <translation>Externe links</translation>
+        <translation>Externe koppelingen</translation>
     </message>
     <message>
         <source>Back button in</source>
@@ -171,55 +171,55 @@
     </message>
     <message>
         <source>Show Facebook feed button</source>
-        <translation>Toon Facebook-feed knop</translation>
+        <translation>Toond Facebook-feedknop</translation>
     </message>
     <message>
         <source>Show Facebook friends button</source>
-        <translation>Toon Facebook-vrienden-knop</translation>
+        <translation>Toond Facebook-vriendenknop</translation>
     </message>
     <message>
         <source>Show Facebook messages button</source>
-        <translation>Toon Facebook-berichten knop</translation>
+        <translation>Toond Facebook-berichtenknop</translation>
     </message>
     <message>
         <source>Show Facebook notifications button</source>
-        <translation>Toon Facebook-meldingen knop</translation>
+        <translation>Toond Facebook-meldingenknop</translation>
     </message>
     <message>
         <source>Show Facebook search button</source>
-        <translation>Toon Facebook zoekknop</translation>
+        <translation>Toond Facebook-zoekknop</translation>
     </message>
     <message>
         <source>Show Facebook events button</source>
-        <translation>Toon Facebook gebeurtenissen knop</translation>
+        <translation>Toond Facebook-gebeurtenissenknop</translation>
     </message>
     <message>
         <source>Show Facebook groups button</source>
-        <translation>Toon Facebook groepen knop</translation>
+        <translation>Toond Facebook-groepenknop</translation>
     </message>
     <message>
         <source>Show Facebook settings button</source>
-        <translation>Toon Facebook-knop instellingen</translation>
+        <translation>Toond Facebook-instellingenknop</translation>
     </message>
     <message>
         <source>When disabled, the notifications for friend requests aren&apos;t shown as well.</source>
-        <translation>Bij het uitschakelen, worden de meldingen voor nieuwe vriendschapsverzoeken niet meer weergegeven.</translation>
+        <translation>Bij het uitschakelen worden de meldingen voor nieuwe vriendschapsverzoeken nie meer weergegeven.</translation>
     </message>
     <message>
         <source>When disabled, the notifications for new messages aren&apos;t shown as well.</source>
-        <translation>Bij het uitschakelen, worden de meldingen van nieuwe berichten niet meer weergegeven.</translation>
+        <translation>Bij het uitschakelen worden de meldingen van nieuwe berichten nie meer weergegeven.</translation>
     </message>
     <message>
         <source>When disabled, the notifications for events, ... aren&apos;t shown as well.</source>
-        <translation>Bij het uitschakelen, worden de meldingen van events, ... niet meer weergegeven.</translation>
+        <translation>Bij het uitschakelen worden de meldingen van gebeurtenissen, … nie meer weergegeven.</translation>
     </message>
     <message>
         <source>Show Facebook liked pages button</source>
-        <translation>Toon Facebook leuk gevonden paginas</translation>
+        <translation>Toond Facebook-leuk-gevonden-pagina’s-knop</translation>
     </message>
     <message>
         <source>Show Facebook logout pulldown menu</source>
-        <translation>Facebook uitloggen in het menu weergeven</translation>
+        <translation>Toond optie voor uitloggen in uittrekmenu</translation>
     </message>
     <message>
         <source>Ambience</source>
@@ -231,7 +231,7 @@
     </message>
     <message>
         <source>Facebook nightmode</source>
-        <translation>Facebook nacht modus</translation>
+        <translation>Facebook-nachtmodus</translation>
     </message>
     <message>
         <source>Pulldown menu</source>
@@ -243,7 +243,7 @@
     </message>
     <message>
         <source>Feed priority</source>
-        <translation>Feed prioriteit</translation>
+        <translation>Feedprioriteit</translation>
     </message>
     <message>
         <source>Most recent</source>
@@ -259,15 +259,15 @@
     </message>
     <message>
         <source>Notify incoming messages</source>
-        <translation>Meld binnenkomende berichten</translation>
+        <translation>Meld inkomende berichten</translation>
     </message>
     <message>
         <source>%1 will send you notifications when getting a friend request.</source>
-        <translation>%1 stuurt je meldingen wanneer je een vriendschapsverzoek ontvangt.</translation>
+        <translation>%1 stuurd u meldingen wanneer da’ g’een vriendschapsverzoek ontvangd.</translation>
     </message>
     <message>
         <source>%1 will send you notifications when receiving a new message.</source>
-        <translation>%1 stuurt je meldingen wanneer je een nieuw bericht ontvangt.</translation>
+        <translation>%1 stuurd u meldingen wanneer da’ g’een nieuw bericht ontvangd.</translation>
     </message>
     <message>
         <source>Notify new notifications</source>
@@ -275,7 +275,7 @@
     </message>
     <message>
         <source>%1 will send you notifications when you have a new Facebook notification.</source>
-        <translation>%1 stuurt je meldingen wanneer je een nieuwe Facebook-melding hebt.</translation>
+        <translation>%1 stuurd u meldingen wanneer da’ g’een nieuwe Facebook-melding hebd.</translation>
     </message>
 </context>
 <context>
@@ -297,18 +297,18 @@
     </message>
     <message>
         <source>Videoplayer</source>
-        <translation>Video speler</translation>
+        <translation>Videospeler</translation>
     </message>
 </context>
 <context>
     <name>messages</name>
     <message>
         <source>New friend request</source>
-        <translation>Nieuw vriend verzoek</translation>
+        <translation>Nieuw vriendschapsverzoek</translation>
     </message>
     <message>
         <source>New friend requests</source>
-        <translation>Nieuwe vrienden verzoeken</translation>
+        <translation>Nieuwe vriendschapsverzoeken</translation>
     </message>
     <message>
         <source>New message</source>
@@ -328,31 +328,31 @@
     </message>
     <message>
         <source>You have %1 new friend request</source>
-        <translation>U heeft %1 nieuwe vriendschapsverzoek</translation>
+        <translation>G’hebd %1 nieuw vriendschapsverzoek</translation>
     </message>
     <message>
         <source>You have %1 friend requests</source>
-        <translation>U heeft %1 vriendverzoeken</translation>
+        <translation>G’hebd %1 vriendschapsverzoeken</translation>
     </message>
     <message>
         <source>You have %1 new message</source>
-        <translation>U heeft %1 nieuw bericht</translation>
+        <translation>G’hebd %1 nieuw bericht</translation>
     </message>
     <message>
         <source>You have %1 messages</source>
-        <translation>U heeft %1 berichten</translation>
+        <translation>G’hebd %1 berichten</translation>
     </message>
     <message>
         <source>You have %1 new notification</source>
-        <translation>U heeft %1 nieuwe melding</translation>
+        <translation>G’hebd %1 nieuwe melding</translation>
     </message>
     <message>
         <source>You have %1 notifications</source>
-        <translation>U heeft %1 meldingen</translation>
+        <translation>G’hebd %1 meldingen</translation>
     </message>
     <message>
         <source>Opening external link</source>
-        <translation>Externe link openen</translation>
+        <translation>Externe koppeling word g’opend</translation>
     </message>
 </context>
 </TS>

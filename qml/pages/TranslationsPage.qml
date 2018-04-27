@@ -28,7 +28,7 @@ Page {
 
             IconTextButton {
                 anchors.horizontalCenter: parent.horizontalCenter
-                text: "Pascal de Klein"
+                text: "pljmn"
                 iconSource: "qrc:///images/icon-belgium.png"
             }
 
