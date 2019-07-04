@@ -52,10 +52,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Telegram Sailbook Group</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Rudi Timmermans</source>
         <translation type="unfinished"></translation>
     </message>
@@ -110,6 +106,10 @@
     </message>
     <message>
         <source>No network</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Facebook refresh</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -275,6 +275,10 @@
     </message>
     <message>
         <source>%1 will send you notifications when you have a new Facebook notification.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show Facebook refresh pulldown menu</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

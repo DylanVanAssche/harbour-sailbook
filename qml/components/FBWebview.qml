@@ -163,6 +163,13 @@ Item {
 
             MenuItem {
                 color: Util.getPrimaryColor(settings.theme)
+                text: qsTr("Facebook refresh")
+                visible: settings.showRefresh
+                onClicked: webview.reload()
+            }
+
+            MenuItem {
+                color: Util.getPrimaryColor(settings.theme)
                 text: qsTr("Back")
                 visible: webview.canGoBack && settings.placeBack==0 // Hide when we haven't navigated yet
                 onClicked: webview.goBack()

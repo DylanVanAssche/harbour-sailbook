@@ -52,10 +52,6 @@
         <translation>GitHub</translation>
     </message>
     <message>
-        <source>Telegram Sailbook Group</source>
-        <translation>Telegram Sailbook csoport</translation>
-    </message>
-    <message>
         <source>Rudi Timmermans</source>
         <translation>Rudi Timmermans</translation>
     </message>
@@ -111,6 +107,10 @@
     <message>
         <source>No network</source>
         <translation>Nincs hálózat</translation>
+    </message>
+    <message>
+        <source>Facebook refresh</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -276,6 +276,10 @@
     <message>
         <source>%1 will send you notifications when you have a new Facebook notification.</source>
         <translation>A %1 értesítést küld, ha új Facebook-értesítést kapsz.</translation>
+    </message>
+    <message>
+        <source>Show Facebook refresh pulldown menu</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

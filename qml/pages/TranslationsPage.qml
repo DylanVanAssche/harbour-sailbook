@@ -15,7 +15,7 @@ Page {
             MenuItem
             {
                 text: qsTr("Translation Platform")
-                onClicked: Qt.openUrlExternally("https://www.transifex.com/sailbook/sailbook")
+                onClicked: Qt.openUrlExternally("https://www.transifex.com/dylanvanassche/sailbook/")
             }
         }
 
@@ -28,8 +28,14 @@ Page {
 
             IconTextButton {
                 anchors.horizontalCenter: parent.horizontalCenter
-                text: "pljmn"
+                text: "Pljmn"
                 iconSource: "qrc:///images/icon-belgium.png"
+            }
+
+            IconTextButton {
+                anchors.horizontalCenter: parent.horizontalCenter
+                text: "Dashinfantry"
+                iconSource: "qrc:///images/icon-china.png"
             }
 
             IconTextButton {
@@ -66,12 +72,6 @@ Page {
                 anchors.horizontalCenter: parent.horizontalCenter
                 text: "Carmen Fernández B"
                 iconSource: "qrc:///images/icon-spain.png"
-            }
-
-            IconTextButton {
-                anchors.horizontalCenter: parent.horizontalCenter
-                text: "Jimmy Chen"
-                iconSource: "qrc:///images/icon-taiwan.png"
             }
 
             IconTextButton {

@@ -19,6 +19,7 @@ Dialog {
         settings.showLikedPages = showLikedPages.checked
         settings.showSettings = showSettings.checked
         settings.showLogout = showLogout.checked
+        settings.showRefresh = showRefresh.checked
         settings.placeBack = placeBack.currentIndex
         settings.theme = theme.currentIndex
         settings.externalLink = externalLink.currentIndex
@@ -127,6 +128,12 @@ Dialog {
                 id: showSettings
                 text: qsTr("Show Facebook settings button")
                 checked: settings.showSettings
+            }
+
+            TextSwitch {
+                id: showRefresh
+                text: qsTr("Show Facebook refresh pulldown menu")
+                checked: settings.showRefresh
             }
 
             TextSwitch {

@@ -71,7 +71,7 @@ Item {
         enabled: !loading
         experimental.preferences.javascriptEnabled: true
         experimental.transparentBackground: true
-        experimental.userAgent: "Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_1 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/14A403 Safari/602.1"
+        experimental.userAgent: "Mozilla/5.0 (Linux; U; Android 2.3.5; zh-cn; HTC_IncredibleS_S710e Build/GRJ90) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
         experimental.userStyleSheets: [Qt.resolvedUrl("qrc:///css/external.css")]
         experimental.userScripts: Qt.resolvedUrl("qrc:///js/external.js")
         experimental.customLayoutWidth: parent.width / devicePixelRatio

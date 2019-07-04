@@ -27,17 +27,7 @@ Page {
                 anchors.horizontalCenter: parent.horizontalCenter
                 text: qsTr("GitHub")
                 iconSource: "qrc:///images/icon-github.png"
-                onClicked: { Qt.openUrlExternally("https://github.com/Sailbook/harbour-sailbook");
-                }
-            }
-
-            SectionHeader { text: "Telegram" }
-
-            IconTextButton {
-                anchors.horizontalCenter: parent.horizontalCenter
-                text: qsTr("Telegram Sailbook Group")
-                iconSource: "qrc:///images/icon-telegram.png"
-                onClicked: { Qt.openUrlExternally("https://t.me/joinchat/Fcodjwu4wFLZDSO_AsMQaQ");
+                onClicked: { Qt.openUrlExternally("https://github.com/DylanVanAssche/harbour-sailbook");
                 }
             }
 
@@ -47,7 +37,7 @@ Page {
                 anchors.horizontalCenter: parent.horizontalCenter
                 text: qsTr("Rudi Timmermans")
                 iconSource: "qrc:///images/image-rudi.png"
-                onClicked: { Qt.openUrlExternally("https://www.twitter.com/xray20001");
+                onClicked: { Qt.openUrlExternally("https://twitter.com/Xray20001");
                 }
             }
 

@@ -8,6 +8,12 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Thu Jul 4 2019 Rudi Timmermans <rudi.timmer@mail.ch> 11.0-4
+- [MINOR BUGFIX] Fixed Search page
+- [MINOR BUGFIX] Fixed translation link into translation page
+- [MINOR BUGFIX] Removed broke telegram group link into about page
+- [NEW] Facebook refresh possible to show into the Pulldown menu or not to show
+
 * Wed Feb 1 2018 Dylan Van Assche <dylan.van.assche@protonmail.com> 10.1-2
 - [MINOR BUGFIX] Fixed Hungarian translation include
 

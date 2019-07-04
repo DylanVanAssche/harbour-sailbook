@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="nl" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="nl">
 <context>
     <name>AboutPage</name>
     <message>
@@ -48,10 +50,6 @@
     <message>
         <source>GitHub</source>
         <translation>GitHub</translation>
-    </message>
-    <message>
-        <source>Telegram Sailbook Group</source>
-        <translation>Sailbook-groep op Telegram</translation>
     </message>
     <message>
         <source>Rudi Timmermans</source>
@@ -109,6 +107,10 @@
     <message>
         <source>No network</source>
         <translation>Geen netwerk</translation>
+    </message>
+    <message>
+        <source>Facebook refresh</source>
+        <translation>Facebook herladen</translation>
     </message>
 </context>
 <context>
@@ -274,6 +276,10 @@
     <message>
         <source>%1 will send you notifications when you have a new Facebook notification.</source>
         <translation>%1 stuurt je meldingen wanneer je een nieuwe Facebook-melding hebt.</translation>
+    </message>
+    <message>
+        <source>Show Facebook refresh pulldown menu</source>
+        <translation>Toon optie voor het herladen van Facebook in uittrekmenu</translation>
     </message>
 </context>
 <context>
