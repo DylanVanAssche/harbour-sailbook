@@ -52,10 +52,6 @@
         <translation>GitHub</translation>
     </message>
     <message>
-        <source>Telegram Sailbook Group</source>
-        <translation>Telegram上的Sailbook群組</translation>
-    </message>
-    <message>
         <source>Rudi Timmermans</source>
         <translation>Rudi Timmermans</translation>
     </message>
@@ -65,7 +61,7 @@
     </message>
     <message>
         <source>Donate with Paypal</source>
-        <translation>Donate with Paypal</translation>
+        <translation>以Paypal捐赠</translation>
     </message>
     <message>
         <source>Matthias Weiß</source>
@@ -111,6 +107,10 @@
     <message>
         <source>No network</source>
         <translation>無網路</translation>
+    </message>
+    <message>
+        <source>Facebook refresh</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -263,11 +263,11 @@
     </message>
     <message>
         <source>%1 will send you notifications when getting a friend request.</source>
-        <translation>當收到交友邀請，%1將會發通知給你</translation>
+        <translation>當收到交友邀請，%1 將會發通知給你</translation>
     </message>
     <message>
         <source>%1 will send you notifications when receiving a new message.</source>
-        <translation>當收到新訊息，%1將會發通知給你</translation>
+        <translation>當收到新訊息， %1 將會發通知給你</translation>
     </message>
     <message>
         <source>Notify new notifications</source>
@@ -275,7 +275,11 @@
     </message>
     <message>
         <source>%1 will send you notifications when you have a new Facebook notification.</source>
-        <translation>當收到新的Facebook通知，%1將會發通知給你</translation>
+        <translation>當收到新的Facebook通知，%1 將會發通知給你</translation>
+    </message>
+    <message>
+        <source>Show Facebook refresh pulldown menu</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -328,11 +332,11 @@
     </message>
     <message>
         <source>You have %1 new friend request</source>
-        <translation>你有%1個新的交友邀請 </translation>
+        <translation>你有 %1 個新的交友邀請 </translation>
     </message>
     <message>
         <source>You have %1 friend requests</source>
-        <translation>你有%1個交友邀請 </translation>
+        <translation>你有 %1 個交友邀請 </translation>
     </message>
     <message>
         <source>You have %1 new message</source>
@@ -340,15 +344,15 @@
     </message>
     <message>
         <source>You have %1 messages</source>
-        <translation>你有%1個訊息 </translation>
+        <translation>你有 %1 個訊息 </translation>
     </message>
     <message>
         <source>You have %1 new notification</source>
-        <translation>你有%1個新通知</translation>
+        <translation>你有 %1 個新通知</translation>
     </message>
     <message>
         <source>You have %1 notifications</source>
-        <translation>你有%1個通知</translation>
+        <translation>你有 %1 個通知</translation>
     </message>
     <message>
         <source>Opening external link</source>

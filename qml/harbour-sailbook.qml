@@ -45,7 +45,7 @@ ApplicationWindow
 
     property variant notifications: [0,0,0,0,0,0,0,0,0]
     property string appName: "Sailbook"
-    property string version: "11.0-0"
+    property string version: "11.0-4"
     property string userAgentName
     property string userAgent
 
@@ -66,6 +66,7 @@ ApplicationWindow
         property bool showGroups: false
         property bool showLikedPages: false
         property bool showSettings: false
+        property bool showRefresh: false
         property bool showLogout: false
         property bool enableVideoPlayer: true
         property bool enableNightmode: false

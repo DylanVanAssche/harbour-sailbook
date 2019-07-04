@@ -52,10 +52,6 @@
         <translation>GitHub</translation>
     </message>
     <message>
-        <source>Telegram Sailbook Group</source>
-        <translation>Groupe Telegram dédié à Sailbook</translation>
-    </message>
-    <message>
         <source>Rudi Timmermans</source>
         <translation>Rudi Timmermans</translation>
     </message>
@@ -111,6 +107,10 @@
     <message>
         <source>No network</source>
         <translation>Aucun réseau</translation>
+    </message>
+    <message>
+        <source>Facebook refresh</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -276,6 +276,10 @@
     <message>
         <source>%1 will send you notifications when you have a new Facebook notification.</source>
         <translation>%1 vous enverra une alerte pour toute nouvelle notification Facebook reçue.</translation>
+    </message>
+    <message>
+        <source>Show Facebook refresh pulldown menu</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
