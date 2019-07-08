@@ -110,7 +110,7 @@
     </message>
     <message>
         <source>Facebook refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>刷新Facebook</translation>
     </message>
 </context>
 <context>
@@ -279,7 +279,7 @@
     </message>
     <message>
         <source>Show Facebook refresh pulldown menu</source>
-        <translation type="unfinished"></translation>
+        <translation>在下拉菜單顯示刷新Facebook</translation>
     </message>
 </context>
 <context>
