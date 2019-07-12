@@ -58,7 +58,7 @@ TRANSLATIONS += \
     translations/harbour-sailbook-hu.ts \
     translations/harbour-sailbook-es.ts \
     translations/harbour-sailbook-nl.ts \
-    translations/harbour-sailbook-zh_TW.ts \
+    translations/harbour-sailbook-zh_CN.ts \
     translations/harbour-sailbook-pt_BR.ts \
     translations/harbour-sailbook-nl_BE.ts \
     translations/harbour-sailbook-sv.ts \
