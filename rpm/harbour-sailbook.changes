@@ -8,6 +8,12 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Sun Oct 6 2019 Dylan Van Assche <dylan.van.assche@protonmail.com> 11.0-6
+- [MAJOR BUGFIX] Updated User Agent to fix timeline loading
+
+* Fri Jul 12 2019 Rudi Timmermans <rudi.timmer@mail.ch> 11.0-5
+- [TRANSLATIONS] Fixed Chinese translations
+
 * Thu Jul 4 2019 Rudi Timmermans <rudi.timmer@mail.ch> 11.0-4
 - [MINOR BUGFIX] Fixed Search page
 - [MINOR BUGFIX] Fixed translation link into translation page
