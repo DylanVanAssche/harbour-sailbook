@@ -13,7 +13,7 @@
     </message>
     <message>
         <source>Sailbook is an unofficial Facebook client for Sailfish OS.</source>
-        <translation>Sailbook是Sailfish OS上的非官方Facebook客戶端</translation>
+        <translation>航海日誌（Sailbook）是一個非官方旗魚系統（Sailfish OS）臉書（Facebook）客戶端</translation>
     </message>
     <message>
         <source>Privacy &amp; licensing</source>
@@ -37,11 +37,11 @@
     </message>
     <message>
         <source>Sailbook icons made by Alain Molteni.</source>
-        <translation>Sailbook的圖示是由Alain Molteni製作</translation>
+        <translation>航海日誌（Sailbook）的圖示是由 Alain Molteni 製作的。</translation>
     </message>
     <message>
         <source>is free software released under the GNU General Public License (GPL), version 3 or later.</source>
-        <translation>是根據GNU通用公共許可證（GPL）第3版或更高版本發布的免費軟件。</translation>
+        <translation>是根據 GNU 通用公共許可證（GPL）第3版或更高版本發布的免費軟件。</translation>
     </message>
     <message>
         <source>Translations</source>
@@ -61,7 +61,7 @@
     </message>
     <message>
         <source>Donate with Paypal</source>
-        <translation>以Paypal捐赠</translation>
+        <translation>以 Paypal 捐赠</translation>
     </message>
     <message>
         <source>Matthias Weiß</source>
@@ -110,7 +110,7 @@
     </message>
     <message>
         <source>Facebook refresh</source>
-        <translation>刷新Facebook</translation>
+        <translation>刷新 Facebook</translation>
     </message>
 </context>
 <context>
@@ -132,7 +132,7 @@
     <name>ImageSelectorPage</name>
     <message>
         <source>Upload image</source>
-        <translation>上傳相片	</translation>
+        <translation>上傳相片</translation>
     </message>
 </context>
 <context>
@@ -167,39 +167,39 @@
     </message>
     <message>
         <source>Back button in</source>
-        <translation>返回按鈕顯示在</translation>
+        <translation>返回按鈕顯於</translation>
     </message>
     <message>
         <source>Show Facebook feed button</source>
-        <translation>顯示Facebook動態消息按鈕</translation>
+        <translation>顯示 Facebook 動態消息按鈕</translation>
     </message>
     <message>
         <source>Show Facebook friends button</source>
-        <translation>顯示Facebook朋友按鈕</translation>
+        <translation>顯示 Facebook 朋友按鈕</translation>
     </message>
     <message>
         <source>Show Facebook messages button</source>
-        <translation>顯示Facebook訊息按鈕</translation>
+        <translation>顯示 Facebook 訊息按鈕</translation>
     </message>
     <message>
         <source>Show Facebook notifications button</source>
-        <translation>顯示Facebook通知按鈕</translation>
+        <translation>顯示 Facebook 通知按鈕</translation>
     </message>
     <message>
         <source>Show Facebook search button</source>
-        <translation>顯示Facebook搜尋按鈕</translation>
+        <translation>顯示 Facebook 搜尋按鈕</translation>
     </message>
     <message>
         <source>Show Facebook events button</source>
-        <translation>顯示Facebook事件按鈕</translation>
+        <translation>顯示 Facebook 事件按鈕</translation>
     </message>
     <message>
         <source>Show Facebook groups button</source>
-        <translation>顯示Facebook群組按鈕</translation>
+        <translation>顯示 Facebook 群組按鈕</translation>
     </message>
     <message>
         <source>Show Facebook settings button</source>
-        <translation>顯示Facebook設定按鈕</translation>
+        <translation>顯示 Facebook 設定按鈕</translation>
     </message>
     <message>
         <source>When disabled, the notifications for friend requests aren&apos;t shown as well.</source>
@@ -215,11 +215,11 @@
     </message>
     <message>
         <source>Show Facebook liked pages button</source>
-        <translation>顯示Facebook粉絲專頁按鈕</translation>
+        <translation>顯示 Facebook 粉絲專頁按鈕</translation>
     </message>
     <message>
         <source>Show Facebook logout pulldown menu</source>
-        <translation>在下拉選單顯示Facebook登出選項</translation>
+        <translation>在下拉選單顯示 Facebook 登出選項</translation>
     </message>
     <message>
         <source>Ambience</source>
@@ -231,7 +231,7 @@
     </message>
     <message>
         <source>Facebook nightmode</source>
-        <translation>Facebook夜間模式</translation>
+        <translation>Facebook 夜間模式</translation>
     </message>
     <message>
         <source>Pulldown menu</source>
@@ -275,11 +275,11 @@
     </message>
     <message>
         <source>%1 will send you notifications when you have a new Facebook notification.</source>
-        <translation>當收到新的Facebook通知，%1 將會發通知給你</translation>
+        <translation>當收到新的 Facebook 通知，%1 將會發通知給你</translation>
     </message>
     <message>
         <source>Show Facebook refresh pulldown menu</source>
-        <translation>在下拉菜單顯示刷新Facebook</translation>
+        <translation>在下拉菜單顯示刷新 Facebook</translation>
     </message>
 </context>
 <context>
@@ -336,23 +336,23 @@
     </message>
     <message>
         <source>You have %1 friend requests</source>
-        <translation>你有 %1 個交友邀請 </translation>
+        <translation>你有 %1 條交友邀請 </translation>
     </message>
     <message>
         <source>You have %1 new message</source>
-        <translation>你有%1個新訊息 </translation>
+        <translation>你有 %1 條新訊息 </translation>
     </message>
     <message>
         <source>You have %1 messages</source>
-        <translation>你有 %1 個訊息 </translation>
+        <translation>你有 %1 條訊息 </translation>
     </message>
     <message>
         <source>You have %1 new notification</source>
-        <translation>你有 %1 個新通知</translation>
+        <translation>你有 %1 條新通知</translation>
     </message>
     <message>
         <source>You have %1 notifications</source>
-        <translation>你有 %1 個通知</translation>
+        <translation>你有 %1 條通知</translation>
     </message>
     <message>
         <source>Opening external link</source>
