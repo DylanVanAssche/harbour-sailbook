@@ -37,7 +37,7 @@
     </message>
     <message>
         <source>Sailbook icons made by Alain Molteni.</source>
-        <translation>Alain Molteni为航海日志（Sailbook)绘制图标 。</translation>
+        <translation>Alain Molteni 为航海日志（Sailbook)绘制图标。</translation>
     </message>
     <message>
         <source>is free software released under the GNU General Public License (GPL), version 3 or later.</source>
@@ -83,7 +83,7 @@
     <name>ExternalWebview</name>
     <message>
         <source>No network</source>
-        <translation>无网络</translation>
+        <translation>无网络连接</translation>
     </message>
 </context>
 <context>
