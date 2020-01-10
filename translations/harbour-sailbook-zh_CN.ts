@@ -263,11 +263,11 @@
     </message>
     <message>
         <source>%1 will send you notifications when getting a friend request.</source>
-        <translation>％1 将会在收到好友请求时通知你。</translation>
+        <translation>%1 将会在收到好友请求时通知你。</translation>
     </message>
     <message>
         <source>%1 will send you notifications when receiving a new message.</source>
-        <translation>％1 将在收到新消息时通知你。</translation>
+        <translation>%1 将在收到新消息时通知你。</translation>
     </message>
     <message>
         <source>Notify new notifications</source>
@@ -275,7 +275,7 @@
     </message>
     <message>
         <source>%1 will send you notifications when you have a new Facebook notification.</source>
-        <translation>％1 将在你有新 Facebook 通知时告知你。</translation>
+        <translation>%1 将在你有新 Facebook 通知时告知你。</translation>
     </message>
     <message>
         <source>Show Facebook refresh pulldown menu</source>
@@ -332,27 +332,27 @@
     </message>
     <message>
         <source>You have %1 new friend request</source>
-        <translation>你有 ％1 则新好友请求</translation>
+        <translation>你有 %1 则新好友请求</translation>
     </message>
     <message>
         <source>You have %1 friend requests</source>
-        <translation>你有 ％1 则好友请求</translation>
+        <translation>你有 %1 则好友请求</translation>
     </message>
     <message>
         <source>You have %1 new message</source>
-        <translation>你有 ％1 则新消息</translation>
+        <translation>你有 %1 则新消息</translation>
     </message>
     <message>
         <source>You have %1 messages</source>
-        <translation>你有 ％1 则消息</translation>
+        <translation>你有 %1 则消息</translation>
     </message>
     <message>
         <source>You have %1 new notification</source>
-        <translation>你有 ％1 则通知</translation>
+        <translation>你有 %1 则通知</translation>
     </message>
     <message>
         <source>You have %1 notifications</source>
-        <translation>你有 ％1 则通知</translation>
+        <translation>你有 %1 则通知</translation>
     </message>
     <message>
         <source>Opening external link</source>
